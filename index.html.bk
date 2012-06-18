@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Festember</title>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body align="center">
+    <div id="logo-container">
+      <div id="logo">
+	<img src="logo.png">
+      </div>
+      <div id="logo-head-bg"></div>
+      <div id="logo-layer"></div>
+      <div id="logo-under-head-bg"></div>
+    </div>
+    <div class="links fl-l">
+      <a id="intro_link" href="#">&lt;&lt; Intro</a>
+    </div>
+    <div class="links fl-r">
+      <a id="contacts_link" href="#">Contacts &gt;&gt;</a>
+    </div>
+    <div id="container">
+      <div id="intro">
+	<p>The die rolls again this September as enters Festember, one of South India's largest cultural fete. And by large, we do mean large, what with the cornucopia of events and contest spoils to be raked. Its the time when the stages luster, speakers blare and cacophony reigns. Madness takes a new definition as moods coalesce, the ceilings drop and rules get crushed, so much so that even our moo crowds get tempted. And if you are expecting the usual rants on the fest being bigger and better....Well, you guessed it wrong. Its talk less and party more this Festember. Aaaaaand we mean it. Touchwood.</p>
+      </div>
+      <div id="contacts">
+	<div class="contact">
+	  <div class="desig">Our Patron</div>
+	  <div class="name">Dr. Srinivasan Sundarrajan</div>
+	  <div class="title">Director, NIT Tiruchirappalli</div>
+	</div>
+	<div class="contact">
+	  <div class="desig">Convener</div>
+	  <div class="name">Dr. Sankaranarayanaswamy</div>
+	  <div class="title">Dean Students</div>
+	</div>
+	<br />
+	
+	<div class="contact">
+	  <div class="name"></div>
+	  <div class="title">Asst. Professor</div>
+	  <div class="dept">Dept. of Production Engineering</div>
+	</div>
+	<div class="contact">
+	  <div class="name"></div>
+	  <div class="title">Asst. Professor</div>
+	  <div class="dept">Dept. of Mechanical Engineering</div>
+	</div>
+	<br />
+
+	<div class="contact">
+	  <div class="name">Ashwin Kumar</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Gaurav Kumar</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Dinesh Kumar</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Vignesh B</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Sriram Manohar</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Abhishek Shah</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Pankaaj Padmanabhan</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Utkarsh Jaiswal</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Sashank MV</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Abhishek S</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Jeh Agarwal</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Vivek Chandru</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Koushik Sri</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Shiva Nandan</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	<div class="contact">
+	  <div class="name">Hari Kumaran Babu</div>
+	  <div class="desig"></div>
+	  <div class="mobile"></div>
+	  <div class="email">@festember.com</div>
+	</div>
+	
+      </div>
+    </div>
+  </body>
+</html>
