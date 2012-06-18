@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var startX,startY;
+    var startX,startY,current_page = "intro";
     
     $(document).one('mouseover', function(e) {
 	startX = e.pageX;
@@ -14,26 +14,45 @@ $(document).ready(function() {
 	);
     });
     
-    $("#links").click(function() {
+    $(".links a").click(function() {
 	var t_margin_l = $("#intro").css("margin-left");
 	t_margin_l = t_margin_l.substr(0,t_margin_l - 2);
-	$("#intro").animate({
-	    "opacity": .2,
-	    "margin-left": t_margin_l - 100
-	},200, function() {
-	    $(this).css({opacity: 0});
-	});
+
+	var direction,thisid = this.id;
+	thisid = thisid.substr(0,thisid.length-5);
 	
-	setTimeout(function() {
-	    $("#contacts").css({
-		"display": "block",
-		"opacity": .4,
-		"margin-left": "600px"
-	    }).animate({
+	switch(thisid) {
+	case "intro":
+	    direction = -1;
+	    break;
+	case "contacts":
+	    direction = 1;
+	    break;
+	}
+	
+	(function(next,dir) {
+	    if(current_page == next)
+		return;
+	    
+	    $("#" + current_page).animate({
+		"opacity": .2,
+		"margin-left" : (t_margin_l - 100) * direction
+	    },200, function() {
+		$(this).css({opacity: 0});
+	    }).hide(0);
+	    
+	    setTimeout(function() {
+		$("#" + next).css({
+		    "display": "block",
+		    "opacity": .4,
+		    "margin-left": (600 * direction) + "px"
+		}).animate({
 		"margin-left": 0,
 		"opacity": 1
 	    },400);
-	},300);
+	    },300);
+	    current_page = next;
+	})(thisid,direction);
     });
     
 

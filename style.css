@@ -1,50 +1,57 @@
+.fl-r {
+    float: right;
+}
+
+.fl-l {
+    float: left;
+}
+
 #logo-container {
-	margin-top: 10px;
-	position: absolute;
-	left: 22%;
-	top: 50px;
+    margin-top: 10px;
+    position: absolute;
+    left: 22%;
+    top: 50px;
 }
 
 #logo-head-bg {
-	background:url('./logo_head_bg.png');
-	border-radius: 5px 10px 0 10px;
-	height: 80px;
-	width: 632px;
-	float:left;
-	position: absolute;
-	top:  82px;
-	left: 35px;
-	z-index: 5;
+    background:url('./logo_head_bg.png');
+    border-radius: 5px 10px 0 10px;
+    height: 80px;
+    width: 632px;
+    float:left;
+    position: absolute;
+    top:  82px;
+    left: 35px;
+    z-index: 5;
 }
 #logo-layer {
-	background:url('./logo_layer.png');
-	height: 85px;
-	width: 532px;
-	float:left;
-	position: absolute;
-	top:  160px;
-	left: 35px;
-	z-index: 15;
+    background:url('./logo_layer.png');
+    height: 85px;
+    width: 532px;
+    float:left;
+    position: absolute;
+    top:  160px;
+    left: 35px;
+    z-index: 15;
 }
 #logo-under-head-bg {
-	background:url('./logo_under_head_bg.png');
-	height: 85px;
-	width: 532px;
-	float:left;
-	position: absolute;
-	top:  163px;
-	left: 35px;
-	z-index: 5;
+    background:url('./logo_under_head_bg.png');
+    height: 85px;
+    width: 532px;
+    float:left;
+    position: absolute;
+    top:  163px;
+    left: 35px;
+    z-index: 5;
 }
 
 #logo {
-	position: absolute;
-	z-index: 10;
+    position: absolute;
+    z-index: 10;
 }
 
-#links {
+.links {
     margin-top: 340px; 
-    float: right;
     padding: 50px; 
 }
 
