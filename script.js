@@ -1,6 +1,7 @@
 $(document).ready(function() {
     var startX,startY,current_page = "intro";
     
+    
     $(document).one('mouseover', function(e) {
 	startX = e.pageX;
 	startY = e.pageY;
@@ -24,9 +25,14 @@ $(document).ready(function() {
 	switch(thisid) {
 	case "intro":
 	    direction = -1;
+	    $("#intro_link").fadeOut();
+	    $("#contacts_link").fadeIn();
 	    break;
 	case "contacts":
 	    direction = 1;
+	    $("#intro_link").fadeIn();
+	    $("#contacts_link").fadeOut();
+	    $("body").animate({scrollTop: 250});
 	    break;
 	}
 	
@@ -55,6 +61,31 @@ $(document).ready(function() {
 	})(thisid,direction);
     });
     
+    $("body").animate({scrollTop: 50});
+
+    $(document).scroll(function(){
+	var y = $("body").scrollTop();
+	
+	if (320 < y ) {
+	    $(".links").css({
+		position: "fixed",
+		"margin-top": "0px",
+		top: "0px"
+	    });
+	}
+	else {
+	    $(".links").css({
+		position: "absolute",
+		"margin-top": "340px",
+		top: "0px"
+	    });
+	}
+    });
+
+
+
 
 });
+
+
 

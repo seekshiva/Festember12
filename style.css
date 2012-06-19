@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "OldEnglish";
+    font-style: normal;
+    src: url(old_english.ttf); /*if IE */
+    src: local("OldEnglish Regular"), url("old_english.ttf") format("truetype"); /* non-IE */
+}
+
+
+a {
+    cursor: pointer;
+}
+
+
 .fl-r {
     float: right;
 }
@@ -6,43 +19,17 @@
     float: left;
 }
 
+.breaker {
+    height: 100px;
+    width: auto;
+}
+
 #logo-container {
     margin-top: 10px;
     position: absolute;
-    left: 22%;
-    top: 50px;
-}
-
-#logo-head-bg {
-    background:url('./logo_head_bg.png');
-    border-radius: 5px 10px 0 10px;
-    height: 80px;
-    width: 632px;
-    float:left;
-    position: absolute;
-    top:  82px;
-    left: 35px;
-    z-index: 5;
-}
-#logo-layer {
-    background:url('./logo_layer.png');
-    height: 85px;
-    width: 532px;
-    float:left;
-    position: absolute;
-    top:  160px;
-    left: 35px;
-    z-index: 15;
-}
-#logo-under-head-bg {
-    background:url('./logo_under_head_bg.png');
-    height: 85px;
-    width: 532px;
-    float:left;
-    position: absolute;
-    top:  163px;
-    left: 35px;
-    z-index: 5;
+    left: 50%;
+    margin-left: -25%;
+    top: 0px;
 }
 
 #logo {
@@ -55,13 +42,25 @@
     padding: 50px; 
 }
 
+.links.right {
+    position: absolute;
+    left: 100;
+    top: "100px";
+}
+
+.links.left {
+    position: absolute;
+    right: 0;
+    top: "100px";
+}
+
 #container {
     position: absolute;
-    top: 340px; 
+    top: 440px; 
     left: 50%;
     margin-left: -350px;
     width: 700px; 
-    border: 1px solid #000;
+    border: 0px solid #000;
     min-height:500px;
     overflow: hidden;
 }
@@ -71,7 +70,29 @@
     width: 700px; 
 }
 
+#intro_link {
+    display: none;
+}
+
 #contacts {
+    font-family: "OldEnglish";
     display: none;
     width: 700px; 
 }
+
+.contact {
+    min-width: 250px; 
+}
+
+.contact .name {
+    font-size: 150%; 
+}
+
+.contact .desig {
+    font-size: 130%; 
+}
+
+.contact .title {
+    font-size: 130%; 
+}
+
