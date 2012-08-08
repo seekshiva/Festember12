@@ -278,14 +278,14 @@
 	    var that = this;
 	    element["popupSrc"] = this;
 	    popup(that);
-		element["content"] = document.getElementById("nothing");		
+		element["content"] = document.getElementById("workshops");		
 		element["content"].style.display = "block";		
 	});
 	$("#workshop_container").click(function(e){
 	    var that = this;
 	    element["popupSrc"] = this; 		   
 	    popup(that);
-		element["content"] = document.getElementById("workshops")
+		element["content"] = document.getElementById("nothing")
 		element["content"].style.display = "block";		
 	});
 	$("#informals_container").click(function(e){
