@@ -15,7 +15,7 @@ $(document).ready(function() {
 	);
     });
     
-    $(".links a").click(function() {
+    $(".navigation a").click(function() {
 	var t_margin_l = $("#intro").css("margin-left");
 	t_margin_l = t_margin_l.substr(0,t_margin_l - 2);
 
@@ -24,15 +24,49 @@ $(document).ready(function() {
 	
 	switch(thisid) {
 	case "intro":
+	    if(Modernizr.history) {
+		history.pushState(null,null,"/12/");
+		document.title = "Festember";
+		updateAnalytics();
+	    }
 	    direction = -1;
 	    $("#intro_link").fadeOut();
 	    $("#contacts_link").fadeIn();
+	    $("#sponsors_r_lk").fadeIn();
+	    $("#sponsors_l_lk").fadeOut();
+	    if($("body").scrollTop() > 650)
+		$("body").animate({scrollTop: 450});
 	    break;
 	case "contacts":
+	    if(Modernizr.history) {
+		history.pushState(null,null,"/12/contacts/");
+		document.title = "Festember - Contacts";
+		updateAnalytics();
+	    }
 	    direction = 1;
 	    $("#intro_link").fadeIn();
 	    $("#contacts_link").fadeOut();
-	    $("body").animate({scrollTop: 250});
+	    $("#sponsors_r_lk").fadeOut();
+	    $("#sponsors_l_lk").fadeIn();
+	    if($("body").scrollTop() < 250)
+		$("body").animate({scrollTop: 250});
+	    break;
+	case "sponsors":
+	    if(Modernizr.history) {
+		history.pushState(null, null, "/12/sponsors/");
+		document.title = "Festember - Sponsors";
+		updateAnalytics();
+	    }
+	    if(this.id == "sponsors_r_lk")
+		direction = -1;
+	    else
+		direction = 1;
+	    $("#intro_link").fadeIn();
+	    $("#contacts_link").fadeIn();
+	    $("#sponsors_r_lk").fadeOut();
+	    $("#sponsors_l_lk").fadeOut();
+	    if($("body").scrollTop() < 250)
+		$("body").animate({scrollTop: 250});
 	    break;
 	}
 	
@@ -42,7 +76,7 @@ $(document).ready(function() {
 	    
 	    $("#" + current_page).animate({
 		"opacity": .2,
-		"margin-left" : (t_margin_l - 100) * direction
+		"margin-left" : (t_margin_l - 100) * 2 * direction
 	    },200, function() {
 		$(this).css({opacity: 0});
 	    }).hide(0);
@@ -60,29 +94,65 @@ $(document).ready(function() {
 	    current_page = next;
 	})(thisid,direction);
     });
+
+    $("#theme_play").click(function() {
+	document.getElementById('theme_music').play();
+	$("#theme_play").fadeOut(.8);
+	$("#theme_pause").fadeIn();
+    });
     
-    $("body").animate({scrollTop: 50});
+    $("#theme_pause").click(function() {
+	document.getElementById('theme_music').pause();
+	$("#theme_play").fadeIn();
+	$("#theme_pause").fadeOut(.1);
+    });
+    
+    $("body").animate({scrollTop: 150});
 
     $(document).scroll(function(){
 	var y = $("body").scrollTop();
-	
 	if (320 < y ) {
-	    $(".links").css({
+	    $(".navigation").css({
 		position: "fixed",
-		"margin-top": "0px",
-		top: "0px"
+		"margin-top": 0,
+	    });
+	    $("#sponsor_animate").css({
+		position: "fixed",
+		"margin-top": "180px",
 	    });
 	}
 	else {
-	    $(".links").css({
+	    $(".navigation").css({
 		position: "absolute",
 		"margin-top": "340px",
+		top: "0px"
+	    });
+	    $("#sponsor_animate").css({
+		position: "absolute",
+		"margin-top": "560px",
 		top: "0px"
 	    });
 	}
     });
 
-
+    var sponsors_animate_index = 0;
+    var sponsor_update = function() {
+	$("#sponsor_animate img").each(function(index) {
+	    $(this).fadeOut(1000);
+	});
+	$( $("#sponsor_animate img")[sponsors_animate_index] ).fadeIn(2000);
+	    /*fadeOut(function() {
+	    $( $("#sponsor_animate img")[sponsors_animate_index] ).fadeIn();
+	    //console.log("fading in " + sponsors_animate_index);
+	    });*/
+	//console.log("show");
+	
+	sponsors_animate_index++;
+	if( $("#sponsor_animate img").length == sponsors_animate_index)
+	    sponsors_animate_index = 0; 
+    };
+    sponsor_update();
+    setInterval(sponsor_update,5000);
 
 
 });

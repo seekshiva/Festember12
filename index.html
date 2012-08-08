@@ -2,8 +2,6 @@
 <html>
   <head>
     <title>Festember</title>
-    <script src="jquery.js"></script>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <script>
       var _gaq = _gaq || [];
@@ -11,57 +9,117 @@
       _gaq.push(['_setDomainName', 'festember.com']);
       _gaq.push(['_trackPageview']);
       
+      function updateAnalytics() {
       (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+      }
+      updateAnalytics();
     </script>
   </head>
   <body align="center">
     <div id="logo-container">
       <div id="logo">
-	<img src="logo_3.png">
+	<img src="./images/logo_4.png">
+      </div>
+    </div> 
+    <div class="navigation left">
+      <div id="links">
+	<a href="https://www.facebook.com/festember">Facebook</a>
+	<a href="https://www.twitter.com/festember">Twitter</a>
+	<a href="http://en.wikipedia.org/wiki/Festember">Wikipedia</a>
+	<a href="http://www.nitt.edu/home/students/events/festember/">About F-12</a>
+	<div style="font-weight: bold; padding: 5px; ">Archives:</div>
+	<a href="http://festember.in/11" class="link">Festember-11</a>
+	<a href="http://festember.com/10" class="link">Festember X</a>
       </div>
     </div>
-    <div class="links right">
-      <a id="intro_link"><img src="intro_arrow.jpg" width="200px"></a>
+    <div class="navigation right">
+      <a id="intro_link"><img src="./images/intro_arrow.jpg" width="200px"></a>
+    </div> 
+    <div class="navigation right">
+      <a id="sponsors_r_lk"><img src="./images/sponsors_left_arrow.png" width="200px"></a>
     </div>
-    <div class="links left">
-      <a id="contacts_link"><img src="contacts_arrow.jpg" width="200px"></a>
-    </div>
+    <div class="navigation left">
+      <a id="contacts_link"><img src="./images/contacts_arrow.jpg" width="200px"></a>
+    </div> 
+    <div class="navigation left">
+      <a id="sponsors_l_lk"><img src="./images/sponsors_right_arrow.png" width="200px"></a>
+    </div> 
+
+    <a onclick="$('#sponsors_r_lk').click(); ">
+      <div id="sponsor_animate" >
+	<img src="/12/images/sponsors/PoweredBy/Nimbuzz.jpg">
+	<img src="/12/images/sponsors/Telecom/aircel.jpg">
+	<img src="/12/images/sponsors/Beverage/coke.gif">
+	<img src="/12/images/sponsors/CurtainRaiser/asus.jpg">
+	<img src="/12/images/sponsors/Education/byju.jpg">
+	<img src="/12/images/sponsors/Refreshment/appy.jpg">
+	<img src="/12/images/sponsors/Snacking/hippo.jpg">
+	<img src="/12/images/sponsors/Alumni/henkel.jpg">
+	<img src="/12/images/sponsors/OfficialMusic/sam.jpg">
+	<img src="/12/images/sponsors/Prize/Triton.jpg">
+	<img src="/12/images/sponsors/Logistics/dhl.jpg">
+	<img src="/12/images/sponsors/Workshops/adormi.png">
+	<img src="/12/images/sponsors/Dramatics/myt.png">
+	<img src="/12/images/sponsors/DigitalMedia/DSN.jpg">
+	<img src="/12/images/sponsors/Fashion/flying-machine.jpg">
+	<img src="/12/images/sponsors/AmusementPark/blackthunder.jpg">
+	<img src="/12/images/sponsors/OnlineMetalPromotional/IS.png">
+	<img src="/12/images/sponsors/OnlineMetalPromotional/metalbase.jpg">
+	<img src="/12/images/sponsors/OnlineMBA/testfunda.png">
+	<img src="/12/images/sponsors/OnlineMedia/CollegeKhabar.jpg">
+	<img src="/12/images/sponsors/OnlineMedia/freshersworld.jpg">
+	<img src="/12/images/sponsors/OnlineMedia/Knowafest.com.jpg">
+	<img src="/12/images/sponsors/OnlineMedia/twenty19.jpg">
+	<img src="/12/images/sponsors/OnlineMedia/FadooEngineers.png">
+	<img src="/12/images/sponsors/OnlineMedia/jam.jpg">
+	<img src="/12/images/sponsors/OnlineMedia/mmfest.jpg">
+	<img src="/12/images/sponsors/OnlineMedia/YouthConnect.png">
+      </div>
+    </a>
+
     <div id="container">
       <div id="intro">
 	<p>The die rolls again this September as enters Festember, one of South India's largest cultural fete. And by large, we do mean large, what with the cornucopia of events and contest spoils to be raked. Its the time when the stages luster, speakers blare and cacophony reigns. Madness takes a new definition as moods coalesce, the ceilings drop and rules get crushed, so much so that even our moo crowds get tempted. And if you are expecting the usual rants on the fest being bigger and better....Well, you guessed it wrong. Its talk less and party more this Festember. Aaaaaand we mean it. Touchwood.</p>
-	<div style="border: 2px solid #aaa; border-radius: 10px; padding-bottom: 20px; ">
-	  <h2>Festember Theme Music</h2>
-	  <audio controls="controls" height="50px" width="100px">
+	<div style="padding-bottom: 100px; height: 400px; ">
+	  <audio id="theme_music" style="display: none; " controls="controls">
 	    <source src="./media/relique.mp3" type="audio/mpeg" />
 	    <source src="./media/relique.ogg" type="audio/ogg" />
-	    <embed height="50px" width="100px" src="./media/relique.mp3" />
-	  </audio>
-
+	    <embed src="./media/relique.mp3" />
+	  </audio><br />
+	  <table align="center" border="0" cellspacing="0" cellpadding="0" style="background: #fff;">
+	    <tr>
+	      <td rowspan="2">
+		<img src="./images/cassette.jpg" height="400">
+		<div id="theme_play" class="play-pause"><img src="./images/play.png"></div>
+		<div id="theme_pause" class="play-pause"><img src="./images/pause.png"></div>
+	      </td>
+	    </tr>
+	  </table>
 	</div>
       </div>
       <div id="contacts">
 
 	<h2>Contact Us</h2>
 	<div class="contact fl-l">
-	  <div class="name">Ashwin Kumar</div>
-	  <div class="desig">Cultural Secretary</div>
-	  <div class="mobile"></div>
-	  <div class="email">psyches@festember.com</div>
+	  <div class="name">Abhishek Shah</div>
+	  <div class="desig">Treasurer</div>
+	  <div class="mobile">+91 98947 13840</div>
+	  <div class="email">shah.abhisekh@festember.com</div>
 	</div>
 	<div class="contact fl-r">
-	  <div class="name">D. Dinesh Kumar</div>
+	  <div class="name">D Dinesh Kumar</div>
 	  <div class="desig">Overall Coordinator</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 95667 63918</div>
 	  <div class="email">prody@festember.com</div>
 	</div>
 	<div class="contact">
 	  <div class="name">Gaurav Kumar</div>
 	  <div class="desig">Chairman</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 81442 25258</div>
 	  <div class="email">gaurav@festember.com</div>
 	</div>
 	<div class="breaker" style="height: 40px; "></div>
@@ -69,27 +127,27 @@
 	<div class="contact fl-l">
 	  <div class="name">Vignesh B</div>
 	  <div class="desig">Head, Marketing</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 99627 55477</div>
 	  <div class="email">vignesh@festember.com</div>
 	</div>
 	<div class="contact fl-r">
 	  <div class="name">Sriram Manohar</div>
 	  <div class="desig">Head, Marketing</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 96001 37932</div>
 	  <div class="email">sriram@festember.com</div>
 	</div>
 	<div class="breaker"></div>
 	
 	<div class="contact fl-l">
-	  <div class="name">Abhishek Shah</div>
-	  <div class="desig">Treasurer</div>
-	  <div class="mobile"></div>
-	  <div class="email">shah.abhisekh@festember.com</div>
+	  <div class="name">Ashwin Kumar</div>
+	  <div class="desig">Cultural Secretary</div>
+	  <div class="mobile">+91 95002 65760</div>
+	  <div class="email">psyches@festember.com</div>
 	</div>
 	<div class="contact fl-r">
 	  <div class="name">Pankaaj Padmanabhan</div>
 	  <div class="desig">Head, Events</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 90425 26559</div>
 	  <div class="email">pankaaj@festember.com</div>
 	</div>
 	<div class="breaker"></div>
@@ -97,13 +155,13 @@
 	<div class="contact fl-l">
 	  <div class="name">Utkarsh Jaiswal</div>
 	  <div class="desig">Head, Media</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 99529 80706</div>
 	  <div class="email">utkarsh@festember.com</div>
 	</div>
 	<div class="contact fl-r">
 	  <div class="name">Sashank MV</div>
 	  <div class="desig">Head, Publicity</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 97878 33728</div>
 	  <div class="email">sashank@festember.com</div>
 	</div>
 	<div class="breaker"></div>
@@ -111,41 +169,41 @@
 	<div class="contact fl-l">
 	  <div class="name">Abhishek S</div>
 	  <div class="desig">Head, Public Relations</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 91593 11992</div>
 	  <div class="email">abs@festember.com</div>
 	</div>
 	<div class="contact fl-r">
 	  <div class="name">Jeh Agarwal</div>
 	  <div class="desig">Head, Workshops</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 95669 39866</div>
 	  <div class="email">jeh@festember.com</div>
 	</div>
 	<div class="breaker"></div>
 	
 	<div class="contact fl-l">
 	  <div class="name">Vivek Chandru</div>
-	  <div class="desig">Head, Organising Committee</div>
-	  <div class="mobile"></div>
+	  <div class="desig">Head, Organising</div>
+	  <div class="mobile">+91 95664 60216</div>
 	  <div class="email">vivek@festember.com</div>
 	</div>
 	<div class="contact fl-r">
 	  <div class="name">Koushik Sri</div>
 	  <div class="desig">Head, Hospitality</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 96772 16811</div>
 	  <div class="email">ks@festember.com</div>
 	</div>
 	<div class="breaker"></div>
 	
 	<div class="contact fl-l">
-	  <div class="name">Shiva Nandan</div>
+	  <div class="name">V Shiva Nandan</div>
 	  <div class="desig">Head, CSG</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 95006 81056</div>
 	  <div class="email">seek@festember.com</div>
 	</div>
 	<div class="contact fl-r">
 	  <div class="name">Hari Kumaran Babu</div>
 	  <div class="desig">Head, Design</div>
-	  <div class="mobile"></div>
+	  <div class="mobile">+91 81488 18451</div>
 	  <div class="email">hkbsaga@festember.com</div>
 	</div>
 	<div class="breaker"></div>
@@ -157,7 +215,7 @@
 	</div>
 	<div class="contact fl-r">
 	  <h3 class="desig">Convener</h3>
-	  <div class="name">Dr. K. Shankarnarayasamy</div>
+	  <div class="name">Dr. K. Sankaranarayanasamy</div>
 	  <div class="title">Dean Students</div>
 	</div>
 	<div class="breaker" style="height: 150px; "></div>
@@ -177,6 +235,105 @@
 
 	
       </div>
+      <div id="sponsors">
+	  <div id="partner">
+	    <div align="center" style="margin-bottom: 30px; ">
+	      <img src="./images/wannabpartner.png" width="200px"><br />
+	      <div style="position; relative; margin-top: -20px; ">Contact us at: <span class="email">marketing@festember.com</span></div>
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Powered By</div>
+	      <img src="/12/images/sponsors/PoweredBy/Nimbuzz.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Telecom Partner</div>
+	      <img src="/12/images/sponsors/Telecom/aircel.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Beverage Partner</div>
+	      <img src="/12/images/sponsors/Beverage/coke.gif">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Curtain Raise Title Partner</div>
+	      <img src="/12/images/sponsors/CurtainRaiser/asus.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Educational Partner</div>
+	      <img src="/12/images/sponsors/Education/byju.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Refreshment Partner</div>
+	      <img src="/12/images/sponsors/Refreshment/appy.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Snacking Partner</div>
+	      <img src="/12/images/sponsors/Snacking/hippo.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Alumni Partner</div>
+	      <img src="/12/images/sponsors/Alumni/henkel.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Official Music Partner</div>
+	      <img src="/12/images/sponsors/OfficialMusic/sam.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Prize Partner</div>
+	      <img src="/12/images/sponsors/Prize/Triton.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Logistics Partner</div>
+	      <img src="/12/images/sponsors/Logistics/dhl.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Workshops Partner</div>
+	      <img src="/12/images/sponsors/Workshops/adormi.png">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Dramatics Partner</div>
+	      <img src="/12/images/sponsors/Dramatics/myt.png">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Digital Media Partner</div>
+	      <img src="/12/images/sponsors/DigitalMedia/DSN.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Fashion Partner</div>
+	      <img src="/12/images/sponsors/Fashion/flying-machine.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Amusement Park Partner</div>
+	      <img src="/12/images/sponsors/AmusementPark/blackthunder.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Online Metal Promotion Partner</div>
+	      <img src="/12/images/sponsors/OnlineMetalPromotional/IS.png">
+	      <img src="/12/images/sponsors/OnlineMetalPromotional/metalbase.jpg">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Online MBA Partner</div>
+	      <img src="/12/images/sponsors/OnlineMBA/testfunda.png">
+	    </div>
+	    <div class="sponsor_c">
+	      <div class="sponsor_type">Online Media Partner</div>
+	      <img src="/12/images/sponsors/OnlineMedia/CollegeKhabar.jpg">
+	      <img src="/12/images/sponsors/OnlineMedia/freshersworld.jpg">
+	      <img src="/12/images/sponsors/OnlineMedia/Knowafest.com.jpg">
+	      <img src="/12/images/sponsors/OnlineMedia/twenty19.jpg">
+	      <img src="/12/images/sponsors/OnlineMedia/FadooEngineers.png">
+	      <img src="/12/images/sponsors/OnlineMedia/jam.jpg">
+	      <img src="/12/images/sponsors/OnlineMedia/mmfest.jpg">
+	      <img src="/12/images/sponsors/OnlineMedia/YouthConnect.png">
+
+	    </div>
+	  </div>  	  
+      </div>
     </div>
+    
+    
+    <script src="jquery.js"></script>
+    <script src="modernizr.min.js"></script>
+    <script src="script.js"></script>
+    
   </body>
 </html>
