@@ -15,6 +15,7 @@
 	    informals : document.getElementById("informals_container"),
 	    overlay_container : document.getElementById("overlay_container"),
 	    events_child : [],
+		color : ["#e3e530","#d4d627","#e5cd2f","#d7bd12","#dbde18",,"#d4d627","#e5cd2f","#e3e530","#d7bd12","#dbde18","#d7bd12","#dbde18"],
 	    popupSrc : "",
 	    time : "day",
 	    randnums : [0,1,2,3,4,5,6,7,8,9,10],
@@ -382,7 +383,7 @@
 	    
 	};
 	
-	function flicker(h){
+	function flicker(h,y){
 	    var freq = randhouse(11),a = {sum :0,off : 0,on :0};
 	    //console.log(y);
             if(element["time"]==="day"){
@@ -401,7 +402,7 @@
 		    },a.off);	
 		    
 		    setTimeout(function(){
-			h.style.backgroundColor = "#fdff35";
+			h.style.backgroundColor = element["color"][y];
 		    },a.on);			   
 		} 
 		
@@ -420,7 +421,7 @@
 	    var house = 0;
             element["randnums"].shuffle();
             if(element["randnums"].length > 0){
-		flicker(element["house_child"][element["randnums"][house]]);			
+		flicker(element["house_child"][element["randnums"][house]],house);			
 		element["randnums"].splice(house,1);				
 		setTimeout(function(){lighting();},1500);
 	    }
