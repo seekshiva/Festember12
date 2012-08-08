@@ -491,3 +491,7 @@ body {
 //	border : solid 1px #000;
 	cursor : pointer;
 }	
+
+#contacts ,#workshops ,#informals ,#nothing{
+    display : none;	
+}		
