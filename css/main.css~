@@ -449,7 +449,7 @@ body {
 	left : 12%;
 	bottom : 5%;
 	height : 23%;
-	width : 7%;
+	width : 9%;
 	border : solid 1px #000;
 	background-color : #ffffff;
 	border-top-right-radius : 50px;

@@ -338,10 +338,10 @@
 	    element["casette"].style.left = ((31/100)*w)+'px';
 	    element["casette"].style.bottom = ((18/100)*w)+'px';	
 	    
-	    element["sponsor"].style.width = ((30/100)*w)+'px';
-	    element["sponsor"].style.height = ((25/100)*w)+'px';
-	    element["sponsor"].style.left = ((86/100)*w)+'px';
-	    element["sponsor"].style.bottom = ((2/100)*w)+'px';				
+	    element["sponsor"].style.width = ((6/100)*w)+'px';
+	    element["sponsor"].style.height = ((14/100)*w)+'px';
+	    element["sponsor"].style.left = ((19/100)*w)+'px';
+	    element["sponsor"].style.bottom = ((6/100)*w)+'px';				
 	    
 	    element["games"].style.width = ((4/100)*w)+'px';
 	    element["games"].style.height = ((4/100)*w)+'px';

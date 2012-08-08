@@ -43,9 +43,7 @@
       
       <div id="element_workshop" class="element_canvas"></div>	
       <div id="element_workshop_1" class="element_canvas"></div>		
-      <div id="element_workshop_2" class="element_canvas"></div>	
-	  <div id="element_workshop_3" class="element_canvas"></div>			  
-	  <div id="element_workshop_4" class="element_canvas"></div>		  
+      <div id="element_workshop_2" class="element_canvas"></div>			  
       <div id="element_events_1" class="element_canvas"></div>			   
       <div id="element_events_2" class="element_canvas"></div>			   
       <div id="element_events_3" class="element_canvas"></div>			   
