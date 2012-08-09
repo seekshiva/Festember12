@@ -171,7 +171,9 @@ body {
     left : 86%;
     bottom : 2%;
     border-top-left-radius : 80px;  
-}	
+    cursor: pointer;
+}
+
 #sponsor_container img {
     position: absolute;
     height: 200px;
@@ -180,6 +182,11 @@ body {
     height: 50%;
     z-index: 1000000;
 }	
+
+#sponsors img {
+    border: 1px solid #333;
+    padding: 10px;
+}
 
 #element_sponsor{
     z-index : -80;
@@ -502,7 +509,7 @@ body {
     cursor : pointer;
 }	
 
-#contacts ,#workshops ,#informals ,#events, #nothing{
+#contacts ,#workshops ,#informals ,#events, #sponsors, #nothing{
     display : none;	
 }
 

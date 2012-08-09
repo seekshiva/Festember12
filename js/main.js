@@ -15,10 +15,10 @@
 	    informals : document.getElementById("informals_container"),
 	    overlay_container : document.getElementById("overlay_container"),
 	    events_child : [],
-		color : ["#e3e530","#d4d627","#e5cd2f","#d7bd12","#dbde18",,"#d4d627","#e5cd2f","#e3e530","#d7bd12","#dbde18","#d7bd12","#dbde18"],
+	    color : ["#e3e530","#d4d627","#e5cd2f","#d7bd12","#dbde18",,"#d4d627","#e5cd2f","#e3e530","#d7bd12","#dbde18","#d7bd12","#dbde18"],
 	    popupSrc : "",
 	    time : "day",
-		content : "",
+	    content : "",
 	    randnums : [0,1,2,3,4,5,6,7,8,9,10],
 	    workshop_child : [document.getElementById("element_workshop"),document.getElementById("element_workshop_1"),document.getElementById("element_workshop_2"),document.getElementById("element_workshop_3"),document.getElementById("element_workshop_4")],
 	    house_child : [],
@@ -29,10 +29,10 @@
 		bottom : [20,20,22,23,28,30,32]
 	    },
             workshop_prop : {
-	                    width : [14,7,8,18,15],
-					    height : [5,2,3,6,8],
-					    left : [75,77,73,80,85],
-					    bottom : [25.5,25,23,26,29]
+	        width : [14,7,8,18,15],
+		height : [5,2,3,6,8],
+		left : [75,77,73,80,85],
+		bottom : [25.5,25,23,26,29]
 	    },
             house_prop : {
 	        width : [28,10,30,11,11,5,5,8,3,7,3],
@@ -257,43 +257,51 @@
 	    var that = this;
 	    element["popupSrc"] = this;
 	    popup(that);
-		element["content"] = document.getElementById("contacts");		
-		element["content"].style.display = "block";
+	    element["content"] = document.getElementById("contacts");		
+	    element["content"].style.display = "block";
 	});
 	$("#pronite_container").click(function(e){
 	    var that = this;
 	    element["popupSrc"] = this;		   
 	    popup(that);
-		element["content"] = document.getElementById("nothing");		
-		element["content"].style.display = "block";		
+	    element["content"] = document.getElementById("nothing");		
+	    element["content"].style.display = "block";		
 	});
 	$("#games_container").click(function(e){
 	    var that = this;
 	    element["popupSrc"] = this;		   
 	    popup(that);
-		element["content"] = document.getElementById("nothing");		
-		element["content"].style.display = "block";		
+	    element["content"] = document.getElementById("nothing");		
+	    element["content"].style.display = "block";		
 	});
 	$("#events_container").click(function(e){
 	    var that = this;
 	    element["popupSrc"] = this;
 	    popup(that);
-		element["content"] = document.getElementById("workshops");		
-		element["content"].style.display = "block";		
+	    element["content"] = document.getElementById("workshops");		
+	    element["content"].style.display = "block";		
 	});
 	$("#workshop_container").click(function(e){
 	    var that = this;
 	    element["popupSrc"] = this; 		   
 	    popup(that);
-		element["content"] = document.getElementById("events")
-		element["content"].style.display = "block";		
+	    element["content"] = document.getElementById("events")
+	    element["content"].style.display = "block";		
 	});
 	$("#informals_container").click(function(e){
 	    var that = this;
 	    element["popupSrc"] = this;		   
 	    popup(that);
-		element["content"] = document.getElementById("informals")
-		element["content"].style.display = "block";		
+	    element["content"] = document.getElementById("informals")
+	    element["content"].style.display = "block";		
+	});
+	
+	$("#sponsor_container").click(function(e){
+	    var that = this;
+	    element["popupSrc"] = this;		   
+	    popup(that);
+	    element["content"] = document.getElementById("sponsors")
+	    element["content"].style.display = "block";		
 	});
 	
 	$("#overlay_container").click(function(){
@@ -304,8 +312,8 @@
 	    
 	    if($(element["popupSrc"]).children())
 		debounce(function(){$(element["popupSrc"]).children().animate({'backgroundColor' : '#ffffff'},500);});
-		
-		element["content"].style.display = "none";
+	    
+	    element["content"].style.display = "none";
 	    
 	    $("#overlayed").stop().animate({
 	        'height' : nheight+'px',
@@ -478,14 +486,14 @@
         }); 
 	
 	window.onresize = window.onload = $.debounce(50,position_elements);	
-		
+	
 	/*$.ajax({
-	    url : "contents.xml",
-	    type : "POST",
-	    dataType : "xml",
-	    success : function(data){
-		content = data || {};
-	    }
-	});*/
+	  url : "contents.xml",
+	  type : "POST",
+	  dataType : "xml",
+	  success : function(data){
+	  content = data || {};
+	  }
+	  });*/
     });
 })(this, this.document, jQuery);
