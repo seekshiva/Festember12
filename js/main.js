@@ -1,12 +1,5 @@
 (function(window,document,$,undefined){
-    $(function(){
-			document.getElementById("overlay_container").style.display = "block";
-			$("#brochure").stop().animate({'top' : '5%'},1000);
-			
-			$("#blur").load(function() {
-			document.getElementById("overlay_container").style.display = "none";	
-	            $("#brochure").stop().animate({'top' : '95%'},1000);
-	        }).attr('src', 'images/street.png');	
+    $(function(){	
 	
 	var element = {
 	    canvas : document.getElementById("container_canvas"),
@@ -334,6 +327,8 @@
 	
 	var position_elements = function(e){
 	    var w = window.innerWidth;	
+		
+		element["overlay"].style.display = "block";
 	    
 	    element["canvas"].style.height = window.innerHeight+'px';
 	    
@@ -493,6 +488,13 @@
         }); 
 	
 	window.onresize = window.onload = $.debounce(50,position_elements);	
+		
+	var img = new Image();
+    var imageSrc = "images/street.png";
+	img.onload = function() {
+        $("#brochure").animate({'top' : '95%'},1000);
+	};
+    img.src = imageSrc;		
 	
 	/*$.ajax({
 	  url : "contents.xml",
