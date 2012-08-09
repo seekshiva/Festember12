@@ -328,8 +328,6 @@
 	
 	var position_elements = function(e){
 	    var w = window.innerWidth;	
-		
-		element["overlay"].style.display = "block";
 	    
 	    element["canvas"].style.height = window.innerHeight+'px';
 	    
@@ -473,6 +471,14 @@
 		element["workshop_child"][i].style.backgroundColor = "#ffffff";				
 	});	
 	
+	$("#brochure").mouseenter(function(e){
+		e.stopPropagation();
+	    $(this).animate({'top' : '5%'},1000);	
+	}).mouseleave(function(e){
+		e.stopPropagation();
+	    $(this).animate({'top' : '80%'},1000);	
+	});
+	
 	
 	$("#cloud-holder").clouds({
 	    clouds: [
@@ -489,14 +495,14 @@
         }); 
 	
 	window.onresize = window.onload = $.debounce(50,position_elements);	
-		
+
 	var img = new Image();
     var imageSrc = "images/street.png";
 	img.onload = function() {
-        $("#brochure").animate({'top' : '95%'},1000);
+        $("#brochure").animate({'top' : '80%'},1000);
 	};
     img.src = imageSrc;		
-	
+
 	/*$.ajax({
 	  url : "contents.xml",
 	  type : "POST",

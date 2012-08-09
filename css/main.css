@@ -21,11 +21,25 @@ body {
    width : 40%;
    left : 30%;
    top : 5%;
-   height : 90%;
+   height : 95%;
    background-color : #ffffff;
    border : solid 1px #000;
    z-index : 400;
 }
+
+#brochure_sub{
+   position : absolute;
+   width : 100%;
+   height : 90%;
+   background-color : #000000;
+   z-index : 400;  	
+}	
+
+#brochure img{
+   padding-left : 25%;
+   width : 50%;
+   height : 20%;
+}	
 
 .overlay_container{
     position : fixed;
