@@ -451,7 +451,7 @@
 	    clouds: [
 		{src:'cloud_1.png',x:120,y:600,speedX:-1},
 		{src:'cloud_2.png',x:650,y:500,speedX:-2},
-		{src:'Flight2.gif',x:1050,y:553,speedX:-2.5,nature: "flight"},
+		{src:'flight.gif',x:1050,y:553,speedX:-2.5,nature: "flight"},
 		{src:'cloud_4.png',x:230,y:626,speedX:-1},
 		{src:'cloud_5.png',x:840,y:650,speedX:-2.5},
 		{src:'cloud_6.png',x:520,y:634,speedX:-1.5},
