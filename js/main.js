@@ -124,11 +124,11 @@
 	    element["house_child"][i] = document.getElementById("house_"+(i+1));
 	}
 	
-	var timeout,timeout1;
+	var timeout;
 	
 	var debounce = function(callback,time){
 	    var args = Array.prototype.slice.call(arguments,0),later,self = this;
-	    
+		
 	    later = function(){
 		args[0].apply();
 	    };
@@ -136,15 +136,10 @@
 	    if(typeof(args[0]) !== "undefined" && typeof(args[1]) !== "undefined" ){
 
 		clearTimeout(timeout);
-		timeout = setTimeout(later,time);
-	    } else if (typeof(args[0] !== "undefined")){
-
-		clearTimeout(timeout1);
-		timeout1 = setTimeout(later,1000);
-	    } else {
-
-		clearTimeout(timeout);	
-    		clearTimeout(timeout1);				
+		timeout = setTimeout(callback,time);
+	    }else {
+			
+    		clearTimeout(timeout);				
 	    }	
 	};	
 	
@@ -473,10 +468,12 @@
 	
 	$("#brochure").mouseenter(function(e){
 		e.stopPropagation();
-	    $(this).animate({'top' : '5%'},1000);	
+		var that = this;
+	    debounce(function(){$(that).animate({'top' : '5%'},1000);},1000);	
 	}).mouseleave(function(e){
 		e.stopPropagation();
-	    $(this).animate({'top' : '80%'},1000);	
+		var that = this;
+	    debounce(function(){$(that).animate({'top' : '80%'},1000);},1000);	
 	});
 	
 	
