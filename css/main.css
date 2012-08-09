@@ -459,15 +459,16 @@ body {
 }
 
 #time{
-	position : absolute;
-   left : 35%;	
+    position : absolute;
+    left : 45%;	
+    top : 5%;	
 }	
 
 #count_content{
-	position : absolute;
-   width : 5%;
-	top : 48%;
-   left : 28%;	
+    position : absolute;
+    width : 5%;
+    top : 48%;
+    left : 28%;	
 }	
 
 .streetlight{
@@ -492,6 +493,43 @@ body {
 	cursor : pointer;
 }	
 
-#contacts ,#workshops ,#informals ,#nothing{
+#contacts ,#workshops ,#informals ,#events, #nothing{
     display : none;	
-}		
+}
+
+.contact {
+    min-width: 250px; 
+}
+
+.contact .name {
+    font-size: 130%; 
+}
+
+.contact .title {
+    font-size: 100%; 
+}
+
+.contact .desig {
+    font-size: 100%; 
+}
+
+.contact .mobile {
+    font-size: 120%; 
+    padding-top: 10px;
+    color: #636f21;
+}
+
+.contact .email {
+    color: #63216f;
+    font-size: 95%;
+    font-family: "Courier New";
+}
+
+.fl-r {float: right; }
+.fl-l {float: left; }
+
+.breaker {
+    height: 130px;
+    width: auto;
+}
+

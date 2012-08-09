@@ -143,4 +143,100 @@
       
     </div>
   </contacts>
+  <events>
+    <h2>Culturals</h2>
+    <ul>
+      <li>
+	Dance
+	<ul>
+	  <li>Taandav</li>
+	  <li>Thirkan</li>
+	  <li>Freestyle Dance Solo</li>
+	</ul>
+      </li>
+      <li>
+	Music
+	<ul>
+	  <li>Shruthilaya</li>
+	  <li>Tarangini</li>
+	  <li>Giga Hertz</li>
+	</ul>
+      </li>
+      <li>
+	Dramatics
+	<ul>
+	  <li>Theatrix</li>
+	  <li>Take One</li>
+	  <li>Flash</li>
+	  <li>Fashion Contest</li>
+	</ul>
+      </li>
+    </ul>
+    <h2>Literary Events</h2>
+    <ul>
+      <li>
+	English Lits
+	<ul>
+	  <li>Lone Wolf</li>
+	  <li>SpEnt</li>
+	  <li>India Quiz</li>
+	  <li>Buzzer Quiz</li>
+	  <li>Potpourri</li>
+	  <li>Dumb Charades</li>
+	  <li>Debate</li>
+	  <li>Puzzle Champ</li>
+	  <li>What's the Good Word</li>
+	  <li>Crossword</li>
+	  <li>Scrabble</li>
+	  <li>Event X</li>
+	  <li>Just a Minute</li>
+	  <li>Online Event</li>
+	</ul>
+      </li>
+      <li>
+	Tamil Lits
+	<ul>
+	  <li>Street Play</li>
+	  <li>Nagareega Komali</li>
+	  <li>Uyar Thani Semmozhi</li>
+	  <li>Dhil Irundha Dhool</li>
+	  <li>Katrodu Kathai Pesa Va</li>
+	  <li>Keli Ohithiram</li>
+	  <li>Kuraloviam</li>
+	  <li>Thinandhorum</li>
+	  <li>Kodambakkam</li>
+	  <li>Kavithai</li>
+	  <li>Kolam</li>
+	  <li>Kurukeluthu</li>
+	  <li>Sirukathai Mannan</li>
+	  <li>Varthai Vilayattu</li>
+	</ul>
+      </li>
+      <li>
+	Hindi Lits
+	<ul>
+	  <li>Atulya Bharat</li>
+	  <li>Sur Sangam</li>
+	  <li>Bluffmaster</li>
+	  <li>Rochak Mantra</li>
+	  <li>Vaad Vivaad</li>
+	  <li>Ashu Bhasan</li>
+	  <li>Hum Tum</li>
+	  <li>KBCC</li>
+	  <li>Halka Phulka</li>
+	  <li>Twarit Srajnatmak Lekhan</li>
+	  <li>Shabd Jaal</li>
+	  <li>Isharoon Isharoon Mein</li>
+	</ul>
+      </li>
+    </ul>
+    <h2>Arts</h2>
+    <ul>
+      <li>Dominoes</li>
+      <li>Face Painting</li>
+      <li>Shadow Art</li>
+      <li>Wall Painting</li>
+      <li>Photography</li>
+    </ul>
+  </events>
 </contents>
