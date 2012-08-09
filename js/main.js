@@ -1,6 +1,5 @@
 (function(window,document,$,undefined){
     $(function(){	
-
 	
 	var element = {
 	    canvas : document.getElementById("container_canvas"),
@@ -39,9 +38,13 @@
 	        width : [28,10,30,11,11,5,5,8,3,7,3],
 		height : [51,9,52,43,32,21,16,15,2,11,4],
 		left : [0,27,72,64,55,50,45,38,36,12,73],
-		bottom : [3,9,3,2,2,10,11,11,25,3,31]
+		bottom : [3,9,2,2,2,10,11,11,25,3,31]
 	    }		
 	};
+	
+	element["overlay_container"].style.opacity = 1;
+	element["overlay_container"].style.display = "block";
+	
 	
 	$.fn.clouds = function(settings) {
 	    settings = $.extend({
@@ -395,7 +398,7 @@
 		element["house_child"][i].style.width = ((element["house_prop"]["width"][i]/100)*w)+'px';
 		element["house_child"][i].style.height = ((element["house_prop"]["height"][i]/100)*w)+'px';
 		element["house_child"][i].style.left = ((element["house_prop"]["left"][i]/100)*w)+'px';
-		element["house_child"][i].style.bottom = ((element["house_prop"]["bottom"][i]/100)*w)+'px';					
+		element["house_child"][i].style.bottom = ((element["house_prop"]["bottom"][i]/100)*w)+'px';				
 	    }				
 	    
 	    //	$("#blur").hoverizr({effect:"blur",container:"container_image"});
@@ -497,6 +500,8 @@
 	var imageSrc = "images/street.png";
 	img.onload = function() {
             $("#brochure").animate({'top' : '80%'},1000);
+	element["overlay_container"].style.display = "none";			
+	element["overlay_container"].style.opacity = 0.5;			
 	};
 	img.src = imageSrc;		
 
