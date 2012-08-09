@@ -1,5 +1,6 @@
 (function(window,document,$,undefined){
     $(function(){	
+
 	
 	var element = {
 	    canvas : document.getElementById("container_canvas"),
