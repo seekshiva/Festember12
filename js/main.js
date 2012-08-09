@@ -1,12 +1,12 @@
 (function(window,document,$,undefined){
     $(function(){
-			document.getElementById("overlay_container").style.display = "block";
-			$("#brochure").stop().animate({'top' : '5%'},1000);
-			
-			$("#blur").load(function() {
-			document.getElementById("overlay_container").style.display = "none";	
-	            $("#brochure").stop().animate({'top' : '95%'},1000);
-	        }).attr('src', 'images/street.png');	
+	document.getElementById("overlay_container").style.display = "block";
+	$("#brochure").stop().animate({'top' : '5%'},00);
+	
+	$("#blur").load(function() {
+	    document.getElementById("overlay_container").style.display = "none";	
+	    $("#brochure").stop().animate({'top' : '95%'},1000);
+	}).attr('src', './images/street.png');	
 	
 	var element = {
 	    canvas : document.getElementById("container_canvas"),
