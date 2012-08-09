@@ -1,0 +1,3 @@
+* days to go should have a transparent bg;
+* the space between 49 and days to go should be opaque;
+* 
