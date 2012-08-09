@@ -465,13 +465,13 @@
 	
 	window.onresize = window.onload = $.debounce(50,position_elements);	
 		
-			$.ajax({
-			url : "contents.xml",
-			type : "POST",
-			dataType : "xml",
-			success : function(data){
-				content = data || {};
-			}
-		});		
+	$.ajax({
+	    url : "contents.xml",
+	    type : "POST",
+	    dataType : "xml",
+	    success : function(data){
+		content = data || {};
+	    }
+	});		
     });
 })(this, this.document, jQuery);
