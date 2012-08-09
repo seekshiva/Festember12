@@ -170,22 +170,21 @@ body {
     height : 50%;
     left : 86%;
     bottom : 2%;
-    border-top-left-radius : 80px;  
-}	
-#sponsor_container img {
-    position: absolute;
-    height: 200px;
-    left: 86%;
-    bottom: 2%;
-    height: 50%;
-    z-index: 1000000;
+	background-color : #000;	
+	border : solid 1px #000;
+    border-top-left-radius : 120px;  
+	border-top-right-radius : 150px;  
+	 border-bottom-left-radius : 120px; 
 }	
 
-#element_sponsor{
-    z-index : -80;
-    opacity : 0.5;
-    background-color : #000000;	
-}
+#sponsor_container img {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+	left : 5%;
+	bottom : 0%;
+    z-index: 1000000;
+}	
 
 #games_container{
     position : absolute;
