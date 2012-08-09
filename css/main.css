@@ -170,8 +170,15 @@ body {
     height : 50%;
     left : 86%;
     bottom : 2%;
-    // border : solid 1px #000; 
     border-top-left-radius : 80px;  
+}	
+#sponsor_container img {
+    position: absolute;
+    height: 200px;
+    left: 86%;
+    bottom: 2%;
+    height: 50%;
+    z-index: 1000000;
 }	
 
 #element_sponsor{
