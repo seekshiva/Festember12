@@ -472,11 +472,15 @@
 	$("#brochure").mouseenter(function(e){
 	    e.stopPropagation();
 	    var that = this;
-	    debounce(function(){$(that).animate({'top' : '5%'},1000);},300);	
+	    debounce(function(){
+	        element["overlay_container"].style.display = "block";			
+			$(that).animate({'top' : '5%'},1000);},300);	
 	}).mouseleave(function(e){
 	    e.stopPropagation();
 	    var that = this;
-	    debounce(function(){$(that).animate({'top' : '80%'},1000);},500);	
+	    debounce(function(){
+	        element["overlay_container"].style.display = "none";			
+			$(that).animate({'top' : '80%'},1000);},500);	
 	});
 	
 	
