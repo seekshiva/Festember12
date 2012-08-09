@@ -245,13 +245,13 @@
 	*/
 	
 	$("#contact_container").mouseenter(function(e){
-	    debounce(function(){$("#element_contact").animate({'backgroundColor' : '#faf686'},500);});  
+	    debounce(function(){$("#element_contact").animate({'backgroundColor' : '#faf686'},2000);}, 100);  
 	});
 	$("#pronite_container").mouseenter(function(e){
-	    debounce(function(){$("#element_pronite").animate({'backgroundColor' : '#b20404'},500);});
+	    debounce(function(){$("#element_pronite").animate({'backgroundColor' : '#b20404'},2000);}, 100);
 	});
 	$("#games_container").mouseenter(function(e){
-	    debounce(function(){$("#element_games").animate({'backgroundColor' : '#eb59d5'},500);});
+	    debounce(function(){$("#element_games").animate({'backgroundColor' : '#eb59d5'},2000);}, 100);
 	});
 	$("#events_container").mouseenter(function(e){});
 	$("#workshop_container").mouseenter(function(e){});
