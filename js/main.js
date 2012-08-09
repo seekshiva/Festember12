@@ -40,12 +40,6 @@
 	    }		
 	};
 	
-	var contents = {
-	    workshops: "Workshops are an integral part of the festember family, and different ones are held each year, decided based on theme, popular demand, and the current trend. This year’s workshops are sure to be a colorful leap away from the ordinary ones, owing to the completely RETRO theme. Festember’11 gave everybody a chance to bring out their timid hidden talents, with a bunch of hugely popular workshops, like solo dancing, jive for the crazy footed, flair bartending, magic, and even fencing, for the chivalrous of heart! Workshops are one place for the college goers to let off the steam, forget about academics, take a plunge, and do something they never did before.",
-	    informals: "Paintballing (where you and a bunch of your friends can team up, strategize and play against another team), Shooting andArchery (target events), Zorbing (Two people are put into a giant rubber inflated ball,and rolled around) ,Talent hunts , etc.….. need any more be said!! And at a much lower rate than they normally come! The Informals are quite literally at the heart of what makes Festember such a success, besides the loads of competitions. They form a platform for you to meet and make friends with people you don’t know, and take back glorious memories. The RETRO informals promise to be bigger than life, and take you places you would never have dreamt of going.",
-	    gaming: "It is a known fact , that in our amazing generation, computers,gadgets and gaming play a pivotal role. So, obviously even a cultural festival like Festember would not be complete without the Network Games. That is what all the couch potatoes, and self declared geeks and gamers thrive on.LAN games, like DOTA, CS, FIFA and NFS are going to be quite the rage thisFestember, with an already estimated huge participation."
-	};
-	
 	$.fn.clouds = function(settings) {
 	    settings = $.extend({
 		clouds: [],
