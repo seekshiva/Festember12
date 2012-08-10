@@ -9,7 +9,36 @@
     <div id="container_canvas" class="container_image"></div>
     <img src="images/street.png" class="container_image" id="blur" />
     <div id="overlay_container" class="overlay_container"></div>
-    <div id="brochure"><div id="brochure_sub"><img src="images/Festi.png" /></div></div>
+    <div id="brochure">
+      <div id="brochure_sub">
+	<img src="images/Festi.png" />
+	<div id="links">
+	  <div style="float: right; width: 300px; ">
+	    <div class="heading">Links:</div>
+	    <a  target="_blank" href="https://www.facebook.com/festember">Facebook</a>
+	    <a  target="_blank" href="https://www.twitter.com/festember">Twitter</a>
+	    <a  target="_blank" href="http://en.wikipedia.org/wiki/Festember">Wikipedia</a>
+	    <a  target="_blank" href="http://www.nitt.edu/home/students/events/festember/">About F-12</a>
+	  </div>
+	  <div style="float: left; width: 200px; ">
+	    <div class="heading">Archives:</div>
+	    <a style="width: 150px;" target="_blank"  href="https://festember.in/11/">Festember 11</a>
+	    <a style="width: 150px;" target="_blank" href="https://festember.com/10/">Festember X</a>
+	  </div>
+	</div>
+	<div style="text-align: center; margin-top: 200px; margin-left: 100px;">
+	  <div class="fb-like-box" data-href="http://www.facebook.com/festember" data-width="292" data-show-faces="false" data-stream="false" data-header="true"></div>
+	</div>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=297426703670139";
+	  fjs.parentNode.insertBefore(js, fjs);
+	  }(document, 'script', 'facebook-jssdk'));</script>
+      </div>
+    </div>
     
     <div class="overlay" id="overlayed">
       <div id="contacts">	   
@@ -437,7 +466,7 @@
       <div id="house_8"></div>		
       <div id="house_9"></div>	
       <div id="house_10" class="countdown">
-	<p id="time"><b>49</b></p><br><br><br>
+	<p id="time"><b>48</b></p><br><br><br>
       </div>	
       <div id="house_11" class="streetlight"></div>
       <div id="cloud-holder" class="container_image">	  

@@ -1,4 +1,6 @@
-* days to go should have a transparent bg;
-* the space between 49 and days to go should be opaque;
+* DONE days to go should have a transparent bg;
+* DONE the space between 49 and days to go should be opaque;
 * change the propeller in the airplane
 * make overlay as absolute and give scroll for the window
+* mousein color animate for in-site links
+* direction markers pointing towards to fb, twitter, wiki, archives, etc.
