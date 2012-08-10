@@ -1,3 +1,4 @@
 * days to go should have a transparent bg;
 * the space between 49 and days to go should be opaque;
 * change the propeller in the airplane
+* make overlay as absolute and give scroll for the window

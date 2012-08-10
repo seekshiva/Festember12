@@ -35,7 +35,7 @@ body {
     display : none;
     background-color : #000;
     opacity : 0.5;
-}	
+}
 
 .overlay{
     -moz-border-bottom-colors: none;
@@ -183,8 +183,8 @@ body {
     left : 86%;
     bottom : 2%;
     cursor: pointer;
-    background-color : #000;	
-    border : solid 1px #000;
+    //background-color : #000;	
+    //border : solid 1px #000;
     border-top-left-radius : 120px;  
     border-top-right-radius : 150px;  
     border-bottom-left-radius : 120px; 
