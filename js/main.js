@@ -14,6 +14,7 @@
 	    player : document.getElementById("player"),
 	    informals : document.getElementById("informals_container"),
 	    overlay_container : document.getElementById("overlay_container"),
+		brochure : document.getElementById("brochure"),
 	    events_child : [],
 	    color : ["#e3e530","#d4d627","#e5cd2f","#d7bd12","#dbde18",,"#d4d627","#e5cd2f","#e3e530","#d7bd12","#dbde18","#d7bd12","#dbde18"],
 	    popupSrc : "",
@@ -53,7 +54,11 @@
 	    element["overlay"].style.width = ((50/100)*w)+'px';
 	    element["overlay"].style.height = ((40/100)*w)+'px';
 	    element["overlay"].style.left = ((25/100)*w)+'px';
-	    element["overlay"].style.bottom = ((0/100)*w)+'px';				
+	    element["overlay"].style.bottom = ((0/100)*w)+'px';		
+
+	    element["brochure"].style.width = ((40/100)*w)+'px';
+	    element["brochure"].style.height = ((47/100)*w)+'px';
+	    element["brochure"].style.left = ((30/100)*w)+'px';		
 	    
 	    element["pronite"].style.width = ((8/100)*w)+'px';
 	    element["pronite"].style.height = ((23/100)*w)+'px';
