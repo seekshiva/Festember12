@@ -22,7 +22,7 @@ body {
    left : 30%;
    top : 5%;
    height : 95%;
-   border-color: #ffffff;
+   border-color: #ffffff -moz-use-text-color;
    border-radius: 10px 10px 0 0;
    border-style: solid solid none;
    border-width: 5px 0 0;
@@ -199,16 +199,20 @@ body {
     left : 86%;
     bottom : 2%;
     cursor: pointer;
+    //background-color : #000;	
+    //border : solid 1px #000;
+    border-top-left-radius : 120px;  
+    border-top-right-radius : 150px;  
+    border-bottom-left-radius : 120px; 
 }	
 
 #sponsor_container img {
     display: none;
     position: absolute;
-    width: 45%;
-    height: 115%;
+    width: 40%;
+    height: 100%;
     left : 5%;
-    bottom : -10%;
-	z-index : -10;
+    bottom : 0%;
 }	
 
 #sponsors .sponsor_type {

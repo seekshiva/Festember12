@@ -495,7 +495,7 @@
 	    var that = this;
 	    debounce(function(){
 	        element["overlay_container"].style.display = "none";			
-			$(that).animate({'top' : '80%'},1000);},500);	
+		$(that).animate({'top' : '80%'},1000);},500);	
 	});
 	
 	
