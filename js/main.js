@@ -472,10 +472,10 @@
 	});	
 	
 	$("#brochure").mouseenter(function(e){
-		e.stopPropagation();
+	    e.stopPropagation();
 	    $(this).animate({'top' : '5%'},1000);	
 	}).mouseleave(function(e){
-		e.stopPropagation();
+	    e.stopPropagation();
 	    $(this).animate({'top' : '80%'},1000);	
 	});
 	
@@ -497,19 +497,25 @@
 	window.onresize = window.onload = $.debounce(50,position_elements);	
 
 	var img = new Image();
-    var imageSrc = "images/street.png";
+	var imageSrc = "images/street.png";
 	img.onload = function() {
-        $("#brochure").animate({'top' : '80%'},1000);
+            $("#brochure").animate({'top' : '80%'},1000);
 	};
-    img.src = imageSrc;		
+	img.src = imageSrc;		
 
-	/*$.ajax({
-	  url : "contents.xml",
-	  type : "POST",
-	  dataType : "xml",
-	  success : function(data){
-	  content = data || {};
-	  }
-	  });*/
+	var sponsor_change = function(index) {
+	    index = index || 0;
+	    var callback = function() {
+		console.log(index);
+		$( $("#sponsor_container img")[index] ).fadeOut(500);
+		index = (index >= $("#sponsor_container img").length - 1) ? 0 : index + 1;
+		$( $("#sponsor_container img")[index] ).fadeIn(1000);
+		sponsor_change(index);
+	    };
+	    setTimeout(callback,3000);
+	};
+	
+	sponsor_change();
+	
     });
 })(this, this.document, jQuery);

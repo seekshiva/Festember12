@@ -204,7 +204,8 @@ body {
     border-bottom-left-radius : 120px; 
 }	
 
-#sponsor_container img {display: none;
+#sponsor_container img {
+    display: none;
     position: absolute;
     width: 40%;
     height: 100%;
