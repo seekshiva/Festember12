@@ -1,6 +1,6 @@
 (function(window,document,$,undefined){
-    $(function(){	
-	
+    $(function(){
+		
 	var element = {
 	    canvas : document.getElementById("container_canvas"),
 	    overlay : document.getElementById("overlayed"),
@@ -43,8 +43,99 @@
 	};
 	
 	element["overlay_container"].style.opacity = 1;
-	element["overlay_container"].style.display = "block";
+	element["overlay_container"].style.display = "block";	
 	
+	var position_elements = function(e){
+	    var w = window.innerWidth;	
+	    
+	    element["canvas"].style.height = window.innerHeight+'px';
+	    
+	    element["overlay"].style.width = ((50/100)*w)+'px';
+	    element["overlay"].style.height = ((40/100)*w)+'px';
+	    element["overlay"].style.left = ((25/100)*w)+'px';
+	    element["overlay"].style.bottom = ((0/100)*w)+'px';				
+	    
+	    element["pronite"].style.width = ((8/100)*w)+'px';
+	    element["pronite"].style.height = ((23/100)*w)+'px';
+	    element["pronite"].style.left = ((28/100)*w)+'px';
+	    element["pronite"].style.bottom = ((23/100)*w)+'px';
+	    
+	    if(e.type === "resize"){
+		element["player"].style.width = ((77/100)*w)+'px';
+		element["player"].style.height = ((46/100)*w)+'px';
+		element["player"].style.left = ((10/100)*w)+'px';
+		element["player"].style.bottom = ((3/100)*w)+'px';			
+	    }
+	    element["contacts"].style.width = ((7/100)*w)+'px';
+	    element["contacts"].style.height = ((12/100)*w)+'px';
+	    element["contacts"].style.left = ((65/100)*w)+'px';
+	    element["contacts"].style.bottom = ((15/100)*w)+'px';	
+	    
+	    element["casette"].style.width = ((7/100)*w)+'px';
+	    element["casette"].style.height = ((3/100)*w)+'px';
+	    element["casette"].style.left = ((31/100)*w)+'px';
+	    element["casette"].style.bottom = ((18/100)*w)+'px';	
+	    
+	    element["sponsor"].style.width = ((30/100)*w)+'px';
+	    element["sponsor"].style.height = ((25/100)*w)+'px';
+	    element["sponsor"].style.left = ((86/100)*w)+'px';
+	    element["sponsor"].style.bottom = ((2/100)*w)+'px';				
+	    
+	    element["games"].style.width = ((4/100)*w)+'px';
+	    element["games"].style.height = ((4/100)*w)+'px';
+	    element["games"].style.left = ((27/100)*w)+'px';
+	    element["games"].style.bottom = ((18/100)*w)+'px';	
+	    
+	    element["informals"].style.width = ((10/100)*w)+'px';
+	    element["informals"].style.height = ((5/100)*w)+'px';
+	    element["informals"].style.left = ((40/100)*w)+'px';
+	    element["informals"].style.bottom = ((28/100)*w)+'px';			
+	    
+	    element["workshop"].style.width = ((24/100)*w)+'px';
+	    element["workshop"].style.height = ((13/100)*w)+'px';
+	    element["workshop"].style.left = ((75/100)*w)+'px';
+	    element["workshop"].style.bottom = ((23/100)*w)+'px';
+	    
+	    element["events"].style.width = ((18/100)*w)+'px';
+	    element["events"].style.height = ((14/100)*w)+'px';
+	    element["events"].style.left = ((8/100)*w)+'px';
+	    element["events"].style.bottom = ((20/100)*w)+'px';			
+	    
+	    for(var i=0;i<5;i++){
+		element["workshop_child"][i].style.width = ((element["workshop_prop"]["width"][i]/100)*w)+'px';
+		element["workshop_child"][i].style.height = ((element["workshop_prop"]["height"][i]/100)*w)+'px';
+		element["workshop_child"][i].style.left = ((element["workshop_prop"]["left"][i]/100)*w)+'px';
+		element["workshop_child"][i].style.bottom = ((element["workshop_prop"]["bottom"][i]/100)*w)+'px';	
+	    }	
+	    
+	    for(var i=0;i<7;i++){
+		element["events_child"][i].style.width = ((element["events_prop"]["width"][i]/100)*w)+'px';
+		element["events_child"][i].style.height = ((element["events_prop"]["height"][i]/100)*w)+'px';
+		element["events_child"][i].style.left = ((element["events_prop"]["left"][i]/100)*w)+'px';
+		element["events_child"][i].style.bottom = ((element["events_prop"]["bottom"][i]/100)*w)+'px';					
+	    }	
+	    
+	    for(var i=0;i<11;i++){
+		element["house_child"][i].style.width = ((element["house_prop"]["width"][i]/100)*w)+'px';
+		element["house_child"][i].style.height = ((element["house_prop"]["height"][i]/100)*w)+'px';
+		element["house_child"][i].style.left = ((element["house_prop"]["left"][i]/100)*w)+'px';
+		element["house_child"][i].style.bottom = ((element["house_prop"]["bottom"][i]/100)*w)+'px';				
+	    }				
+	    
+	    //	$("#blur").hoverizr({effect:"blur",container:"container_image
+
+		var img = new Image();
+		var imageSrc = "images/street.png";
+		img.onload = function() {
+				$("#brochure").animate({'top' : '80%'},1000);
+				element["overlay_container"].style.display = "none";			
+				element["overlay_container"].style.opacity = 0.5;			
+		};
+		img.src = imageSrc;		    
+	};	
+		
+	window.onresize = $.debounce(50,position_elements);			
+	window.onload = $.debounce(50,position_elements);			
 	
 	$.fn.clouds = function(settings) {
 	    settings = $.extend({
@@ -204,7 +295,7 @@
 	    element["overlay"].style.width = $(x).width()+"px";
 	    element["overlay"].style.bottom =  parseInt($(x).css("bottom"))+"px";
 	    element["overlay"].style.left = parseInt($(x).css("left"))+"px";			
-            element["overlay"].style.display = "block";						
+        element["overlay"].style.display = "block";						
 	    var nheight = 80;
 	    var nwidth = 50;
 	    var bottom = 0;
@@ -324,87 +415,6 @@
 	});
 	
 	
-	var position_elements = function(e){
-	    var w = window.innerWidth;	
-	    
-	    element["canvas"].style.height = window.innerHeight+'px';
-	    
-	    element["overlay"].style.width = ((50/100)*w)+'px';
-	    element["overlay"].style.height = ((40/100)*w)+'px';
-	    element["overlay"].style.left = ((25/100)*w)+'px';
-	    element["overlay"].style.bottom = ((0/100)*w)+'px';				
-	    
-	    element["pronite"].style.width = ((8/100)*w)+'px';
-	    element["pronite"].style.height = ((23/100)*w)+'px';
-	    element["pronite"].style.left = ((28/100)*w)+'px';
-	    element["pronite"].style.bottom = ((23/100)*w)+'px';
-	    
-	    if(e.type === "resize"){
-		element["player"].style.width = ((77/100)*w)+'px';
-		element["player"].style.height = ((46/100)*w)+'px';
-		element["player"].style.left = ((10/100)*w)+'px';
-		element["player"].style.bottom = ((3/100)*w)+'px';			
-	    }
-	    element["contacts"].style.width = ((7/100)*w)+'px';
-	    element["contacts"].style.height = ((12/100)*w)+'px';
-	    element["contacts"].style.left = ((65/100)*w)+'px';
-	    element["contacts"].style.bottom = ((15/100)*w)+'px';	
-	    
-	    element["casette"].style.width = ((7/100)*w)+'px';
-	    element["casette"].style.height = ((3/100)*w)+'px';
-	    element["casette"].style.left = ((31/100)*w)+'px';
-	    element["casette"].style.bottom = ((18/100)*w)+'px';	
-	    
-	    element["sponsor"].style.width = ((30/100)*w)+'px';
-	    element["sponsor"].style.height = ((25/100)*w)+'px';
-	    element["sponsor"].style.left = ((86/100)*w)+'px';
-	    element["sponsor"].style.bottom = ((2/100)*w)+'px';				
-	    
-	    element["games"].style.width = ((4/100)*w)+'px';
-	    element["games"].style.height = ((4/100)*w)+'px';
-	    element["games"].style.left = ((27/100)*w)+'px';
-	    element["games"].style.bottom = ((18/100)*w)+'px';	
-	    
-	    element["informals"].style.width = ((10/100)*w)+'px';
-	    element["informals"].style.height = ((5/100)*w)+'px';
-	    element["informals"].style.left = ((40/100)*w)+'px';
-	    element["informals"].style.bottom = ((28/100)*w)+'px';			
-	    
-	    element["workshop"].style.width = ((24/100)*w)+'px';
-	    element["workshop"].style.height = ((13/100)*w)+'px';
-	    element["workshop"].style.left = ((75/100)*w)+'px';
-	    element["workshop"].style.bottom = ((23/100)*w)+'px';
-	    
-	    element["events"].style.width = ((18/100)*w)+'px';
-	    element["events"].style.height = ((14/100)*w)+'px';
-	    element["events"].style.left = ((8/100)*w)+'px';
-	    element["events"].style.bottom = ((20/100)*w)+'px';			
-	    
-	    for(var i=0;i<5;i++){
-		element["workshop_child"][i].style.width = ((element["workshop_prop"]["width"][i]/100)*w)+'px';
-		element["workshop_child"][i].style.height = ((element["workshop_prop"]["height"][i]/100)*w)+'px';
-		element["workshop_child"][i].style.left = ((element["workshop_prop"]["left"][i]/100)*w)+'px';
-		element["workshop_child"][i].style.bottom = ((element["workshop_prop"]["bottom"][i]/100)*w)+'px';	
-	    }	
-	    
-	    for(var i=0;i<7;i++){
-		element["events_child"][i].style.width = ((element["events_prop"]["width"][i]/100)*w)+'px';
-		element["events_child"][i].style.height = ((element["events_prop"]["height"][i]/100)*w)+'px';
-		element["events_child"][i].style.left = ((element["events_prop"]["left"][i]/100)*w)+'px';
-		element["events_child"][i].style.bottom = ((element["events_prop"]["bottom"][i]/100)*w)+'px';					
-	    }	
-	    
-	    for(var i=0;i<11;i++){
-		element["house_child"][i].style.width = ((element["house_prop"]["width"][i]/100)*w)+'px';
-		element["house_child"][i].style.height = ((element["house_prop"]["height"][i]/100)*w)+'px';
-		element["house_child"][i].style.left = ((element["house_prop"]["left"][i]/100)*w)+'px';
-		element["house_child"][i].style.bottom = ((element["house_prop"]["bottom"][i]/100)*w)+'px';				
-	    }				
-	    
-	    //	$("#blur").hoverizr({effect:"blur",container:"container_image"});
-	    
-	};
-	
 	function flicker(h,y){
 	    var freq = randhouse(11),a = {sum :0,off : 0,on :0};
 	    //console.log(y);
@@ -496,18 +506,7 @@
 	    ],
 	    folder: 'images/',
 	    speed: 100
-        }); 
-	
-	window.onresize = window.onload = $.debounce(50,position_elements);	
-
-	var img = new Image();
-	var imageSrc = "images/street.png";
-	img.onload = function() {
-            $("#brochure").animate({'top' : '80%'},1000);
-	element["overlay_container"].style.display = "none";			
-	element["overlay_container"].style.opacity = 0.5;			
-	};
-	img.src = imageSrc;		
+        }); 	
 
 	var sponsor_change = function(index) {
 	    index = index || 0;
