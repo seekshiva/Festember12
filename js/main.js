@@ -472,11 +472,11 @@
 	$("#brochure").mouseenter(function(e){
 	    e.stopPropagation();
 	    var that = this;
-	    debounce(function(){$(that).animate({'top' : '5%'},1000);},1000);	
+	    debounce(function(){$(that).animate({'top' : '5%'},1000);},300);	
 	}).mouseleave(function(e){
 	    e.stopPropagation();
 	    var that = this;
-	    debounce(function(){$(that).animate({'top' : '80%'},1000);},1000);	
+	    debounce(function(){$(that).animate({'top' : '80%'},1000);},500);	
 	});
 	
 	
