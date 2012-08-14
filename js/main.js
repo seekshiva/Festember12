@@ -526,6 +526,13 @@
 	
 	sponsor_change();
 	
+	var oneDay = 24*60*60*1000;
+    var secondDate = new Date();
+    var firstDate = new Date(2012,08,27,17,00,00);
+    var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+
+	document.getElementById("time").innerHTML = diffDays;
+	
 	window.onresize = $.debounce(50,position_elements);			
 	
     });
