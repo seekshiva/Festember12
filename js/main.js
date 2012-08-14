@@ -1,6 +1,10 @@
 (function(window,document,$,undefined){
     $(function(){
 		
+	$(function(){
+		position_elements();		
+	});	
+		
 	var element = {
 	    canvas : document.getElementById("container_canvas"),
 	    overlay : document.getElementById("overlayed"),
@@ -47,6 +51,7 @@
 	
 	
 	var position_elements = function(){
+		//console.log(e.type);
 	    var w = window.innerWidth;	
 	    
 	    element["canvas"].style.height = window.innerHeight+'px';	
@@ -125,14 +130,15 @@
 	    
 	    //	$("#blur").hoverizr({effect:"blur",container:"container_image
 
-		var img = new Image();
-		var imageSrc = "images/street.png";
-		img.onload = function(){
+		//var img = new Image();
+		//var imageSrc = "images/street.png";
+		//img.onload = 
+		$("#container_image").load(function(){
 				$("#brochure").animate({'top' : '80%'},1000);
 				element["overlay_container"].style.display = "none";			
 				element["overlay_container"].style.opacity = 0.5;			
-		};	    
-		img.src = imageSrc;			
+		});	    
+		//img.src = imageSrc;			
 	};			
 	
 	$.fn.clouds = function(settings) {
@@ -521,7 +527,6 @@
 	sponsor_change();
 	
 	window.onresize = $.debounce(50,position_elements);			
-	window.onload = $.debounce(50,position_elements);		
 	
     });
 })(this, this.document, jQuery);
