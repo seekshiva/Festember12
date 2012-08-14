@@ -135,8 +135,8 @@
 		//img.onload = 
 		$("#container_image").load(function(){
 				$("#brochure").animate({'top' : '80%'},1000);
-				element["overlay_container"].style.display = "none";			
 				element["overlay_container"].style.opacity = 0.5;			
+				element["overlay_container"].style.display = "none";							
 		});	    
 		//img.src = imageSrc;			
 	};			
