@@ -5,14 +5,16 @@ body {
     overflow: hidden;
 }
 
-.container_image{
-    position : fixed;
+#container_image{
+	position : fixed;	
     width : 100%;	
-    bottom: 0px;
+    bottom: 0px;`
 }	
 
 #container_canvas{
-    z-index: -1000;
+	position : absolute;
+	width : 100%;
+	z-index : -1000;
     background-color : #ddf;
 }
 

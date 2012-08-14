@@ -45,10 +45,11 @@
 	element["overlay_container"].style.opacity = 1;
 	element["overlay_container"].style.display = "block";	
 	
-	var position_elements = function(e){
+	
+	var position_elements = function(){
 	    var w = window.innerWidth;	
 	    
-	    element["canvas"].style.height = window.innerHeight+'px';
+	    element["canvas"].style.height = window.innerHeight+'px';	
 	    
 	    element["overlay"].style.width = ((50/100)*w)+'px';
 	    element["overlay"].style.height = ((40/100)*w)+'px';
@@ -60,12 +61,12 @@
 	    element["pronite"].style.left = ((28/100)*w)+'px';
 	    element["pronite"].style.bottom = ((23/100)*w)+'px';
 	    
-	    if(e.type === "resize"){
+	    //if(e.type === "resize"){
 		element["player"].style.width = ((77/100)*w)+'px';
 		element["player"].style.height = ((46/100)*w)+'px';
 		element["player"].style.left = ((10/100)*w)+'px';
 		element["player"].style.bottom = ((3/100)*w)+'px';			
-	    }
+	    //}
 	    element["contacts"].style.width = ((7/100)*w)+'px';
 	    element["contacts"].style.height = ((12/100)*w)+'px';
 	    element["contacts"].style.left = ((65/100)*w)+'px';
@@ -126,16 +127,13 @@
 
 		var img = new Image();
 		var imageSrc = "images/street.png";
-		img.onload = function() {
+		img.onload = function(){
 				$("#brochure").animate({'top' : '80%'},1000);
 				element["overlay_container"].style.display = "none";			
 				element["overlay_container"].style.opacity = 0.5;			
-		};
-		img.src = imageSrc;		    
-	};	
-		
-	window.onresize = $.debounce(50,position_elements);			
-	window.onload = $.debounce(50,position_elements);			
+		};	    
+		img.src = imageSrc;			
+	};			
 	
 	$.fn.clouds = function(settings) {
 	    settings = $.extend({
@@ -521,6 +519,9 @@
 	};
 	
 	sponsor_change();
+	
+	window.onresize = $.debounce(50,position_elements);			
+	window.onload = $.debounce(50,position_elements);		
 	
     });
 })(this, this.document, jQuery);
