@@ -51,7 +51,6 @@
 	
 	
 	var position_elements = function(){
-		//console.log(e.type);
 	    var w = window.innerWidth;	
 	    
 	    element["canvas"].style.height = window.innerHeight+'px';	
@@ -482,7 +481,7 @@
             for(var i=0;i<3;i++)
 		element["workshop_child"][i].style.backgroundColor = "#ffffff";				
 	});	
-	
+	/*
 	$("#brochure").mouseenter(function(e){
 	    e.stopPropagation();
 	    var that = this;
@@ -496,7 +495,7 @@
 	        element["overlay_container"].style.display = "none";			
 		$(that).animate({'top' : '80%'},1000);},500);	
 	});
-	
+	*/
 	
 	$("#cloud-holder").clouds({
 	    clouds: [
