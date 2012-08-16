@@ -10,9 +10,11 @@
 * ferry's wheel
 * pronite poster
 * mobile site
-
+* shop banner mouseover effect
+* 
+  
 * Design stuff
 ** change the propeller in the airplane
 ** sun, sky color
 ** brochure paper bg
-
+** favicon.ico
