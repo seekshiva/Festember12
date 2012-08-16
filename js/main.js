@@ -45,10 +45,10 @@
 		bottom : [3,9,2,2,2,10,11,11,25,3,31]
 	    }		
 	};
-	
+	/*
 	element["overlay_container"].style.opacity = 1;
 	element["overlay_container"].style.display = "block";	
-	
+	*/
 	
 	var position_elements = function(){
 	    var w = window.innerWidth;	
@@ -134,8 +134,11 @@
 		//img.onload = 
 		$("#container_image").load(function(){
 				$("#brochure").animate({'top' : '80%'},1000);
+				document.getElementById("initial_container").style.display = "none";
+				/*
 				element["overlay_container"].style.opacity = 0.5;			
 				element["overlay_container"].style.display = "none";							
+				*/
 		});	    
 		//img.src = imageSrc;			
 	};			
