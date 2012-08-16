@@ -213,6 +213,7 @@ body {
     border-top-left-radius : 120px;  
     border-top-right-radius : 150px;  
     border-bottom-left-radius : 120px; 
+	z-index : 10;
 }	
 
 #sponsor_container img {
