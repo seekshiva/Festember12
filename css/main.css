@@ -221,16 +221,26 @@ body {
     border-top-left-radius : 120px;  
     border-top-right-radius : 150px;  
     border-bottom-left-radius : 120px; 
-    z-index : 10;
+    z-index : -10;
+}	
+
+#sponsor_cover_container{
+    position : absolute;
+    width : 30%;
+    height : 50%;
+    left : 86%;
+    bottom : 2%;
+    cursor: pointer;
+    z-index : 10;   	
 }	
 
 #sponsor_container img {
     display: none;
     position: absolute;
-    width: 40%;
-    height: 100%;
+    width: 43%;
+    height: 110%;
     left : 5%;
-    bottom : 0%;
+    bottom :-8%;
 }	
 
 #sponsors .sponsor_type {

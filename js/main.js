@@ -392,7 +392,7 @@
 	    element["content"].style.display = "block";		
 	});
 	
-	$("#sponsor_container").click(function(e){
+	$("#sponsor_cover_container").click(function(e){
 	    var that = this;
 	    element["popupSrc"] = this;		   
 	    popup(that);

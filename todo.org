@@ -3,8 +3,8 @@
 * DONE automate days to go
 * DONE powered by Nimbuzz
   use the image instead of putting Nimuzz in text..
-* shop banner mouseover effect
-* reposition the sponsors banner properly on the home page
+* DONE shop banner mouseover effect
+* DONE reposition the sponsors banner properly on the home page
   sponsor banner on the home page doesn't fit the frame exactly.. at night.. the yellow light can be seen on all sides of the sponsors banner... 
   sponsors banner images should be resized so that it fits well
 * change font color in days to go and the all the overlay boxes
