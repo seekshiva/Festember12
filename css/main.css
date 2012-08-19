@@ -143,11 +143,11 @@ body {
 #element_pronite{
     
 }
-/*
-  #pronite_container:hover #element_pronite{
+
+  #pronite_container:hover{
   background-color : #b20404;  	
   }	
-  */
+  
 #casette_container{
     position : absolute;
     width: 7%;
@@ -204,11 +204,11 @@ body {
 #element_contact{
 
 }
-/*
-  #contact_container:hover #element_contact{
+
+  #contact_container:hover{
   background-color : #faf686;		
   }
-  */
+ 
 #sponsor_container{
     position : absolute;
     width : 30%;
@@ -270,11 +270,11 @@ body {
 #element_games{
     
 }
-/*
-  #games_container:hover #element_games{
+
+  #games_container:hover{
   background-color : #eb59d5;	
   }
-  */
+  
 #workshop_container{
     position : absolute;
     width : 24%;

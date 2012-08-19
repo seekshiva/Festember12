@@ -34,9 +34,9 @@
 	    },
             workshop_prop : {
 	        width : [14,7,8,18,15],
-		height : [5,2,3,6,8],
+		height : [5,2,3,7,8],
 		left : [75,77,73,80,85],
-		bottom : [25.5,25,23,26,29]
+		bottom : [25.5,25,23,26,30]
 	    },
             house_prop : {
 	        width : [28,10,30,11,11,5,5,8,3,7,3],
@@ -86,7 +86,7 @@
 	    element["sponsor"].style.left = ((86/100)*w)+'px';
 	    element["sponsor"].style.bottom = ((2/100)*w)+'px';				
 	    
-	    element["games"].style.width = ((4/100)*w)+'px';
+	    element["games"].style.width = ((4.3/100)*w)+'px';
 	    element["games"].style.height = ((4/100)*w)+'px';
 	    element["games"].style.left = ((27/100)*w)+'px';
 	    element["games"].style.bottom = ((18/100)*w)+'px';	
@@ -471,6 +471,8 @@
 	
 	$("#events_container").mouseenter(function(e){
 	    e.stopPropagation();
+            for(var i=0;i<7;i++)
+		element["events_child"][i].style.backgroundColor = "green";		
 	}).mouseleave(function(e){
 	    e.stopPropagation();
             for(var i=0;i<7;i++)
@@ -479,9 +481,11 @@
 	
 	$("#workshop_container").mouseenter(function(e){
 	    e.stopPropagation();
+            for(var i=0;i<5;i++)
+		element["workshop_child"][i].style.backgroundColor = "blue";			
 	}).mouseleave(function(e){
 	    e.stopPropagation();
-            for(var i=0;i<3;i++)
+            for(var i=0;i<5;i++)
 		element["workshop_child"][i].style.backgroundColor = "#ffffff";				
 	});	
 	/*
