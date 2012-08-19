@@ -45,13 +45,12 @@
 		bottom : [3,9,2,2,2,10,11,11,25,3,31]
 	    }		
 	};
-	
+	/*
 	element["overlay_container"].style.opacity = 1;
 	element["overlay_container"].style.display = "block";	
-	
+	*/
 	
 	var position_elements = function(){
-		//console.log(e.type);
 	    var w = window.innerWidth;	
 	    
 	    element["canvas"].style.height = window.innerHeight+'px';	
@@ -135,8 +134,11 @@
 		//img.onload = 
 		$("#container_image").load(function(){
 				$("#brochure").animate({'top' : '80%'},1000);
-				element["overlay_container"].style.display = "none";			
+				document.getElementById("initial_container").style.display = "none";
+				/*
 				element["overlay_container"].style.opacity = 0.5;			
+				element["overlay_container"].style.display = "none";							
+				*/
 		});	    
 		//img.src = imageSrc;			
 	};			
@@ -482,7 +484,7 @@
             for(var i=0;i<3;i++)
 		element["workshop_child"][i].style.backgroundColor = "#ffffff";				
 	});	
-	
+	/*
 	$("#brochure").mouseenter(function(e){
 	    e.stopPropagation();
 	    var that = this;
@@ -496,13 +498,13 @@
 	        element["overlay_container"].style.display = "none";			
 		$(that).animate({'top' : '80%'},1000);},500);	
 	});
-	
+	*/
 	
 	$("#cloud-holder").clouds({
 	    clouds: [
 		{src:'cloud_1.png',x:120,y:600,speedX:-1},
 		{src:'cloud_2.png',x:650,y:500,speedX:-2},
-		{src:'flight.gif',x:1050,y:553,speedX:-2.5,nature: "flight"},
+		{src:'flight1.gif',x:1050,y:553,speedX:-2.5,nature: "flight"},
 		{src:'cloud_4.png',x:230,y:626,speedX:-1},
 		{src:'cloud_5.png',x:840,y:650,speedX:-2.5},
 		{src:'cloud_6.png',x:520,y:634,speedX:-1.5},

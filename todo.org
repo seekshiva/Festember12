@@ -1,8 +1,8 @@
 * DONE days to go should have a transparent bg;
 * DONE no transparent region around the "days to go" board;
-* powered by Nimbuzz
-* automate days to go
 * reposition the sponsors banner properly on the home page
+* DONE powered by Nimbuzz
+* DONE automate days to go
 * upload event description, rule book
 * make overlay as absolute and give scroll for the window
 * test in ie, chrome
@@ -11,7 +11,6 @@
 * pronite poster
 * mobile site
 * shop banner mouseover effect
-* 
   
 * Design stuff
 ** change the propeller in the airplane

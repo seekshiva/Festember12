@@ -35,17 +35,18 @@ body {
     position : absolute;
     width : 100%;
     height : 90%;
-    background-color : #000000;
+    background : url("../images/brono.png");
     z-index : 400;  	
 }	
 
 #brochure img{
     padding-left : 25%;
     width : 50%;
-    height : 20%;
+    height : 30%;
+    margin-top : -10%;	
 }	
 
-.overlay_container{
+.overlay_container{    
     position : fixed;
     width : 100%;
     height : 100%;
@@ -53,7 +54,16 @@ body {
     display : none;
     background-color : #ddd;
     opacity : 0.5;
+    display : none;	
 }
+
+#initial_container{
+    position : absolute;
+    z-index : -50;
+    width : 100%;
+    height : 100%;
+    background-color : #fff;
+}	
 
 .overlay{
     -moz-border-bottom-colors: none;
@@ -81,7 +91,9 @@ body {
 #cloud-holder{
     position : absolute;
     left :0;
-    z-index:-900;
+    width : 100%;
+    height : 100%;
+    z-index : -900;
 }
 .cloud{
     position : absolute;	
@@ -110,7 +122,7 @@ body {
     position : absolute;
     width : 100%;
     height : 100%;
-    z-index : -10; 	
+    z-index : 100; 	
 }		
 
 #container{
@@ -118,17 +130,18 @@ body {
 }
 
 #pronite_container{
-    position: fixed;
+    position: absolute;
     width:  8%;
     height:	44%;
     //	border : solid 1px #000;
     left : 28%;
     bottom : 48%;
     cursor : pointer;
+    background-color : #fff;
 }
 
 #element_pronite{
-    background-color : #ffffff;  	
+    
 }
 /*
   #pronite_container:hover #element_pronite{
@@ -143,13 +156,14 @@ body {
     bottom : 36%;
     // border : solid 1px #000;
     cursor : pointer;
+    background-color : #fff;	
 }
 
 #element_casette{
-    background-color : #ffffff;		
+    
 }	
 
-#casette_container:hover #element_casette{
+#casette_container:hover{
     background-color : #f8c2c2;	
 }	
 
@@ -183,11 +197,12 @@ body {
     left : 65%;
     bottom : 30%;
     // border :solid 1px #000;
+    background-color : #fff;	
     cursor : pointer;	
 }	
 
 #element_contact{
-    background-color : #ffffff;		
+
 }
 /*
   #contact_container:hover #element_contact{
@@ -206,6 +221,7 @@ body {
     border-top-left-radius : 120px;  
     border-top-right-radius : 150px;  
     border-bottom-left-radius : 120px; 
+    z-index : 10;
 }	
 
 #sponsor_container img {
@@ -247,11 +263,12 @@ body {
     left : 27%;
     bottom : 37%;
     // border : solid 1px #000; 
+    background-color : #fff;
     cursor : pointer;	
 }	
 
 #element_games{
-    background-color : #ffffff;	
+    
 }
 /*
   #games_container:hover #element_games{
@@ -266,6 +283,7 @@ body {
     bottom : 46%;
     // border : solid 1px #000;
     cursor : pointer;	
+    z-index : 10;
 }	
 
 #element_workshop{
@@ -274,8 +292,9 @@ body {
     height : 10%;
     left : 75%;
     bottom : 50%;
-    background-color : #ffffff;	
-    // border : solid 1px #000; 	
+    background-color : #fff; 
+    // border : solid 1px #000; 
+    z-index : -10;	
 }	
 
 #element_workshop_1{
@@ -284,8 +303,9 @@ body {
     height : 4%;
     left : 77%;
     bottom : 50%;
-    background-color : #ffffff;	
+    background-color : #fff;
     //border : solid 1px #000;	
+    z-index : -10;	
 }
 
 #element_workshop_2{
@@ -294,8 +314,9 @@ body {
     height : 5%;
     left : 73%;
     bottom : 47%;
-    background-color : #ffffff;	
+    background-color : #fff;   
     //border : solid 1px #000;	
+    z-index : -10;	
 }
 
 #element_workshop_3{
@@ -304,8 +325,9 @@ body {
     height : 12%;
     left : 80%;
     bottom : 53%;
-    background-color : #ffffff;	
+    background-color : #fff; 
     //border : solid 1px #000;	
+    z-index : -10;	
 }
 
 #element_workshop_4{
@@ -314,8 +336,9 @@ body {
     height : 16%;
     left : 85%;
     bottom : 59%;
-    background-color : #ffffff;	
+    background-color : #fff; 
     // border : solid 1px #000;	
+    z-index : -10;	
 }
 
 #events_container{
@@ -326,6 +349,7 @@ body {
     bottom : 40%;
     // border : solid 1px #000; 
     cursor : pointer;	
+    z-index : 10;	
 }	
 
 #element_events_1{
@@ -335,7 +359,8 @@ body {
     left : 24%;
     bottom : 40%;
     //border : solid 1px #000; 	
-    background-color : #ffffff;	
+    background-color : #fff; 
+    z-index : -10;		
 }
 
 #element_events_2{
@@ -345,7 +370,8 @@ body {
     left : 20%;
     bottom : 41%;
     //border : solid 1px #000; 	
-    background-color : #ffffff;	
+    background-color : #fff; 
+    z-index : -10;		
 }
 
 #element_events_3{
@@ -355,7 +381,8 @@ body {
     left : 16%;
     bottom : 44%;
     //border : solid 1px #000; 		
-    background-color : #ffffff;	
+    background-color : #fff; 
+    z-index : -10;		
 }
 
 #element_events_4{
@@ -365,7 +392,8 @@ body {
     left : 11%;
     bottom : 47%;
     //border : solid 1px #000; 		
-    background-color : #ffffff;	
+    background-color : #fff; 
+    z-index : -10;		
 }
 
 #element_events_5{
@@ -375,7 +403,8 @@ body {
     left : 11%;
     bottom : 57%;
     //border : solid 1px #000; 		
-    background-color : #ffffff;
+    background-color : #fff; 
+    z-index : -10;		
 }
 
 #element_events_6{
@@ -385,7 +414,8 @@ body {
     left : 11%;
     bottom : 61%;
     //border : solid 1px #000; 	
-    background-color : #ffffff;	
+    background-color : #fff;
+    z-index : -10;		
 }
 
 #element_events_7{
@@ -395,7 +425,8 @@ body {
     left : 11%;
     bottom : 66%;
     // border : solid 1px #000; 	
-    background-color : #ffffff;	
+    background-color : #fff;  
+    z-index : -10;		
 }
 
 #house_1{
