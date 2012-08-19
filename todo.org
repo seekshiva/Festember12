@@ -1,7 +1,7 @@
 * DONE days to go should have a transparent bg;
 * DONE no transparent region around the "days to go" board;
 * DONE automate days to go
-* TODO powered by Nimbuzz
+* DONE powered by Nimbuzz
   use the image instead of putting Nimuzz in text..
 * shop banner mouseover effect
 * reposition the sponsors banner properly on the home page
