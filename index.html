@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
     <title>Festember</title>
     <link rel="stylesheet" href="css/main.css" type="text/css" />    
   </head>
@@ -268,9 +269,22 @@
       
       <div id="events" style="text-align: left; ">
 	<h1 style="text-align: center; ">Events</h1>
+		<div id="header"> 
+		<ul>
+			<li class="selected"><a href="#">choreo</a></li>
+			<li><a href="#">arts</a></li>
+			<li><a href="#">musics</a></li>
+			<li><a href="#">lits</a></li>
+		</ul>
+
+		</div>
+
+		<div id="content">
+
 	<h2>Culturals</h2>
+<!--
 	<ul>
-	  <li>
+	  <li class="Dance">
 	    Dance
 	    <ul>
 	      <li>Taandav</li>
@@ -278,7 +292,7 @@
 	      <li>Freestyle Dance Solo</li>
 	    </ul>
 	  </li>
-	  <li>
+	  <li class="Music nothing">
 	    Music
 	    <ul>
 	      <li>Shruthilaya</li>
@@ -286,6 +300,9 @@
 	      <li>Giga Hertz</li>
 	    </ul>
 	  </li>
+	</ul>
+	<ul class="Literature nothing">
+	<h2>Literary Events</h2>	
 	  <li>
 	    Dramatics
 	    <ul>
@@ -294,10 +311,7 @@
 	      <li>Flash</li>
 	      <li>Fashion Contest</li>
 	    </ul>
-	  </li>
-	</ul>
-	<h2>Literary Events</h2>
-	<ul>
+	  </li>	
 	  <li>
 	    English Lits
 	    <ul>
@@ -354,14 +368,16 @@
 	    </ul>
 	  </li>
 	</ul>
-	<h2>Arts</h2>
-	<ul>
+	<ul class="Arts nothing">
+	<h2>Arts</h2>	
 	  <li>Dominoes</li>
 	  <li>Face Painting</li>
 	  <li>Shadow Art</li>
 	  <li>Wall Painting</li>
 	  <li>Photography</li>
 	</ul>
+-->	
+      </div>
       </div>
       
       <div id="workshops" style="text-align: left; ">
@@ -377,8 +393,9 @@
 	  <li>Mente Magica</li>
 	</ul>
 	<p>This year, our team has taken up the responsibility to continue this tradition and ensure that the workshops live up to the expectations as always. So watch out for some exciting fun filled workshops this time!</p>
-      </div>
-      
+    
+	</div>
+     
       <div id="informals" style="text-align: left; ">
 	<h2 style="text-align: center; ">Informals</h2>
 	<p>Paintballing (where you and a bunch of your friends can team up, strategize and play against another team), Shooting andArchery (target events), Zorbing (Two people are put into a giant rubber inflated ball,and rolled around), Talent hunts, etc... need any more be said!! And at a much lower rate than they normally come! The Informals are quite literally at the heart of what makes Festember such a success, besides the loads of competitions. They form a platform for you to meet and make friends with people you don't know, and take back glorious memories. The RETRO informals promise to be bigger than life, and take you places you would never have dreamt of going.</p>
@@ -497,6 +514,7 @@
     </script>
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/debounce.js" type="text/javascript"></script>
+    <script src="js/event_content.js" type="text/javascript"></script>	
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

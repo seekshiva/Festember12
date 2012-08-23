@@ -18,7 +18,9 @@
 	    player : document.getElementById("player"),
 	    informals : document.getElementById("informals_container"),
 	    overlay_container : document.getElementById("overlay_container"),
+		prev : document.getElementById("header").querySelector("li"),
 	    events_child : [],
+		event_content : document.getElementById("content"),
 	    color : ["#e3e530","#d4d627","#e5cd2f","#d7bd12","#dbde18",,"#d4d627","#e5cd2f","#e3e530","#d7bd12","#dbde18","#d7bd12","#dbde18"],
 	    popupSrc : "",
 	    time : "day",
@@ -418,6 +420,17 @@
 	        'bottom' : bottom+'px',
 		'opacity' : 0}, 500,function(){element["overlay_container"].style.display = "none";element["overlay"].style.display = "none";});	
 	    
+	});
+	
+	$("#header").click(function(ev){
+	  var curr = ev.target;	
+		ev.preventDefault();
+//	    console.log(Event()[curr.innerHTML]);	
+		//element["event_content"].querySelector("."+element["prev"].childNodes[0].innerHTML).classList.add("nothing");        
+		element["prev"].classList.remove("selected");
+		curr.parentNode.classList.add("selected");
+		//element["event_content"].querySelector("."+curr.innerHTML).classList.remove("nothing");
+		element["prev"] = curr.parentNode;		
 	});
 	
 	

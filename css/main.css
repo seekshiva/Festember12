@@ -601,7 +601,7 @@ body {
     margin-left: -230px;
 }	
 
-#contacts ,#workshops ,#informals ,#events, #sponsors, #nothing{
+#contacts ,#workshops ,#informals ,#events, #sponsors, #nothing, .nothing{
     display : none;	
 }
 
@@ -641,3 +641,34 @@ body {
     width: auto;
 }
 
+#header ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+#header li {
+	display: inline;
+	border: solid;
+	border-width: 1px 1px 0 1px;
+	margin: 0 0.5em 0 0;
+}
+
+#header li a {
+	padding: 0 1em;
+	text-decoration : none;;
+}
+
+
+#content {
+	border: 1px solid;
+}
+
+#header .selected {
+	padding-bottom: 1px; 
+	background: #000;
+}
+
+#header .selected a{
+	color : #fff;
+}	
