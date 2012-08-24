@@ -24,7 +24,11 @@ var Event = function (){
         "title" : "Shadow art"
       }
     ],
-  "Choreo" : [  ],
+  "Choreo" : [ {
+         "description" : "Coming Up Soon!",
+	     "title" : ""
+	  }
+	],
   "Lits" : { "English" : [ { "description" : "The life of a quizzer can get lonely, very lonely. Social interaction is kept at a minimum to maximize perfomance. Well now you can turn this to your advantage, for once; it pays to be forever alone.",
             "title" : "Lone Wolf"
           },

@@ -135,7 +135,7 @@
 		//var imageSrc = "images/street.png";
 		//img.onload = 
 		$("#container_image").load(function(){
-				$("#brochure").animate({'top' : '80%'},1000);
+				$("#brochure").animate({'top' : '90%'},1000);
 				document.getElementById("initial_container").style.display = "none";
 				/*
 				element["overlay_container"].style.opacity = 0.5;			
@@ -383,6 +383,7 @@
 	    var that = this;
 	    element["popupSrc"] = this; 		   
 	    popup(that);
+		element["overlay"].style.backgroundColor = "#000";
 	    element["content"] = document.getElementById("events")
 	    element["content"].style.display = "block";		
 	});
@@ -418,7 +419,11 @@
 	        'width' : nwidth+'px',
 	        'left' : left+'px',
 	        'bottom' : bottom+'px',
-		'opacity' : 0}, 500,function(){element["overlay_container"].style.display = "none";element["overlay"].style.display = "none";});	
+		'opacity' : 0}, 500,function(){element["overlay_container"].style.display = "none";element["overlay"].style.display = "none";
+			   if($(element["popupSrc"]).attr("id") === "workshop_container"){
+            		element["overlay"].style.backgroundColor = "#fff";				   
+			   }
+			});	
 	    
 	});
 	

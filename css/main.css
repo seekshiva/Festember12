@@ -71,7 +71,7 @@ body {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background-color : #000;
+    background-color : #fff;
     border-color: #000000 #000000 -moz-use-text-color;
     border-radius: 10px 10px 0 0;
     border-style: solid solid none;
@@ -87,17 +87,6 @@ body {
     display : none;
     z-index : 600;
 }	
-
-
-.content-head {
-	font-size: 20px;
-	font-weight: bold;
-	font-family: Oswald, MyraidPro, Arial;
-	color: #EE002D;
-	text-shadow: 0px 0px 2px;
-	border-radius: 5px;
-	padding: 10px;
-}
 
 #cloud-holder{
     position : absolute;
@@ -232,7 +221,7 @@ body {
     border-top-left-radius : 120px;  
     border-top-right-radius : 150px;  
     border-bottom-left-radius : 120px; 
-    z-index : -10;
+    z-index : 10;
 }	
 
 #sponsor_cover_container{
@@ -242,7 +231,7 @@ body {
     left : 86%;
     bottom : 2%;
     cursor: pointer;
-    z-index : 10;   	
+    z-index : 100;   	
 }	
 
 #sponsor_container img {
@@ -692,10 +681,17 @@ body {
 }
 
 .event_sub_title{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Oswald, MyraidPro, Arial;
 	color: #EE002D;
+	text-shadow: 0px 0px 2px;
+	border-radius: 5px;
+	padding: 10px;	
 }
 
 .event_sub_description{
+	font-size : 15px;
 	color : white;
 }
 
