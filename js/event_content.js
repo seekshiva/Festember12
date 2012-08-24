@@ -8,7 +8,7 @@ var Event = function (){
         }; 
 		
  Event.fn = Event.prototype={ 
- "arts" : [ { "description" : "Individual event. Establish your command over your memory power through this event! Observe an image for a couple of minutes and unveil your flair to replicate it after the image is taken away.",
+ "Arts" : [ { "description" : "Individual event. Establish your command over your memory power through this event! Observe an image for a couple of minutes and unveil your flair to replicate it after the image is taken away.",
         "title" : "Blindfold"
       },
       { "description" : "Let the paint and brushes do the magic on the faces! Thematic and imaginative be it!  Material will be provided to the participants.",
@@ -24,8 +24,8 @@ var Event = function (){
         "title" : "Shadow art"
       }
     ],
-  "choreo" : [  ],
-  "lits" : { "english" : [ { "description" : "The life of a quizzer can get lonely, very lonely. Social interaction is kept at a minimum to maximize perfomance. Well now you can turn this to your advantage, for once; it pays to be forever alone.",
+  "Choreo" : [  ],
+  "Lits" : { "English" : [ { "description" : "The life of a quizzer can get lonely, very lonely. Social interaction is kept at a minimum to maximize perfomance. Well now you can turn this to your advantage, for once; it pays to be forever alone.",
             "title" : "Lone Wolf"
           },
           { "description" : "Here’s a chance to prove your mother wrong. A chance to finally make something out of a whole childhood wasted in front of the idiot box. This is a quiz that tests your knowledge of the world of sports and entertainment.",
@@ -65,7 +65,7 @@ var Event = function (){
             "title" : "What it eEs"
           }
         ],
-      "hindi" : [ { "description" : "इस प्रतियोगिता में हिन्दी फिल्में, गाने और बॉलीवुड के कुछ सामान्य ज्ञान का परीक्षण किया जायेगा ।",
+      "Hindi" : [ { "description" : "इस प्रतियोगिता में हिन्दी फिल्में, गाने और बॉलीवुड के कुछ सामान्य ज्ञान का परीक्षण किया जायेगा ।",
             "title" : "जश्न ए मौसिकी (हिन्दी अन्ताक्षरी)"
           },
           { "description" : "प्रतियोगिता मूल रुप से सामान्य जागरुकता ,हि्दी साहित्य ,पौराणिक कथाओं और हिन्दी व्याकरण के बारे मे ज्ञान परीक्षण करेगा।",
@@ -102,7 +102,7 @@ var Event = function (){
             "title" : "ब्लफ मास्टर"
           }
         ],
-      "tamil" : [ { "description" : "அகத்தியர் பாடம்சொல்லி தொல்காப்பியர் விதிவிளக்கி தேவன் முப்பால் வகுத்து சித்தர்கள் அறிவியல் புகுட்டி மேல்கீழ்  18 ஆக இயற்றி சிறியதுபெரியது 5 ஆக அணிந்து பல்சுவை கலந்து மறுமலர்ந்து வீற்றுள்ளது உயர்தனிச்செம்மொழியாம் தமிழ்மொழி!",
+      "Tamil" : [ { "description" : "அகத்தியர் பாடம்சொல்லி தொல்காப்பியர் விதிவிளக்கி தேவன் முப்பால் வகுத்து சித்தர்கள் அறிவியல் புகுட்டி மேல்கீழ்  18 ஆக இயற்றி சிறியதுபெரியது 5 ஆக அணிந்து பல்சுவை கலந்து மறுமலர்ந்து வீற்றுள்ளது உயர்தனிச்செம்மொழியாம் தமிழ்மொழி!",
             "title" : " உயர்தனிச்செம்மொழி  "
           },
           { "description" : "சமுதாய பொறுப்புணர்வு கொண்ட கருத்துகளை நகையுணர்வு மிகுதியான  முறையில் சிரிக்கவும் வைத்து சிந்திக்கவும் செய்வது கேலிச்சித்திரம்.. இப்போட்டி உங்கள் படைப்பாற்றல், கற்பனைத்திறன், நகையுணர்வு முதலியவற்றுக்கு ஒரு சவால்..",
@@ -146,7 +146,7 @@ var Event = function (){
           }
         ]
     },
-  "musics" : [ { "description" : "The western semi-pro event, GIG-A-Hertz, conducted at NIT-Trichy is a prominent event in the Indian music circuit. Drawing in teams from all around south India with its lucrative prizes and intense competition, this has become one of the stellar events of Festember. This event also provides a stage for all the fans of the Metal genre to enthrall the audience with some action packed music. ",
+  "Music" : [ { "description" : "The western semi-pro event, GIG-A-Hertz, conducted at NIT-Trichy is a prominent event in the Indian music circuit. Drawing in teams from all around south India with its lucrative prizes and intense competition, this has become one of the stellar events of Festember. This event also provides a stage for all the fans of the Metal genre to enthrall the audience with some action packed music. ",
         "title" : "GIG-A-HERTZ"
       },
       { "description" : "Tarangini is the eastern music group event organized by NIT Trichy, during Tamil Nadu’s celebrated national level inters collegiate cultural festival – Festember.",

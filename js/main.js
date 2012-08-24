@@ -424,12 +424,11 @@
 	
 	$("#header").click(function(ev){
 	  var curr = ev.target;	
-		ev.preventDefault();
-//	    console.log(Event()[curr.innerHTML]);	
-		//element["event_content"].querySelector("."+element["prev"].childNodes[0].innerHTML).classList.add("nothing");        
+		ev.preventDefault();	
+		element["event_content"].querySelector("."+element["prev"].childNodes[0].innerHTML).classList.add("nothing");        
 		element["prev"].classList.remove("selected");
 		curr.parentNode.classList.add("selected");
-		//element["event_content"].querySelector("."+curr.innerHTML).classList.remove("nothing");
+		element["event_content"].querySelector("."+curr.innerHTML).classList.remove("nothing");
 		element["prev"] = curr.parentNode;		
 	});
 	
@@ -544,6 +543,39 @@
 	};
 	
 	sponsor_change();
+	
+	function create_event_element(o,x,y){
+		    if(y !== 1){
+				var s = " nothing";
+			}	
+			 var mDiv = $('<div class="'+x+ s+'"></div>');
+			 for(var i=0,max=o.length;i<max;i++){
+			    var cDiv = $('<div class="event_sub_title">'+o[i]["title"]+'</div>'),
+			        dDiv = $('<p class="event_sub_description">'+o[i]["description"]+'</p>');
+				 cDiv.append(dDiv);
+				 mDiv.append(cDiv);	
+	    }
+		return mDiv;		 		
+    }	
+	
+	var create_event_content = (function(){
+		var obj = Event();
+		for(var key in obj){
+	       if(obj[key].constructor.name === "Array"){			
+                var container = create_event_element(obj[key],key);
+			 $("#content").append(container);
+		   }
+		   else if(obj[key].constructor.name === "Object"){
+			 var mDiv = $('<div class="'+key+'"></div>'),
+			 obj_sub = obj[key];  
+			 for(var sub_key in obj_sub){  
+                var container1 = create_event_element(obj_sub[sub_key],sub_key,1); 
+               mDiv.append(container1);
+		     }  
+			 $("#content").append(mDiv);
+		   }			 	
+	}
+	})();
 	
 	var oneDay = 24*60*60*1000;
     var secondDate = new Date();
