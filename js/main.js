@@ -376,7 +376,6 @@
 	    var that = this;
 	    element["popupSrc"] = this;
 	    popup(that);
-		element["overlay"].style.backgroundColor = "#000";		
 	    element["content"] = document.getElementById("workshops");		
 	    element["content"].style.display = "block";		
 	});
@@ -420,18 +419,12 @@
 	        'width' : nwidth+'px',
 	        'left' : left+'px',
 	        'bottom' : bottom+'px',
-		'opacity' : 0}, 500,function(){element["overlay_container"].style.display = "none";element["overlay"].style.display = "none";
-<<<<<<< HEAD
-			   if($(element["popupSrc"]).attr("id") === "workshop_container" || $(element["popupSrc"]).attr("id") === "events_container"){
+		'opacity' : 0}, 500,function(){
+		    element["overlay_container"].style.display = "none";element["overlay"].style.display = "none";
+		    if($(element["popupSrc"]).attr("id") === "workshop_container" || $(element["popupSrc"]).attr("id") === "events_container"){
             		element["overlay"].style.backgroundColor = "#fff";				   
-			   }
-			});	
-=======
-					       if($(element["popupSrc"]).attr("id") === "workshop_container"){
-            					   element["overlay"].style.backgroundColor = "#fff";				   
-					       }
-					      });	
->>>>>>> 00fc4c453a1bd647fcedcb4127a01cc599099fb0
+		    }
+		});	
 	    
 	});
 	

@@ -274,6 +274,7 @@
       
       <div id="events" style="text-align: left; ">
 	<h2 class="event-head">Events</h2>
+	<p>Click here to download the Rulebook.</p>
 	<div id="header"> 
 	  <ul>
 	    <li class="selected"><a href="#">Lits</a></li>
@@ -299,17 +300,9 @@
 	  <li>Ventriloquism</li>
 	  <li>Mente Magica</li>
 	</ul>
-<<<<<<< HEAD
 	<p class="event_sub_title event_sub_description">This year, our team has taken up the responsibility to continue this tradition and ensure that the workshops live up to the expectations as always. So watch out for some exciting fun filled workshops this time!</p>
     
 	</div>
-     
-=======
-	<p>This year, our team has taken up the responsibility to continue this tradition and ensure that the workshops live up to the expectations as always. So watch out for some exciting fun filled workshops this time!</p>
-	
-      </div>
-      
->>>>>>> 00fc4c453a1bd647fcedcb4127a01cc599099fb0
       <div id="informals" style="text-align: left; ">
 	<h2 style="text-align: center; ">Informals</h2>
 	<p>Paintballing (where you and a bunch of your friends can team up, strategize and play against another team), Shooting andArchery (target events), Zorbing (Two people are put into a giant rubber inflated ball,and rolled around), Talent hunts, etc... need any more be said!! And at a much lower rate than they normally come! The Informals are quite literally at the heart of what makes Festember such a success, besides the loads of competitions. They form a platform for you to meet and make friends with people you don't know, and take back glorious memories. The RETRO informals promise to be bigger than life, and take you places you would never have dreamt of going.</p>
