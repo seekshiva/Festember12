@@ -538,7 +538,6 @@
 	var sponsor_change = function(index) {
 	    index = index || 0;
 	    var callback = function() {
-		console.log(index);
 		$( $("#sponsor_container img")[index] ).fadeOut(500);
 		index = (index >= $("#sponsor_container img").length - 1) ? 0 : index + 1;
 		$( $("#sponsor_container img")[index] ).fadeIn(1000);
