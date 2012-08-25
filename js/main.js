@@ -304,7 +304,7 @@
 	    element["overlay"].style.bottom =  parseInt($(x).css("bottom"))+"px";
 	    element["overlay"].style.left = parseInt($(x).css("left"))+"px";			
             element["overlay"].style.display = "block";						
-	    var nheight = 80;
+	    var nheight = 95;
 	    var nwidth = 50;
 	    var bottom = 0;
 	    var left = 25;
@@ -384,7 +384,7 @@
 	    var that = this;
 	    element["popupSrc"] = this; 		   
 	    popup(that);
-	    element["overlay"].style.backgroundColor = "#000";
+	    //element["overlay"].style.backgroundColor = "#fff";
 	    element["content"] = document.getElementById("events")
 	    element["content"].style.display = "block";		
 	});
