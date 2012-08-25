@@ -680,6 +680,21 @@ body {
 	font-weight : bold;
 }
 
+#workshop_header ul{
+	list-style: none;	
+}	
+
+#workshop_header li{
+	list-style: none;		
+	padding: 0 1em;
+	color : #BBBBBB;	
+}	
+
+#workshop_header li::hover{
+    color : #fff;
+    font-weight : bold;	
+}
+
 .Arts, .Music, .Lits{
 	font-size: 15px;
 	font-weight: bold;

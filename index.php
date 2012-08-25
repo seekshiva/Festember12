@@ -290,10 +290,10 @@
       </div>
       
       <div id="workshops" style="text-align: left; ">
-	<h2 style="text-align: center; ">Workshops</h2>
-	<p>Workshops are much sought-after in Festember. It is not just the thrilling neck to neck events, pro-shows and DJ nights that the students like the most. Festember has made a great impression with its workshops which give it an edge over the other cultural events organised elsewhere in the country. Workshops at Festember always guarantees its participants a fun filled experience along with learning. Though they last for a few hours, they still make a memorable mark in the minds of the participants.</p>
-	<p>Some of the workshops we have had in the past are:</p>
-	<ul>
+	<h2 class="event-head">Workshops</h2>
+	<p class="event_sub_title event_sub_description">Workshops are much sought-after in Festember. It is not just the thrilling neck to neck events, pro-shows and DJ nights that the students like the most. Festember has made a great impression with its workshops which give it an edge over the other cultural events organised elsewhere in the country. Workshops at Festember always guarantees its participants a fun filled experience along with learning. Though they last for a few hours, they still make a memorable mark in the minds of the participants.</p>
+	<p class="event_sub_title event_sub_description">Some of the workshops we have had in the past are:</p>
+	<ul id="workshop_header">
 	  <li>Fencing</li>
 	  <li>Archery</li>
 	  <li>Hypnotism</li>
@@ -301,7 +301,7 @@
 	  <li>Ventriloquism</li>
 	  <li>Mente Magica</li>
 	</ul>
-	<p>This year, our team has taken up the responsibility to continue this tradition and ensure that the workshops live up to the expectations as always. So watch out for some exciting fun filled workshops this time!</p>
+	<p class="event_sub_title event_sub_description">This year, our team has taken up the responsibility to continue this tradition and ensure that the workshops live up to the expectations as always. So watch out for some exciting fun filled workshops this time!</p>
     
 	</div>
      
