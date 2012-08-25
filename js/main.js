@@ -53,12 +53,13 @@
 	*/
 	
 	var position_elements = function(){
-	    var w = window.innerWidth;	
+	    var w = window.innerWidth,
+	    h = window.innerHeight;
 	    
 	    element["canvas"].style.height = window.innerHeight+'px';	
 	    
 	    element["overlay"].style.width = ((50/100)*w)+'px';
-	    element["overlay"].style.height = ((40/100)*w)+'px';
+	    element["overlay"].style.height = ((95/100)*h)+'px';
 	    element["overlay"].style.left = ((25/100)*w)+'px';
 	    element["overlay"].style.bottom = ((0/100)*w)+'px';				
 	    
