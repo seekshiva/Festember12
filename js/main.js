@@ -1,10 +1,10 @@
 (function(window,document,$,undefined){
     $(function(){
-		
+	
 	$(function(){
-		position_elements();		
+	    position_elements();		
 	});	
-		
+	
 	var element = {
 	    canvas : document.getElementById("container_canvas"),
 	    overlay : document.getElementById("overlayed"),
@@ -18,9 +18,9 @@
 	    player : document.getElementById("player"),
 	    informals : document.getElementById("informals_container"),
 	    overlay_container : document.getElementById("overlay_container"),
-		prev : document.getElementById("header").querySelector("li"),
+	    prev : document.getElementById("header").querySelector("li"),
 	    events_child : [],
-		event_content : document.getElementById("content"),
+	    event_content : document.getElementById("content"),
 	    color : ["#e3e530","#d4d627","#e5cd2f","#d7bd12","#dbde18",,"#d4d627","#e5cd2f","#e3e530","#d7bd12","#dbde18","#d7bd12","#dbde18"],
 	    popupSrc : "",
 	    time : "day",
@@ -48,8 +48,8 @@
 	    }		
 	};
 	/*
-	element["overlay_container"].style.opacity = 1;
-	element["overlay_container"].style.display = "block";	
+	  element["overlay_container"].style.opacity = 1;
+	  element["overlay_container"].style.display = "block";	
 	*/
 	
 	var position_elements = function(){
@@ -68,10 +68,10 @@
 	    element["pronite"].style.bottom = ((23/100)*w)+'px';
 	    
 	    //if(e.type === "resize"){
-		element["player"].style.width = ((77/100)*w)+'px';
-		element["player"].style.height = ((46/100)*w)+'px';
-		element["player"].style.left = ((10/100)*w)+'px';
-		element["player"].style.bottom = ((3/100)*w)+'px';			
+	    element["player"].style.width = ((77/100)*w)+'px';
+	    element["player"].style.height = ((46/100)*w)+'px';
+	    element["player"].style.left = ((10/100)*w)+'px';
+	    element["player"].style.bottom = ((3/100)*w)+'px';			
 	    //}
 	    element["contacts"].style.width = ((7/100)*w)+'px';
 	    element["contacts"].style.height = ((12/100)*w)+'px';
@@ -131,18 +131,18 @@
 	    
 	    //	$("#blur").hoverizr({effect:"blur",container:"container_image
 
-		//var img = new Image();
-		//var imageSrc = "images/street.png";
-		//img.onload = 
-		$("#container_image").load(function(){
-				$("#brochure").animate({'top' : '90%'},1000);
-				document.getElementById("initial_container").style.display = "none";
-				/*
-				element["overlay_container"].style.opacity = 0.5;			
-				element["overlay_container"].style.display = "none";							
-				*/
-		});	    
-		//img.src = imageSrc;			
+	    //var img = new Image();
+	    //var imageSrc = "images/street.png";
+	    //img.onload = 
+	    $("#container_image").load(function(){
+		$("#brochure").animate({'top' : '90%'},1000);
+		document.getElementById("initial_container").style.display = "none";
+		/*
+		  element["overlay_container"].style.opacity = 0.5;			
+		  element["overlay_container"].style.display = "none";							
+		*/
+	    });	    
+	    //img.src = imageSrc;			
 	};			
 	
 	$.fn.clouds = function(settings) {
@@ -230,7 +230,7 @@
 	
 	var debounce = function(callback,time){
 	    var args = Array.prototype.slice.call(arguments,0),later,self = this;
-		
+	    
 	    later = function(){
 		args[0].apply();
 	    };
@@ -240,7 +240,7 @@
 		clearTimeout(timeout);
 		timeout = setTimeout(callback,time);
 	    }else {
-			
+		
     		clearTimeout(timeout);				
 	    }	
 	};	
@@ -303,7 +303,7 @@
 	    element["overlay"].style.width = $(x).width()+"px";
 	    element["overlay"].style.bottom =  parseInt($(x).css("bottom"))+"px";
 	    element["overlay"].style.left = parseInt($(x).css("left"))+"px";			
-        element["overlay"].style.display = "block";						
+            element["overlay"].style.display = "block";						
 	    var nheight = 80;
 	    var nwidth = 50;
 	    var bottom = 0;
@@ -383,7 +383,7 @@
 	    var that = this;
 	    element["popupSrc"] = this; 		   
 	    popup(that);
-		element["overlay"].style.backgroundColor = "#000";
+	    element["overlay"].style.backgroundColor = "#000";
 	    element["content"] = document.getElementById("events")
 	    element["content"].style.display = "block";		
 	});
@@ -420,21 +420,21 @@
 	        'left' : left+'px',
 	        'bottom' : bottom+'px',
 		'opacity' : 0}, 500,function(){element["overlay_container"].style.display = "none";element["overlay"].style.display = "none";
-			   if($(element["popupSrc"]).attr("id") === "workshop_container"){
-            		element["overlay"].style.backgroundColor = "#fff";				   
-			   }
-			});	
+					       if($(element["popupSrc"]).attr("id") === "workshop_container"){
+            					   element["overlay"].style.backgroundColor = "#fff";				   
+					       }
+					      });	
 	    
 	});
 	
 	$("#header").click(function(ev){
-	  var curr = ev.target;	
-		ev.preventDefault();	
-		element["event_content"].querySelector("."+element["prev"].childNodes[0].innerHTML).classList.add("nothing");        
-		element["prev"].classList.remove("selected");
-		curr.parentNode.classList.add("selected");
-		element["event_content"].querySelector("."+curr.innerHTML).classList.remove("nothing");
-		element["prev"] = curr.parentNode;		
+	    var curr = ev.target;	
+	    ev.preventDefault();	
+	    element["event_content"].querySelector("."+element["prev"].childNodes[0].innerHTML).classList.add("nothing");        
+	    element["prev"].classList.remove("selected");
+	    curr.parentNode.classList.add("selected");
+	    element["event_content"].querySelector("."+curr.innerHTML).classList.remove("nothing");
+	    element["prev"] = curr.parentNode;		
 	});
 	
 	
@@ -506,19 +506,19 @@
 		element["workshop_child"][i].style.backgroundColor = "#ffffff";				
 	});	
 	/*
-	$("#brochure").mouseenter(function(e){
-	    e.stopPropagation();
-	    var that = this;
-	    debounce(function(){
-	        element["overlay_container"].style.display = "block";			
-			$(that).animate({'top' : '5%'},1000);},300);	
-	}).mouseleave(function(e){
-	    e.stopPropagation();
-	    var that = this;
-	    debounce(function(){
-	        element["overlay_container"].style.display = "none";			
-		$(that).animate({'top' : '80%'},1000);},500);	
-	});
+	  $("#brochure").mouseenter(function(e){
+	  e.stopPropagation();
+	  var that = this;
+	  debounce(function(){
+	  element["overlay_container"].style.display = "block";			
+	  $(that).animate({'top' : '5%'},1000);},300);	
+	  }).mouseleave(function(e){
+	  e.stopPropagation();
+	  var that = this;
+	  debounce(function(){
+	  element["overlay_container"].style.display = "none";			
+	  $(that).animate({'top' : '80%'},1000);},500);	
+	  });
 	*/
 	
 	$("#cloud-holder").clouds({
@@ -549,42 +549,42 @@
 	sponsor_change();
 	
 	function create_event_element(o,x,y){
-		    if(y !== 1){
-				var s = " nothing";
-			}	
-			 var mDiv = $('<div class="'+x+ s+'"></div>');
-			 for(var i=0,max=o.length;i<max;i++){
-			    var cDiv = $('<div class="event_sub_title">'+o[i]["title"]+'</div>'),
-			        dDiv = $('<p class="event_sub_description">'+o[i]["description"]+'</p>');
-				 cDiv.append(dDiv);
-				 mDiv.append(cDiv);	
+	    if(y !== 1){
+		var s = " nothing";
+	    }	
+	    var mDiv = $('<div class="'+x+ s+'"></div>');
+	    for(var i=0,max=o.length;i<max;i++){
+		var cDiv = $('<div class="event_sub_title">'+o[i]["title"]+'</div>'),
+		dDiv = $('<p class="event_sub_description">'+o[i]["description"]+'</p>');
+		cDiv.append(dDiv);
+		mDiv.append(cDiv);	
 	    }
-		return mDiv;		 		
-    }	
+	    return mDiv;		 		
+	}	
 	
 	var create_event_content = (function(){
-		var obj = Event();
-		for(var key in obj){
-	       if(obj[key].constructor.name === "Array"){			
-                var container = create_event_element(obj[key],key);
-			 $("#content").append(container);
-		   }
-		   else if(obj[key].constructor.name === "Object"){
-			 var mDiv = $('<div class="'+key+'"></div>'),
-			 obj_sub = obj[key];  
-			 for(var sub_key in obj_sub){  
-                var container1 = create_event_element(obj_sub[sub_key],sub_key,1); 
-               mDiv.append(container1);
-		     }  
-			 $("#content").append(mDiv);
-		   }			 	
-	}
+	    var obj = Event();
+	    for(var key in obj){
+		if(obj[key].constructor.name === "Array"){			
+                    var container = create_event_element(obj[key],key);
+		    $("#content").append(container);
+		}
+		else if(obj[key].constructor.name === "Object"){
+		    var mDiv = $('<div class="'+key+'"></div>'),
+		    obj_sub = obj[key];  
+		    for(var sub_key in obj_sub){  
+			var container1 = create_event_element(obj_sub[sub_key],sub_key,1); 
+			mDiv.append(container1);
+		    }  
+		    $("#content").append(mDiv);
+		}			 	
+	    }
 	})();
 	
 	var oneDay = 24*60*60*1000;
-    var secondDate = new Date();
-    var firstDate = new Date(2012,08,27,17,00,00);
-    var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+	var secondDate = new Date();
+	var firstDate = new Date(2012,08,27,17,00,00);
+	var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
 
 	document.getElementById("time").innerHTML = diffDays;
 	

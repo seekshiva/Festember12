@@ -144,10 +144,10 @@ body {
     
 }
 
-  #pronite_container:hover{
-  background-color : #b20404;  	
-  }	
-  
+#pronite_container:hover{
+    background-color : #b20404;  	
+}	
+
 #casette_container{
     position : absolute;
     width: 7%;
@@ -196,7 +196,6 @@ body {
     height : 24%;
     left : 65%;
     bottom : 30%;
-    // border :solid 1px #000;
     background-color : #fff;	
     cursor : pointer;	
 }	
@@ -205,10 +204,10 @@ body {
 
 }
 
-  #contact_container:hover{
-  background-color : #faf686;		
-  }
- 
+#contact_container:hover{
+    background-color : #faf686;		
+}
+
 #sponsor_container{
     position : absolute;
     width : 30%;
@@ -216,8 +215,6 @@ body {
     left : 86%;
     bottom : 2%;
     cursor: pointer;
-    //background-color : #000;	
-    //border : solid 1px #000;
     border-top-left-radius : 120px;  
     border-top-right-radius : 150px;  
     border-bottom-left-radius : 120px; 
@@ -281,10 +278,10 @@ body {
     
 }
 
-  #games_container:hover{
-  background-color : #eb59d5;	
-  }
-  
+#games_container:hover{
+    background-color : #eb59d5;	
+}
+
 #workshop_container{
     position : absolute;
     width : 24%;
@@ -558,7 +555,7 @@ body {
     z-index : -100; 
     font-size: 20pt;
     font-family: "Helvetica",serif;
-	font-weight : 900;
+    font-weight : 900;
     opacity: .95;
 }
 
@@ -602,7 +599,7 @@ body {
 }	
 
 #contacts ,#workshops ,#informals ,#events, #sponsors, #nothing, .nothing{
-    display : none;	
+    display : none;
 }
 
 .contact {
@@ -642,17 +639,17 @@ body {
 }
 
 #header ul {
-	list-style: none;
-	padding:0;
-	margin:0;
+    list-style: none;
+    padding:0;
+    margin:0;
 }
 
 #header li {
-	display: inline;
-	border: solid;
-	border-width: 1px 1px 0 1px;
-	margin: 0 0.5em 0 0;
-	border-radius : 2px;
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 0.5em 0 0;
+    border-radius : 2px;
 }
 
 #header li:hover a{
@@ -661,52 +658,52 @@ body {
 }	
 
 #header li a {
-	padding: 0 1em;
-	text-decoration : none;
-	color : #BBBBBB;
+    padding: 0 1em;
+    text-decoration : none;
+    color : #BBBBBB;
 }
 
 
 #content {
-	border: 1px solid;
+    border: 1px solid;
 }
 
 #header .selected {
-	padding-bottom: 1px; 
+    padding-bottom: 1px; 
 }
 
 #header .selected a{
-	color : #fff;
-	font-weight : bold;
+    color : #fff;
+    font-weight : bold;
 }
 
 .Arts, .Music, .Lits{
-	font-size: 15px;
-	font-weight: bold;
-	font-family: serif;
-	color: #fff;	
+    font-size: 15px;
+    font-weight: bold;
+    font-family: serif;
+    color: #fff;	
 }
 
 .event_sub_title{
-	font-size: 20px;
-	font-weight: bold;
-	font-family: Oswald, MyraidPro, Arial;
-	color: #EE002D;
-	text-shadow: 0px 0px 2px;
-	border-radius: 5px;
-	padding: 10px;	
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Oswald, MyraidPro, Arial;
+    color: #EE002D;
+    text-shadow: 0px 0px 2px;
+    border-radius: 5px;
+    padding: 10px;	
 }
 
 .event_sub_description{
-	font-size : 15px;
-	color : white;
+    font-size : 15px;
+    color : white;
 }
 
 .event-head{
-	text-align : center;
-	text-decoration: none;
-	font-family: MyraidPro, Verdana, Arial;
-	font-size: 25px;
-	letter-spacing: 7px;
-	color: #FF115F;	
-}	
+    text-align : center;
+    text-decoration: none;
+    font-family: MyraidPro, Verdana, Arial;
+    font-size: 25px;
+    letter-spacing: 7px;
+    color: #FF115F;	
+}
