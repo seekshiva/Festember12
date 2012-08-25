@@ -274,7 +274,7 @@
       
       <div id="events" style="text-align: left; ">
 	<h2 class="event-head">Events</h2>
-	<p>Click here to download the Rulebook.</p>
+	<p style="color: red; text-align: center; ">Click <a href="./media/Rulebook.pdf" target="_blank" style="font-weight: bold; color: red; ">here</a> to download the <i><b>Rulebook</b></i>.</p>
 	<div id="header"> 
 	  <ul>
 	    <li class="selected"><a href="#">Lits</a></li>

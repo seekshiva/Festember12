@@ -678,13 +678,13 @@ body {
 }
 
 #workshop_header ul{
-	list-style: none;	
+    list-style: none;	
 }	
 
 #workshop_header li{
-	list-style: none;		
-	padding: 0 1em;
-	color : #BBBBBB;	
+    list-style: none;		
+    padding: 0 1em;
+    color : #666;	
 }	
 
 #workshop_header li::hover{
@@ -704,7 +704,7 @@ body {
     font-weight: bold;
     font-family: Oswald, MyraidPro, Arial;
     color: #EE002D;
-    text-shadow: 0px 0px 1px;
+    //text-shadow: 0px 0px 2px;
     border-radius: 5px;
     padding: 10px;	
 }
