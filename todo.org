@@ -1,32 +1,35 @@
 * Site Related Stuff
-** Done
-*** DONE days to go should have a transparent bg;
-*** DONE no transparent region around the "days to go" board;
-*** DONE automate days to go
-*** DONE powered by Nimbuzz
-    use the image instead of putting Nimuzz in text..
-*** DONE shop banner mouseover effect
-*** DONE reposition the sponsors banner properly on the home page
-    sponsor banner on the home page doesn't fit the frame exactly.. at night.. the yellow light can be seen on all sides of the sponsors banner... 
-    sponsors banner images should be resized so that it fits well
-*** DONE use sans fonts throughout the site
-*** DONE Change the background hover color for the Contacts Banner.
-*** DONE Upload event description, rule book.
-*** DONE Format the pages.
-** Todo
-*** Ferry's wheel.
-*** Fix the broucher.
-*** Fix the issue with the missing image on the sky.
-*** Overlay doesn't open IE. Fix It!
-*** Add flicker effect to to the page banners.
-*** Develop the mobile site.
-*** Make overlay as absolute and give scroll for the window.
+** TODO powered by Nimbuzz
+   Change the logo.
+** TODO Fix the broucher.
+** TODO Format the pages.
+
+** TODO Put up an "Enter" button after the street image has loaded.
+** TODO Ferry's wheel.
+** Add a close button to the lightbox effect.
+** Fix the issue with the missing image on the sky.
+   might be the ferry wheel
+** Overlay doesn't open IE. Fix It!
+** Deploy the Github to bigrock push script.
+** Add flicker effect to to the page banners.
+** Develop the mobile site.
+** Make overlay as absolute and give scroll for the window.
+** DONE days to go should have a transparent bg;
+** DONE no transparent region around the "days to go" board;
+** DONE automate days to go
+** DONE shop banner mouseover effect
+** DONE reposition the sponsors banner properly on the home page
+   sponsor banner on the home page doesn't fit the frame exactly.. at night.. the yellow light can be seen on all sides of the sponsors banner... 
+   sponsors banner images should be resized so that it fits well
+** DONE use sans fonts throughout the site
+** DONE Change the background hover color for the Contacts Banner.
+** DONE Upload event description, rule book.
 * Game Related Stuff
 * Design stuff
-** Nimbuzz, Hippo new logo update
-** Frooti, 5 Star logo to be added to sponsor page
-** change the propeller in the airplane
-** DONE sun, sky color
+** TODO Nimbuzz, Hippo new logo update
+** TODO Frooti, 5 Star logo to be added to sponsor page
 ** brochure paper bg
 ** favicon.ico
 ** remove the random white marks on the street image
+** DONE change the propeller in the airplane
+** DONE sun, sky color
