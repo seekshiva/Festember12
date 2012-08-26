@@ -20,15 +20,15 @@
 	<div id="links">
 	  <div style="float: right; width: 300px; ">
 	    <div class="heading">Links:</div>
-	    <a  target="_blank" href="https://www.facebook.com/festember">Facebook</a>
-	    <a  target="_blank" href="https://www.twitter.com/festember">Twitter</a>
-	    <a  target="_blank" href="http://en.wikipedia.org/wiki/Festember">Wikipedia</a>
-	    <a  target="_blank" href="http://www.nitt.edu/home/students/events/festember/">About F-12</a>
+	    <a  target="_blank" href="https://www.facebook.com/festember"><div class="social_links">Facebook</div></a>
+	    <a  target="_blank" href="https://www.twitter.com/festember"><div class="social_links">Twitter</div></a>
+	    <a  target="_blank" href="http://en.wikipedia.org/wiki/Festember"><div class="social_links">Wikipedia</div></a>
+	    <a  target="_blank" href="http://www.nitt.edu/home/students/events/festember/"><div class="social_links">About F-12</div></a>
 	  </div>
 	  <div style="float: left; width: 200px; ">
 	    <div class="heading">Archives:</div>
-	    <a style="width: 150px;" target="_blank"  href="https://festember.in/11/">Festember 11</a>
-	    <a style="width: 150px;" target="_blank" href="https://festember.com/10/">Festember X</a>
+	    <a style="width: 150px;" target="_blank"  href="https://festember.in/11/"><div class="social_links">Festember 11</div></a>
+	    <a style="width: 150px;" target="_blank" href="https://festember.com/10/"><div class="social_links">Festember X</div></a>
 	  </div>
 	</div>
 	<div style="text-align: center; margin-top: 200px; margin-left: 100px;">

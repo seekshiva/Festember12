@@ -507,21 +507,23 @@
             for(var i=0;i<5;i++)
 		element["workshop_child"][i].style.backgroundColor = "#ffffff";				
 	});	
-	/*
+	
 	  $("#brochure").mouseenter(function(e){
 	  e.stopPropagation();
 	  var that = this;
 	  debounce(function(){
-	  element["overlay_container"].style.display = "block";			
+	  element["overlay_container"].style.display = "block";		
 	  $(that).animate({'top' : '5%'},1000);},300);	
 	  }).mouseleave(function(e){
 	  e.stopPropagation();
 	  var that = this;
 	  debounce(function(){
-	  element["overlay_container"].style.display = "none";			
-	  $(that).animate({'top' : '80%'},1000);},500);	
+	  $("overlay_container").fadeOut(700);			  
+	  $(that).animate({'top' : '90%'},1000,function(){
+		  	  element["overlay_container"].style.display = "none";	
+	  });},500);	
 	  });
-	*/
+	
 	
 	$("#cloud-holder").clouds({
 	    clouds: [
