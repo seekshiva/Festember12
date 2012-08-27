@@ -18,6 +18,7 @@
 	    player : document.getElementById("player"),
 	    informals : document.getElementById("informals_container"),
 	    overlay_container : document.getElementById("overlay_container"),
+		close : document.getElementById("overlay_close"),
 	    prev : document.getElementById("header").querySelector("li"),
 	    events_child : [],
 	    event_content : document.getElementById("content"),
@@ -311,6 +312,7 @@
 	    var left = 25;
 	    
 	    element["overlay_container"].style.display = "block";
+	    element["close"].style.display = "block";	
 	    
 	    $("#overlayed").stop().animate({
 	        'height' : nheight+'%',
@@ -404,7 +406,7 @@
 	    element["content"].style.display = "block";		
 	});
 	
-	$("#overlay_container").click(function(){
+	$("#overlay_close").add("#overlay_container").click(function(){
 	    var nheight = $(element["popupSrc"]).height();
 	    var nwidth = $(element["popupSrc"]).width();
 	    var bottom = parseInt($(element["popupSrc"]).css("bottom"));
@@ -421,7 +423,9 @@
 	        'left' : left+'px',
 	        'bottom' : bottom+'px',
 		'opacity' : 0}, 500,function(){
-		    element["overlay_container"].style.display = "none";element["overlay"].style.display = "none";
+		    element["overlay_container"].style.display = "none";
+			element["close"].style.display = "none";
+			element["overlay"].style.display = "none";
 		    if($(element["popupSrc"]).attr("id") === "workshop_container" || $(element["popupSrc"]).attr("id") === "events_container"){
             		element["overlay"].style.backgroundColor = "#fff";				   
 		    }

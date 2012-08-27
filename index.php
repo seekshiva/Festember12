@@ -18,6 +18,9 @@
     </noscript>  
     <div id="container_canvas"></div>
     <div id="overlay_container" class="overlay_container"></div>
+	<div id="overlay_close">
+	     CLOSE
+	</div>
     <div id="initial_container"></div>	
     <div id="brochure">
       <div id="brochure_sub">
@@ -27,7 +30,7 @@
 	  <div style="float: right; width: 300px; ">
 	    <div class="heading">Links:</div>
 	    <a  target="_blank" href="https://www.facebook.com/festember"><div class="social_links">Facebook</div></a>
-	    <a  target="_blank" href="https://www.twitter.com/festember"><div class="social_links">Twitter</div></a>
+	    <a  target="_blank" href="https://www.twitter.com/FestemberNIT"><div class="social_links">Twitter</div></a>
 	    <a  target="_blank" href="http://en.wikipedia.org/wiki/Festember"><div class="social_links">Wikipedia</div></a>
 	    <a  target="_blank" href="http://www.nitt.edu/home/students/events/festember/"><div class="social_links">About F-12</div></a>
 	  </div>
