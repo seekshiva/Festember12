@@ -27,6 +27,7 @@
 * Design stuff
 ** brochure paper bg
 ** favicon.ico
+** Spacing betweek powered by and Nimbuzz in the brochure
 ** DONE remove the random white marks on the street image
 ** DONE change the propeller in the airplane
 ** DONE sun, sky color
