@@ -1,7 +1,6 @@
 * Site Related Stuff
 ** TODO powered by Nimbuzz
    Change the logo.
-** TODO Fix the broucher.
 ** TODO Format the pages.
 ** TODO Put up an "Enter" button after the street image has loaded.
 ** TODO Ferry's wheel.
@@ -23,12 +22,13 @@
 ** DONE use sans fonts throughout the site
 ** DONE Change the background hover color for the Contacts Banner.
 ** DONE Upload event description, rule book.
+** DONE Fix the broucher.
 * Game Related Stuff
 * Design stuff
-** TODO Nimbuzz, Hippo new logo update
-** TODO Frooti, 5 Star logo to be added to sponsor page
 ** brochure paper bg
 ** favicon.ico
-** remove the random white marks on the street image
+** DONE remove the random white marks on the street image
 ** DONE change the propeller in the airplane
 ** DONE sun, sky color
+** DONE Nimbuzz, Hippo new logo update
+** DONE Frooti, 5 Star logo to be added to sponsor page
