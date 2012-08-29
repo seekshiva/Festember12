@@ -68,7 +68,7 @@
 
 	    $(element["pronite"]).css({
 		width: ((8/100)*w)+'px',
-		height: ((23/100)*w)+'px',
+		height: ((22.6/100)*w)+'px',
 		left: ((28/100)*w)+'px',
 		bottom: ((23/100)*w)+'px'
 	    });
@@ -166,6 +166,7 @@
 	    $("#container_image").load(function(){
 		$("#brochure").animate({'top' : '90%'},1000);
 		document.getElementById("initial_container").style.display = "none";
+    	setTimeout(function(){callback("sunset");},5000);		
 		/*
 		  element["overlay_container"].style.opacity = 0.5;			
 		  element["overlay_container"].style.display = "none";							
@@ -319,7 +320,6 @@
 	    //$("#theme_play").css('opacity','1');		
 	};
 	
-	setTimeout(function(){callback("sunset");},5000);
 	
 	function addEvent(element,event,handler,x){
 	    var phase = x || "true"; 

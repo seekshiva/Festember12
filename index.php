@@ -24,7 +24,7 @@
     <div id="brochure">
       <div id="brochure_sub">
 	<img src="images/Festi.png" />
-	<div style="width:150px; height:90px; margin-left:180px; padding-bottom:30px; margin-top:-30px; text-align:center; ">Powered By <img src="images/sponsors/q1.png" style="margin:0px; margin-left:-37px; width:150px; height:90px;"/></div>
+	<div style="width:150px; height:90px; margin-left:180px; padding-bottom:30px; margin-top:-30px; text-align:center; "></div>
 	<div id="links">
 	  <div style="float: right; width: 300px; ">
 	    <div class="heading">Links:</div>
