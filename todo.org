@@ -26,6 +26,7 @@
 * Game Related Stuff
 * Design stuff
 ** brochure paper bg
+** square shaped festember FB OG image.
 ** favicon.ico
 ** Spacing betweek powered by and Nimbuzz in the brochure
 ** DONE remove the random white marks on the street image
