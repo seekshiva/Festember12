@@ -18,7 +18,7 @@
 	    player : document.getElementById("player"),
 	    informals : document.getElementById("informals_container"),
 	    overlay_container : document.getElementById("overlay_container"),
-		close : document.getElementById("overlay_close"),
+	    close : document.getElementById("overlay_close"),
 	    prev : document.getElementById("header").querySelector("li"),
 	    events_child : [],
 	    event_content : document.getElementById("content"),
@@ -59,76 +59,103 @@
 	    
 	    element["canvas"].style.height = window.innerHeight+'px';	
 	    
-	    element["overlay"].style.width = ((50/100)*w)+'px';
-	    element["overlay"].style.height = ((95/100)*h)+'px';
-	    element["overlay"].style.left = ((25/100)*w)+'px';
-	    element["overlay"].style.bottom = ((0/100)*w)+'px';				
-	    
-	    element["pronite"].style.width = ((8/100)*w)+'px';
-	    element["pronite"].style.height = ((23/100)*w)+'px';
-	    element["pronite"].style.left = ((28/100)*w)+'px';
-	    element["pronite"].style.bottom = ((23/100)*w)+'px';
+	    $(element["overlay"]).css({
+		width: ((50/100)*w)+'px',
+		height: ((95/100)*h)+'px',
+		left: ((25/100)*w)+'px',
+		bottom: ((0/100)*w)+'px'
+	    });
+
+	    $(element["pronite"]).css({
+		width: ((8/100)*w)+'px',
+		height: ((23/100)*w)+'px',
+		left: ((28/100)*w)+'px',
+		bottom: ((23/100)*w)+'px'
+	    });
 	    
 	    //if(e.type === "resize"){
-	    element["player"].style.width = ((77/100)*w)+'px';
-	    element["player"].style.height = ((46/100)*w)+'px';
-	    element["player"].style.left = ((10/100)*w)+'px';
-	    element["player"].style.bottom = ((3/100)*w)+'px';			
+	    $(element["player"]).css({
+		width: ((77/100)*w)+'px',
+		height: ((46/100)*w)+'px',
+		left: ((10/100)*w)+'px',
+		bottom: ((3/100)*w)+'px'
+	    });
 	    //}
-	    element["contacts"].style.width = ((7/100)*w)+'px';
-	    element["contacts"].style.height = ((12/100)*w)+'px';
-	    element["contacts"].style.left = ((65/100)*w)+'px';
-	    element["contacts"].style.bottom = ((15/100)*w)+'px';	
 	    
-	    element["casette"].style.width = ((7/100)*w)+'px';
-	    element["casette"].style.height = ((3/100)*w)+'px';
-	    element["casette"].style.left = ((31/100)*w)+'px';
-	    element["casette"].style.bottom = ((18/100)*w)+'px';	
+	    $(element["contacts"]).css({
+		width: ((7/100)*w)+'px',
+		height: ((12/100)*w)+'px',
+		left: ((65/100)*w)+'px',
+		bottom: ((15/100)*w)+'px'
+	    });
 	    
-	    element["sponsor"].style.width = ((30/100)*w)+'px';
-	    element["sponsor"].style.height = ((25/100)*w)+'px';
-	    element["sponsor"].style.left = ((86/100)*w)+'px';
-	    element["sponsor"].style.bottom = ((2/100)*w)+'px';				
+	    $(element["casette"]).css({
+		width: ((7/100)*w)+'px',
+		height: ((3/100)*w)+'px',
+		left: ((31/100)*w)+'px',
+		bottom: ((18/100)*w)+'px'
+	    });
 	    
-	    element["games"].style.width = ((4.3/100)*w)+'px';
-	    element["games"].style.height = ((4/100)*w)+'px';
-	    element["games"].style.left = ((27/100)*w)+'px';
-	    element["games"].style.bottom = ((18/100)*w)+'px';	
+	    $(element["sponsor"]).css({
+		width: ((30/100)*w)+'px',
+		height: ((25/100)*w)+'px',
+		left: ((86/100)*w)+'px',
+		bottom: ((2/100)*w)+'px'
+	    });
 	    
-	    element["informals"].style.width = ((10/100)*w)+'px';
-	    element["informals"].style.height = ((5/100)*w)+'px';
-	    element["informals"].style.left = ((40/100)*w)+'px';
-	    element["informals"].style.bottom = ((28/100)*w)+'px';			
+	    $(element["games"]).css({
+		width: ((4.3/100)*w)+'px',
+		height: ((4/100)*w)+'px',
+		left: ((27/100)*w)+'px',
+		bottom: ((18/100)*w)+'px'
+	    });
 	    
-	    element["workshop"].style.width = ((24/100)*w)+'px';
-	    element["workshop"].style.height = ((13/100)*w)+'px';
-	    element["workshop"].style.left = ((75/100)*w)+'px';
-	    element["workshop"].style.bottom = ((23/100)*w)+'px';
+	    $(element["informals"]).css({
+		width: ((10/100)*w)+'px',
+		height: ((5/100)*w)+'px',
+		left: ((40/100)*w)+'px',
+		bottom: ((28/100)*w)+'px'
+	    });
 	    
-	    element["events"].style.width = ((18/100)*w)+'px';
-	    element["events"].style.height = ((14/100)*w)+'px';
-	    element["events"].style.left = ((8/100)*w)+'px';
-	    element["events"].style.bottom = ((20/100)*w)+'px';			
+	    $(element["workshop"]).css({
+		width: ((24/100)*w)+'px',
+		height: ((13/100)*w)+'px',
+		left: ((75/100)*w)+'px',
+		bottom: ((23/100)*w)+'px'
+	    });
+	    
+	    $(element["events"]).css({
+		width: ((18/100)*w)+'px',
+		height: ((14/100)*w)+'px',
+		left: ((8/100)*w)+'px',
+		bottom: ((20/100)*w)+'px'
+	    });
 	    
 	    for(var i=0;i<5;i++){
-		element["workshop_child"][i].style.width = ((element["workshop_prop"]["width"][i]/100)*w)+'px';
-		element["workshop_child"][i].style.height = ((element["workshop_prop"]["height"][i]/100)*w)+'px';
-		element["workshop_child"][i].style.left = ((element["workshop_prop"]["left"][i]/100)*w)+'px';
-		element["workshop_child"][i].style.bottom = ((element["workshop_prop"]["bottom"][i]/100)*w)+'px';	
+		$(element["workshop_child"][i]).css({
+		    width : ((element["workshop_prop"]["width"][i]/100)*w)+'px',
+		    height : ((element["workshop_prop"]["height"][i]/100)*w)+'px',
+		    left : ((element["workshop_prop"]["left"][i]/100)*w)+'px',
+		    bottom : ((element["workshop_prop"]["bottom"][i]/100)*w)+'px'
+		});
 	    }	
 	    
 	    for(var i=0;i<7;i++){
-		element["events_child"][i].style.width = ((element["events_prop"]["width"][i]/100)*w)+'px';
-		element["events_child"][i].style.height = ((element["events_prop"]["height"][i]/100)*w)+'px';
-		element["events_child"][i].style.left = ((element["events_prop"]["left"][i]/100)*w)+'px';
-		element["events_child"][i].style.bottom = ((element["events_prop"]["bottom"][i]/100)*w)+'px';					
+		$(element["events_child"][i]).css({
+		    width: ((element["events_prop"]["width"][i]/100)*w)+'px',
+		    height: ((element["events_prop"]["height"][i]/100)*w)+'px',
+		    left: ((element["events_prop"]["left"][i]/100)*w)+'px',
+		    bottom: ((element["events_prop"]["bottom"][i]/100)*w)+'px'
+		});
 	    }	
 	    
 	    for(var i=0;i<11;i++){
-		element["house_child"][i].style.width = ((element["house_prop"]["width"][i]/100)*w)+'px';
-		element["house_child"][i].style.height = ((element["house_prop"]["height"][i]/100)*w)+'px';
-		element["house_child"][i].style.left = ((element["house_prop"]["left"][i]/100)*w)+'px';
-		element["house_child"][i].style.bottom = ((element["house_prop"]["bottom"][i]/100)*w)+'px';				
+		$(element["house_child"][i]).css({
+		    width: ((element["house_prop"]["width"][i]/100)*w)+'px',
+		    height: ((element["house_prop"]["height"][i]/100)*w)+'px',
+		    left: ((element["house_prop"]["left"][i]/100)*w)+'px',
+		    bottom: ((element["house_prop"]["bottom"][i]/100)*w)+'px'
+		});
 	    }				
 	    
 	    //	$("#blur").hoverizr({effect:"blur",container:"container_image
@@ -301,25 +328,30 @@
 	
 	var popup = function(x){
 	    console.log(x);
-	    element["overlay"].style.height = $(x).height()+"px";
-	    element["overlay"].style.width = $(x).width()+"px";
-	    element["overlay"].style.bottom =  parseInt($(x).css("bottom"))+"px";
-	    element["overlay"].style.left = parseInt($(x).css("left"))+"px";			
-            element["overlay"].style.display = "block";						
+	    $("#overlayed").css({
+		height : $(x).height()+"px",
+		width : $(x).width()+"px",
+		bottom : parseInt($(x).css("bottom"))+"px",
+		left : parseInt($(x).css("left"))+"px",
+		display: "block"
+	    });
 	    var nheight = 95;
 	    var nwidth = 50;
 	    var bottom = 0;
 	    var left = 25;
 	    
-	    element["overlay_container"].style.display = "block";
-	    element["close"].style.display = "block";	
+	    $("#overlay_container").fadeIn(200);
+	    $(element["close"]).css({
+		display : "block"
+	    });
 	    
 	    $("#overlayed").stop().animate({
 	        'height' : nheight+'%',
 	        'width' : nwidth+'%',
 	        'left' : left+'%',
 	        'bottom' : bottom+'%',
-		'opacity' : 1}, 250);				
+		'opacity' : 1
+	    }, 250);				
 	    
 	};	
 	
@@ -417,15 +449,15 @@
 	    
 	    element["content"].style.display = "none";
 	    
-	    $("#overlayed").stop().animate({
+	    $(element["overlay"]).stop().animate({
 	        'height' : nheight+'px',
 	        'width' : nwidth+'px',
 	        'left' : left+'px',
 	        'bottom' : bottom+'px',
 		'opacity' : 0}, 500,function(){
 		    element["overlay_container"].style.display = "none";
-			element["close"].style.display = "none";
-			element["overlay"].style.display = "none";
+		    element["close"].style.display = "none";
+		    element["overlay"].style.display = "none";
 		    if($(element["popupSrc"]).attr("id") === "workshop_container" || $(element["popupSrc"]).attr("id") === "events_container"){
             		element["overlay"].style.backgroundColor = "#fff";				   
 		    }
@@ -512,21 +544,23 @@
 		element["workshop_child"][i].style.backgroundColor = "#ffffff";				
 	});	
 	
-	  $("#brochure").mouseenter(function(e){
-	  e.stopPropagation();
-	  var that = this;
-	  debounce(function(){
-	  element["overlay_container"].style.display = "block";		
-	  $(that).animate({'top' : '5%'},1000);},300);	
-	  }).mouseleave(function(e){
-	  e.stopPropagation();
-	  var that = this;
-	  debounce(function(){
-	  $("overlay_container").fadeOut(700);			  
-	  $(that).animate({'top' : '90%'},1000,function(){
-		  	  element["overlay_container"].style.display = "none";	
-	  });},500);	
-	  });
+	$("#brochure").mouseenter(function(e) {
+	    e.stopPropagation();
+	    var that = this;
+	    debounce(function() {
+		$("#overlay_container").fadeIn(300);		
+		$(that).animate({'top' : '5%'},600);
+	    } ,300);	
+	}).mouseleave(function(e) {
+	    e.stopPropagation();
+	    var that = this;
+	    debounce(function(){
+		$("#overlay_container").fadeOut(300);			  
+		$(that).animate({'top' : '90%'},1000,function(){
+		    element["overlay_container"].style.display = "none";	
+		});
+	    },300);
+	});
 	
 	
 	$("#cloud-holder").clouds({

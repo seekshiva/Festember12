@@ -85,7 +85,7 @@ body {
     height : 100%;
     z-index : 300;
     display : none;
-    background-color : #ddd;
+    background-color : #444;
     opacity : 0.5;
     display : none;	
 }

@@ -4,12 +4,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
     
     <meta property="og:title" content="Facebook"/>
-    <meta property="og:image" content="http://festember.com/images/Festi.png"/>
+    <meta property="og:url" content="http://festember.com/12/"/>
+    <meta property="og:image" content="http://festember.com/12/images/Festi.png"/>
     <meta property="og:site_name" content="Festember'12"/>
     <meta property="og:description" content="The die rolls again this September as enters Festember, one of South India's largest cultural fete. And by large, we do mean large, what with the cornucopia of events and contest spoils to be raked. Its the time when the stages luster, speakers blare and cacophony reigns. Madness takes a new definition as moods coalesce, the ceilings drop and rules get crushed, so much so that even our moo crowds get tempted. And if you are expecting the usual rants on the fest being bigger and better....Well, you guessed it wrong. Its talk less and party more this Festember. Aaaaaand we mean it. Touchwood."/>
 
     <title>Festember</title>
-    <link rel="stylesheet" href="css/main.css" type="text/css" />    
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
   </head>
   <body>
     <noscript> 
@@ -18,9 +19,7 @@
     </noscript>  
     <div id="container_canvas"></div>
     <div id="overlay_container" class="overlay_container"></div>
-	<div id="overlay_close">
-	     CLOSE
-	</div>
+	<div id="overlay_close">Close</div>
     <div id="initial_container"></div>	
     <div id="brochure">
       <div id="brochure_sub">
