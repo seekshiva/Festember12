@@ -164,7 +164,7 @@
 	    //var imageSrc = "images/street.png";
 	    //img.onload = 
 	    $("#container_image").load(function(){
-		$("#brochure").animate({'top' : '90%'},1000);
+		$("#brochure").animate({'top' : '90%'},1000,function(){$("#links").hide();});
 		document.getElementById("initial_container").style.display = "none";
     	setTimeout(function(){callback("sunset");},5000);		
 		/*
@@ -288,10 +288,11 @@
 		    current1 = 0;
 		    if(sunTop <300 && moonTop >550){
 			clearInterval(set);
+			document.getElementById("image").src = "./images/giantwheel2.png";	
 			setTimeout(function(){callback("sunrise")},18000);
 		    }
 		    $("#sun").css({bottom: (sunTop - 2.5)+'px',left: (sunleft+2.5)+'px'});
-		    $("#moon").css({bottom: (moonTop + 3.5)+'px',left: (moonleft+1.5)+'px'});								
+		    $("#moon").css({bottom: (moonTop + 3.5)+'px',left: (moonleft+1.5)+'px'});			
 		},100);
 		element["time"] = "day";	
 		$("#container_canvas").animate({'backgroundColor':'#02021d'}, 18000);				  
@@ -305,6 +306,7 @@
 		    
 		    if(sunTop >528 && moonTop <100){
 			clearInterval(rise);
+			document.getElementById("image").src = "./images/giantwheel1.png";					
 			setTimeout(function(){callback("sunset")},18000);
 			//callback("sunset");
 		    }
@@ -549,7 +551,7 @@
 	    var that = this;
 	    debounce(function() {
 		$("#overlay_container").fadeIn(300);		
-		$(that).animate({'top' : '5%'},600);
+		$(that).animate({'top' : '5%'},600,function(){$("#links").show();});
 	    } ,300);	
 	}).mouseleave(function(e) {
 	    e.stopPropagation();
@@ -559,7 +561,7 @@
 		$(that).animate({'top' : '90%'},1000,function(){
 		    element["overlay_container"].style.display = "none";	
 		});
-	    },300);
+	    },300,function(){$("#links").hide();});
 	});
 	
 	
@@ -622,6 +624,24 @@
 		}			 	
 	    }
 	})();
+	
+	var angle = 0;
+	setInterval(function(){
+		  angle+=0.3;
+	  $("#image").rotate(angle);
+		var d=angle; var rad=130;
+		for(var i=0;i<5; ++i) {
+		  d += 360 /5;
+		var nx = d/360 * 2 * Math.PI;
+			  x=rad*Math.cos(nx) + 150 -25;
+			  y=rad*Math.sin(nx) + 150 ;
+	//	console.log(x)
+			  $("#image" + (i+1)).css({
+			"margin-top": y,
+			"margin-left": x
+		});
+		}
+	},20);	
 	
 	var oneDay = 24*60*60*1000;
 	var secondDate = new Date();

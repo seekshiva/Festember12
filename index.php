@@ -413,7 +413,14 @@
 	<div id="moon"></div>
       </div>
       <div id="informals_container">
-	<img src="./images/giantwheel1.png">
+		<div id="someC">
+		<img src="./images/cabin1.png" id="image1" >
+		<img src="./images/cabin1.png" id="image2" >
+		<img src="./images/cabin1.png" id="image3" >
+		<img src="./images/cabin1.png" id="image4" >
+		<img src="./images/cabin1.png" id="image5" >
+		<p><img src="./images/giantwheel1.png" id="image"></p>
+		</div>
       </div>
     </div>
     <img src="images/street.png" id="container_image"/>  	
@@ -434,6 +441,7 @@
     </script>
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/debounce.js" type="text/javascript"></script>
+    <script src="js/jRotate.js" type="text/javascript"></script>	
     <script src="js/event_content.js" type="text/javascript"></script>	
     <script type="text/javascript" src="js/main.js"></script>
   </body>

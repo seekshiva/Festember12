@@ -769,3 +769,15 @@ body {
     letter-spacing: 7px;
     color: #000;
 }
+
+#someC {
+	width:150px; 
+	height:150px;
+	position:absolute; 
+	top: -40px; 
+}
+
+#someC img {
+	position: absolute; 
+	z-index:-130; 
+}	
