@@ -225,16 +225,14 @@ body {
 }	
 
 .play-pause {
-    display : none;
+	display : none;
     cursor: pointer;
-    margin-left: 240px;
-    margin-top: -80px;
-    padding: 5px;
+    width : 7%;
+    height : 2%;
+    left : 45%;
+    bottom : 26%;
     position: absolute;
-}
-
-.play-pause img {
-    height: 50px;
+	z-index: 950;
 }
 
 #contact_container{
@@ -631,13 +629,17 @@ body {
     
 }
 
-#informals_container {
+#informals_container ,#informals_cover_container{
     position : absolute;
     left : 40%;
     bottom : 56%;
     height : 10%;
     width : 10%;
     cursor : pointer;
+}	
+
+#informals_cover_container{
+   z-index : 10;	
 }	
 #informals_container canvas {
     position : absolute;

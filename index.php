@@ -333,13 +333,14 @@
       
       <div id="casette_container">
 	<canvas id="element_casette" class="element_canvas"></canvas>	
+      </div>
+	  
 	<div id="theme_play" class="play-pause">
 	  <img src="images/play.png">
 	</div>
 	<div id="theme_pause" class="play-pause">
 	  <img src="images/pause.png">
-	</div>
-      </div>
+	</div>	  
       
       <img src="images/casste.png" class="player" id="player"/>
       <div id="contact_container">
@@ -422,6 +423,7 @@
 		<p><img src="./images/giantwheel1.png" id="image"></p>
 		</div>
       </div>
+	  <div id="informals_cover_container"></div>
     </div>
     <img src="images/street.png" id="container_image"/>  	
     <script>

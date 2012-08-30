@@ -110,7 +110,7 @@
 		bottom: ((18/100)*w)+'px'
 	    });
 	    
-	    $(element["informals"]).css({
+	    $(element["informals"]).add($("#informals_cover_container")).css({
 		width: ((10/100)*w)+'px',
 		height: ((5/100)*w)+'px',
 		left: ((40/100)*w)+'px',
@@ -357,7 +357,7 @@
 	    
 	};	
 	
-	/*
+	
 	  $("#casette_container").click(function() {   
 	  var oheight = $(this).height();
 	  var owidth = $(this).width();
@@ -365,15 +365,24 @@
 	  var nwidth = (owidth + (owidth * 10));
 	  var bottom = 6;
 	  var left = 10;
+		  
+		element["popupSrc"] = this;  
+		  
+	    $("#overlay_container").fadeIn(200);
+	    $(element["close"]).css({
+		display : "block"
+	    });		  
 	  
-	  $(".player").css('z-index', '10').stop().animate({
+	  $(".player").css('z-index', '900').stop().animate({
 	  'height' : nheight+'px',
 	  'width' : nwidth+'px',
 	  'left' : left+'%',
 	  'bottom' : bottom+'%',
 	  'opacity' : 1}, 190,callback);
+	  
+	  $(".play-pause").css('display','block');
 	  });
-	*/
+	
 	
 	$("#contact_container").mouseenter(function(e){
 	    //debounce(function(){$("#element_contact").animate({'backgroundColor' : '#faf686'},2000);}, 100);  
@@ -424,7 +433,7 @@
 	    element["content"] = document.getElementById("events")
 	    element["content"].style.display = "block";		
 	});
-	$("#informals_container").click(function(e){
+	$("#informals_cover_container").click(function(e){
 	    var that = this;
 	    element["popupSrc"] = this;		   
 	    popup(that);
@@ -445,7 +454,8 @@
 	    var nwidth = $(element["popupSrc"]).width();
 	    var bottom = parseInt($(element["popupSrc"]).css("bottom"));
 	    var left = parseInt($(element["popupSrc"]).css("left"));
-	    
+		
+		if(element["content"] !== ""){
 	    if($(element["popupSrc"]).children())
 		debounce(function(){$(element["popupSrc"]).children().animate({'backgroundColor' : '#ffffff'},500);});
 	    
@@ -464,6 +474,19 @@
             		element["overlay"].style.backgroundColor = "#fff";				   
 		    }
 		});	
+	   }else{
+	    $(".player").stop().animate({
+	        'height' : nheight+'px',
+	        'width' : nwidth+'px',
+	        'left' : left+'px',
+	        'bottom' : bottom+'px',
+		'opacity' : 0}, 500,function(){
+		    element["overlay_container"].style.display = "none";
+		    element["close"].style.display = "none";
+		}).css('z-index' , '-500');			
+		  
+	  $(".play-pause").css('display','none');		
+	   }	   
 	    
 	});
 	
