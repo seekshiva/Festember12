@@ -33,7 +33,7 @@ body {
     position : absolute;
     width : 100%;
     height : 90%;
-    background :  url("../images/broch.jpg") no-repeat;
+    background :  url("../images/brochure_bg.jpg") no-repeat;
     background-size : 100% 90%;
     border-radius: 10px 10px 0 0;	
     z-index : 400;  	
