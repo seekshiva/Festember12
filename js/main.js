@@ -51,9 +51,9 @@
 	
 
 	$(element["overlay_container"]).css({
-        opacity : '0',		
-		zIndex : '1500',
-        display : 'block'			
+        'opacity' : '0',		
+		'z-index' : '1500',
+        'display' : 'block'			
 	});	
 	
 	
@@ -172,9 +172,9 @@
 		document.getElementById("initial_container").style.display = "none";
     		setTimeout(function(){callback("sunset");},5000);		
 			$(element["overlay_container"]).css({
-				opacity : '0',		
-				zIndex : '300',
-				display : 'none'			
+			    'opacity' : '0.5',		
+				'z-index' : '300',
+				'display' : 'none'			
 			});	
 	    });	    
 	    //img.src = imageSrc;			
@@ -488,7 +488,7 @@
 	            'left' : left+'px',
 	            'bottom' : bottom+'px',
 		    'opacity' : 0}, 500, function(){
-			$(".player").css({'z-index' : '-500'});
+			$(this).css({'z-index' : '-500'});
 			element["overlay_container"].style.display = "none";
 			element["close"].style.display = "none";
 		    });

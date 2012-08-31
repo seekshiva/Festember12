@@ -460,7 +460,7 @@
       </div>
 	  <div id="informals_cover_container"></div>
     </div>
-    <img src="images/street.png" id="container_image"/>  	
+    <img src="images/street.png" id="container_image"/>  
     <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-32752974-1']);
