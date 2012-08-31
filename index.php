@@ -24,19 +24,18 @@
     <div id="brochure">
       <div id="brochure_sub">
 	<img src="images/Festi.png" />
-	<div style="width:150px; height:90px; margin-left:180px; padding-bottom:30px; margin-top:-30px; text-align:center; "></div>
 	<div id="links">
-	  <div style="float: right; width: 300px; ">
+	  <div style="float: left;">
 	    <div class="heading">Links:</div>
-	    <a  target="_blank" href="https://www.facebook.com/festember"><div class="social_links">Facebook</div></a>
-	    <a  target="_blank" href="https://www.twitter.com/FestemberNIT"><div class="social_links">Twitter</div></a>
-	    <a  target="_blank" href="http://en.wikipedia.org/wiki/Festember"><div class="social_links">Wikipedia</div></a>
-	    <a  target="_blank" href="http://www.nitt.edu/home/students/events/festember/"><div class="social_links">About F-12</div></a>
+	    <a  target="_blank" href="https://www.facebook.com/festember">Facebook</a>
+	    <a  target="_blank" href="https://www.twitter.com/FestemberNIT">Twitter</a>
+	    <a  target="_blank" href="http://en.wikipedia.org/wiki/Festember">Wikipedia</a>
+	    <a  target="_blank" href="http://www.nitt.edu/home/students/events/festember/">About F-12</a>
 	  </div>
-	  <div style="float: left; width: 200px; ">
+	  <div style="float: right;">
 	    <div class="heading">Archives:</div>
-	    <a style="width: 150px;" target="_blank"  href="https://festember.in/11/"><div class="social_links">Festember 11</div></a>
-	    <a style="width: 150px;" target="_blank" href="https://festember.com/10/"><div class="social_links">Festember X</div></a>
+	    <a style="width: 150px;" target="_blank"  href="https://festember.in/11/">Festember 11</a>
+	    <a style="width: 150px;" target="_blank" href="https://festember.com/10/">Festember X</a>
 	  </div>
 	</div>
 	<div style="text-align: center; margin-top: 200px; margin-left: 100px;">
@@ -58,7 +57,7 @@
       <div id="contacts">	   
 	<h2>Contact Us</h2>
 	<div class="contact fl-l">
-	  <div class="name">Abhishek Shah</div>
+	  <div class="name">Abhisekh Shah</div>
 	  <div class="desig">Treasurer</div>
 	  <div class="mobile">+91 98947 13840</div>
 	  <div class="email">shah.abhisekh@festember.com</div>
@@ -72,7 +71,7 @@
 	<div class="contact">
 	  <div class="name">Gaurav Kumar</div>
 	  <div class="desig">Chairman</div>
-	  <div class="mobile">+91 81442 25258</div>
+	  <div class="mobile">+91 94860 01186</div>
 	  <div class="email">gaurav@festember.com</div>
 	</div>
 	<div class="breaker" style="height: 40px; "></div>
@@ -303,22 +302,21 @@
       
       <div id="workshops" style="text-align: left; ">
 	<h2 class="event-head">Workshops</h2>
-	<p class="event_sub_title event_sub_description">Workshops are much sought-after in Festember. It is not just the thrilling neck to neck events, pro-shows and DJ nights that the students like the most. Festember has made a great impression with its workshops which give it an edge over the other cultural events organised elsewhere in the country. Workshops at Festember always guarantees its participants a fun filled experience along with learning. Though they last for a few hours, they still make a memorable mark in the minds of the participants.</p>
-	<p class="event_sub_title event_sub_description">Some of the workshops we have had in the past are:</p>
-	<ul id="workshop_header">
-	  <li>Fencing</li>
-	  <li>Archery</li>
-	  <li>Hypnotism</li>
-	  <li>Flair Bartending</li>
-	  <li>Ventriloquism</li>
-	  <li>Mente Magica</li>
-	</ul>
-	<p class="event_sub_title event_sub_description">This year, our team has taken up the responsibility to continue this tradition and ensure that the workshops live up to the expectations as always. So watch out for some exciting fun filled workshops this time!</p>
+	<div style="text-align: center; font-weight: bold;">
+	  “What we learn with pleasure we never forget”<br />
+	  -Alfred Mercier
+	</div>
+	<h3>Beat Boxing:</h3>
+
+	<p>Calling all with an ear for music!!!</p>
+	<p>Wannabe the next Ringo Star or Keith Moon?? Do the sounds of beats awaken the Mitch Mitchell and Brian Bennett in you?? Then rush to the Beat Boxing workshop being conducted by Charan Govan and let your music "beat" for itself!!</p>
+	<p>Discover the power of your throat and mouth and get enthralled by the art of vocal percussion wherein you will be taught to create beats and rhythms only with your mouth. Even spitting can be converted into a pleasing sound, as you will learn. By the end of the day, you will be equipped to give your favorite retro song a modern twist ;)</p>
+
     
 	</div>
       <div id="informals" style="text-align: left; ">
 	<h2 style="text-align: center; ">Informals</h2>
-	<p>Paintballing (where you and a bunch of your friends can team up, strategize and play against another team), Shooting andArchery (target events), Zorbing (Two people are put into a giant rubber inflated ball,and rolled around), Talent hunts, etc... need any more be said!! And at a much lower rate than they normally come! The Informals are quite literally at the heart of what makes Festember such a success, besides the loads of competitions. They form a platform for you to meet and make friends with people you don't know, and take back glorious memories. The RETRO informals promise to be bigger than life, and take you places you would never have dreamt of going.</p>
+	<p>Paintballing (where you and a bunch of your friends can team up, strategize and play against another team), Shooting and Archery (target events), Zorbing (Two people are put into a giant rubber inflated ball,and rolled around), Talent hunts, etc... need any more be said!! And at a much lower rate than they normally come! The Informals are quite literally at the heart of what makes Festember such a success, besides the loads of competitions. They form a platform for you to meet and make friends with people you don't know, and take back glorious memories. The RETRO informals promise to be bigger than life, and take you places you would never have dreamt of going.</p>
       </div>	
       
       <div id="nothing">
