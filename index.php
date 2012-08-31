@@ -300,20 +300,57 @@
 	<div id="content"></div>
       </div>
       
-      <div id="workshops" style="text-align: left; ">
+      <div id="workshops">
 	<h2 class="event-head">Workshops</h2>
 	<div style="text-align: center; font-weight: bold;">
 	  “What we learn with pleasure we never forget”<br />
 	  -Alfred Mercier
 	</div>
-	<h3>Beat Boxing:</h3>
-
-	<p>Calling all with an ear for music!!!</p>
-	<p>Wannabe the next Ringo Star or Keith Moon?? Do the sounds of beats awaken the Mitch Mitchell and Brian Bennett in you?? Then rush to the Beat Boxing workshop being conducted by Charan Govan and let your music "beat" for itself!!</p>
-	<p>Discover the power of your throat and mouth and get enthralled by the art of vocal percussion wherein you will be taught to create beats and rhythms only with your mouth. Even spitting can be converted into a pleasing sound, as you will learn. By the end of the day, you will be equipped to give your favorite retro song a modern twist ;)</p>
-
-    
+	
+	<div class="workshop">
+	  <h3>Beat Boxing:</h3>
+	  <img src="./images/workshop/beat_boxing.jpg">
+	  <p style="text-align: center; ">Calling all with an ear for music!!!</p>
+	  <p>Wannabe the next Ringo Star or Keith Moon?? Do the sounds of beats awaken the Mitch Mitchell and Brian Bennett in you?? Then rush to the Beat Boxing workshop being conducted by Charan Govan and let your music "beat" for itself!!</p>
+	  <p>Discover the power of your throat and mouth and get enthralled by the art of vocal percussion wherein you will be taught to create beats and rhythms only with your mouth. Even spitting can be converted into a pleasing sound, as you will learn. By the end of the day, you will be equipped to give your favorite retro song a modern twist ;)</p>
 	</div>
+
+	<div class="workshop">
+	  <h3>Skate Boarding:</h3>
+	  <img src="./images/workshop/skate_boarding.jpg">
+	  <p>You've sawn off the handles of your 1950 scooter...Now what?? Ollie over to the skateboarding workshop presented by HolyStoked and learn how to surf the concrete streets - like a BOSS!</p>
+	  <p>Once you’re comfortable with the board on wheels, get ready to learn some cool tricks which will surely increase your popularity.  Hippies are advised to don their oversized sunshades and let their long locks loose to enhance the experience. So gear up to polish your moves on the skateboard!</p>
+	</div>
+
+	<div class="workshop">
+	  <h3>Ultimate Frisbee:</h3>
+	  <img src="./images/workshop/ultimate_frisbee.jpg">
+	  <p>A Wham-O disc, or as the youth of 1950s called it - a Frisbee, is the expression of an individual - pure, uncontrollable and free! This Festember, Discreed: Ultimate Frisbee Coimbatore will open your eyes to an intensely absorbing competitive sport involving the humble Frisbee. Learn the art of leisure that defined the 60s - Spin into the Frisbee and Let your spirits soar!</p>
+	  <p>The workshop has been designed to teach ways of attack and defense strategies. So be prepared to sprint, jump, dive and fly. Go get that Frisbee!</p>
+	</div>
+
+	<div style="text-align: center; font-weight: bold;">
+	  “We should consider every day lost on which we have not danced at least once.”<br />
+	  -Friedrich Nietzsche
+	</div>
+
+	<div class="workshop">
+	  <h3>Popping:</h3>
+	  <img src="./images/workshop/popping.jpg">
+	  <p>Mindful of this year’s Retro theme, Festember has just the right thing for you to get your grooves on! This solo dance workshop is sure to help you break free of all inhibitions and get you POPPING in synch to any of Michael Jackson’s beats.</p>
+	  <p>A great opportunity to add grace and elegance to any dance floor you may ever be a part of!</p>
+	</div>
+
+	<div class="workshop">
+	  <h3>L.A. style Salsa:</h3>
+	  <img src="./images/workshop/salsa.jpg">
+	  <p>For all the men-in-suit and ladies-in-heels looking to set the dance floor ablaze, look no further...Be prepared to Hop on the FESTEMBER EXPRESS, get your grooves on and spice up the dance floor!</p>
+	  <p>The L.A. style SALSA workshop being organized by the famed AIR WALKERS is sure to be the envy of the couple next door..!! So Don't Miss this chance to add some new moves to your dance arsenal..!</p>
+	  <p>Come lose yourself in the spirit of Festember as the workshops provide a great way to unwind, learn and of course…SHOW-OFF!!! :D :D</p>
+	</div>
+
+	
+      </div>
       <div id="informals" style="text-align: left; ">
 	<h2 style="text-align: center; ">Informals</h2>
 	<p>Paintballing (where you and a bunch of your friends can team up, strategize and play against another team), Shooting and Archery (target events), Zorbing (Two people are put into a giant rubber inflated ball,and rolled around), Talent hunts, etc... need any more be said!! And at a much lower rate than they normally come! The Informals are quite literally at the heart of what makes Festember such a success, besides the loads of competitions. They form a platform for you to meet and make friends with people you don't know, and take back glorious memories. The RETRO informals promise to be bigger than life, and take you places you would never have dreamt of going.</p>

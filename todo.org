@@ -1,17 +1,16 @@
 * Site Related Stuff
+** TODO Theme music animation is buggy. Fix it!
 ** TODO powered by Nimbuzz
    Change the logo.
 ** TODO Format the pages.
 ** TODO Put up an "Enter" button after the street image has loaded.
-** TODO Ferry's wheel.
 ** Add a close button to the lightbox effect.
-** Fix the 2issue with the missing image on the sky.
-   might be the ferry wheel
 ** Overlay doesn't open IE. Fix It!
 ** Deploy the Github to bigrock push script.
-** Add flicker effect to to the page banners.
 ** Develop the mobile site.
-** Make overlay as absolute and give scroll for the window.
+** DONE Fix the issue with the missing image on the sky.
+   might be the ferry wheel
+** DONE Ferry's wheel.
 ** DONE days to go should have a transparent bg;
 ** DONE no transparent region around the "days to go" board;
 ** DONE automate days to go
@@ -25,10 +24,11 @@
 ** DONE Fix the broucher.
 * Game Related Stuff
 * Design stuff
-** brochure paper bg
 ** square shaped festember FB OG image.
 ** favicon.ico
-** Spacing betweek powered by and Nimbuzz in the brochure
+** Minimize the workshop images.
+** DONE brochure paper bg
+** DONE Spacing betweek powered by and Nimbuzz in the brochure
 ** DONE remove the random white marks on the street image
 ** DONE change the propeller in the airplane
 ** DONE sun, sky color

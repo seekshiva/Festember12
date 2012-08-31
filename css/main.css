@@ -760,6 +760,23 @@ body {
     font-weight : bold;	
 }
 
+.workshop {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.workshop p {
+    text-align: left;
+}
+
+.workshop img {
+    display: block;
+    margin: 20px;
+    height: 100px;
+    position: ;
+}
+
 .Arts, .Music, .Lits{
     font-size: 15px;
     font-weight: bold;
