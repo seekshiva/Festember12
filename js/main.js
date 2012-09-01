@@ -481,7 +481,7 @@
 	            'width' : nwidth+'px',
 	            'left' : left+'px',
 	            'bottom' : bottom+'px',
-		    'opacity' : 0}, 500, function(){console.log("Now");
+		    'opacity' : 0}, 500, function(){
 			$(".player").css({'z-index' : '-500'});
 			element["overlay_container"].style.display = "none";
 			element["close"].style.display = "none";
@@ -582,10 +582,10 @@
 	    e.stopPropagation();
 	    var that = this;
 	    debounce(function(){
-		$("#overlay_container").fadeOut(300);			  
-		$(that).animate({'top' : '90%'},1000,function(){
+		$("#overlay_container").fadeOut(300, function(){
 		    element["overlay_container"].style.display = "none";	
-		});
+		});			  
+		$(that).animate({'top' : '90%'},1000);
 	    },300,function(){$("#links").hide();});
 	});
 	

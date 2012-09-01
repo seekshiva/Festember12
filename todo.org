@@ -4,10 +4,10 @@
    Change the logo.
 ** TODO Format the pages.
 ** TODO Put up an "Enter" button after the street image has loaded.
-** Add a close button to the lightbox effect.
 ** Overlay doesn't open IE. Fix It!
 ** Deploy the Github to bigrock push script.
 ** Develop the mobile site.
+** DONE Add a close button to the lightbox effect.
 ** DONE Fix the issue with the missing image on the sky.
    might be the ferry wheel
 ** DONE Ferry's wheel.
