@@ -329,7 +329,7 @@
 	}	
 	
 	var popup = function(x){
-	    console.log(x);
+	    //console.log(x);
 	    $("#overlayed").css({
 		height : $(x).height()+"px",
 		width : $(x).width()+"px",
@@ -343,9 +343,6 @@
 	    var left = 25;
 	    
 	    $("#overlay_container").fadeIn(200);
-	    $(element["close"]).css({
-		display : "block"
-	    });
 	    
 	    $("#overlayed").stop().animate({
 	        'height' : nheight+'%',
@@ -353,7 +350,11 @@
 	        'left' : left+'%',
 	        'bottom' : bottom+'%',
 		'opacity' : 1
-	    }, 250);				
+	    }, 250, function() {
+		$(element["close"]).css({
+		    display : "block"
+		});
+	    });
 	    
 	};	
 	
