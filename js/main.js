@@ -481,10 +481,11 @@
 	            'width' : nwidth+'px',
 	            'left' : left+'px',
 	            'bottom' : bottom+'px',
-		    'opacity' : 0}, 500,function(){
+		    'opacity' : 0}, 500, function(){console.log("Now");
+			$(".player").css({'z-index' : '-500'});
 			element["overlay_container"].style.display = "none";
 			element["close"].style.display = "none";
-		    });//.css('z-index' , '-500');			
+		    });
 		
 		$(".play-pause").css('display','none');		
 	    } 
