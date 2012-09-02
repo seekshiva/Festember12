@@ -65,7 +65,7 @@ var Event = function (){
           { "description" : "Here’s a platform to air your views and go down dying defending them. Battle it out with other teams in a parliamentary style debate. Try to break your opponent’s argument down while defending your own.",
             "title" : "Debate"
           },
-          { "description" : "We’re as clueless as you are. Just drop in and take a peak. It ought to be fun.",
+          { "description" : "We’re as clueless as you are. Just drop in and take a peak. It ought to be fun. 3 is a crowd? Not here.",
             "title" : "What it eEs"
           }
         ],

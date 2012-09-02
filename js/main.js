@@ -363,7 +363,7 @@
 	    
 	};	
 	
-	
+/*	
 	$("#casette_container").click(function() {   
 	    var oheight = $(this).height();
 	    var owidth = $(this).width();
@@ -388,7 +388,7 @@
 	    
 	    $(".play-pause").css('display','block');
 	});
-	
+*/	
 	
 	$("#contact_container").mouseenter(function(e){
 	    //debounce(function(){$("#element_contact").animate({'backgroundColor' : '#faf686'},2000);}, 100);  
