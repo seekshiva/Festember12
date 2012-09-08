@@ -300,7 +300,7 @@
 		    $("#moon").css({bottom: (moonTop + 3.5)+'px',left: (moonleft+1.5)+'px'});			
 		},100);
 		element["time"] = "day";	
-		$("#container_canvas").animate({'backgroundColor':'#02021d'}, 18000);				  
+		$("#container_canvas").animate({'backgroundColor':'#010115'}, 18000);				  
 		setTimeout(function(){lighting();},6000);
             }else if(x==="sunrise"){
 		var rise = setInterval(function(){

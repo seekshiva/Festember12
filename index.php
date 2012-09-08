@@ -11,8 +11,9 @@
 
     <title>Festember</title>
     <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="icon" type="image/ico" href="favicon.ico">
   </head>
-  <body>
+  <body id="document-container">
     <noscript> 
       <style type="text/css"> body{display:none;} </style> 
       <div class="noscriptmsg" onclick="window.location.reload()"> Enable Javascript in your browser and refresh the page </div> 
@@ -205,6 +206,10 @@
 	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q3.png"></a>
 	  </div>
 	  <div class="sponsor_c">
+	    <div class="sponsor_type">Organising Partner</div>
+	    <a href="http://www.elcot.in" target="_blank"><img src="/12/images/sponsors/q30.png"></a>
+	  </div>	  
+	  <div class="sponsor_c">
 	    <div class="sponsor_type">Beverage Partner</div>
 	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q4.png"></a>
 	  </div>
@@ -216,6 +221,10 @@
 	    <div class="sponsor_type">Educational Partner</div>
 	    <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q6.png"></a>
 	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Magazine Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="/12/images/sponsors/q31.png"></a>
+	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Refreshment Partner</div>
 	    <a href="http://www.appyfizz.com" target="_blank"><img src="./images/sponsors/q7.png"></a>
@@ -271,15 +280,15 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online Media Partner</div>
-	    <a href="http://www.collegekhabar.com" target="_blank"><img src="./images/sponsors/q21.png"></a>
-	    <a href="http://www.freshersworld.com" target="_blank"><img src="./images/sponsors/q22.png"></a>
-	    <a href="http://www.knowafest.com" target="_blank"><img src="./images/sponsors/q23.png"></a>
-	    <a href="http://www.twenty19.com" target="_blank"><img src="./images/sponsors/q24.png"></a>
-	    <a href="http://www.fadooengineers.com" target="_blank"><img src="./images/sponsors/q25.png"></a>
-	    <a href="http://www.jammag.com" target="_blank"><img src="./images/sponsors/q26.png"></a>
-	    <a href="http://www.markmyfest.com" target="_blank"><img src="./images/sponsors/q27.png"></a>
-	    <a href="http://youthconnectmagcom" target="_blank"><img src="./images/sponsors/q28.png"></a>
-	    <a href="http://youthconnectmagcom" target="_blank"><img src="./images/sponsors/q29.png"></a>
+	    <a href="http://www.collegekhabar.com" target="_blank"><img src="/12/images/sponsors/q21.png"></a>
+	    <a href="http://www.freshersworld.com" target="_blank"><img src="/12/images/sponsors/q22.png"></a>
+	    <a href="http://www.knowafest.com" target="_blank"><img src="/12/images/sponsors/q23.png"></a>
+	    <a href="http://www.twenty19.com" target="_blank"><img src="/12/images/sponsors/q24.png"></a>
+	    <a href="http://www.fadooengineers.com" target="_blank"><img src="/12/images/sponsors/q25.png"></a>
+	    <a href="http://www.jammag.com" target="_blank"><img src="/12/images/sponsors/q26.png"></a>
+	    <a href="http://www.markmyfest.com" target="_blank"><img src="/12/images/sponsors/q27.png"></a>
+	    <a href="http://youthconnectmag.com" target="_blank"><img src="/12/images/sponsors/q28.png"></a>
+	    <a href="http://www.talexindia.in" target="_blank"><img src="/12/images/sponsors/q29.png"></a>
 	  </div>
 	</div>
       </div>
@@ -409,6 +418,8 @@
 	<img src="images/sponsors_skewed/q25.png">
 	<img src="images/sponsors_skewed/q26.png">
 	<img src="images/sponsors_skewed/q27.png">
+	<img src="images/sponsors_skewed/q28.png">
+	<img src="images/sponsors_skewed/q29.png">	
       </div>
       <div id="sponsor_cover_container">
       </div>
@@ -480,6 +491,11 @@
     <script src="js/debounce.js" type="text/javascript"></script>
     <script src="js/jRotate.js" type="text/javascript"></script>	
     <script src="js/event_content.js" type="text/javascript"></script>	
-    <script type="text/javascript" src="js/main.js"></script>
+	<script>
+	 var j = document.createElement('script');
+	 j.type = 'text/javascript';
+	 j.src = "js/main.js?v="+new Date();
+	 document.getElementById('document-container').appendChild(j);
+	</script>
   </body>
 </html>
