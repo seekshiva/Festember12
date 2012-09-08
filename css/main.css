@@ -760,7 +760,11 @@ body {
 .workshop {
     text-align: center;
     margin: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.workshop h3 {
+    margin-bottom: 180px; 
 }
 
 .workshop p {
@@ -770,8 +774,15 @@ body {
 .workshop img {
     display: block;
     margin: 20px;
-    height: 100px;
-    position: ;
+    margin-top: -170px;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 5px;
 }
 
 .event_sub_title{
