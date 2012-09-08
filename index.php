@@ -35,8 +35,8 @@
 	  </div>
 	  <div style="float: right;">
 	    <div class="heading">Archives:</div>
-	    <a style="width: 150px;" target="_blank"  href="https://festember.in/11/">Festember 11</a>
-	    <a style="width: 150px;" target="_blank" href="https://festember.com/10/">Festember X</a>
+	    <a style="width: 150px;" target="_blank"  href="http://festember.in/11/">Festember 11</a>
+	    <a style="width: 150px;" target="_blank" href="http://festember.com/10/">Festember X</a>
 	  </div>
 	</div>
 	<div style="text-align: center; margin-top: 200px; margin-left: 100px;">
