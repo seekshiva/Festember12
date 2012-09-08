@@ -194,92 +194,92 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Powered By</div>
-	    <a href="http://www.nimbuzz.com" target="_blank"><img src="/12/images/sponsors/q1.png"></a>
+	    <a href="http://www.nimbuzz.com" target="_blank"><img src="./images/sponsors/q1.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Telecom Partner</div>
-	    <a href="http://www.aircel.com" target="_blank"><img src="/12/images/sponsors/q2.png"></a>
+	    <a href="http://www.aircel.com" target="_blank"><img src="./images/sponsors/q2.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Informals Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="/12/images/sponsors/q3.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q3.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Beverage Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="/12/images/sponsors/q4.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q4.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Curtain Raise Title Partner</div>
-	    <a href="http://in.asus.com" target="_blank"><img src="/12/images/sponsors/q5.png"></a>
+	    <a href="http://in.asus.com" target="_blank"><img src="./images/sponsors/q5.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Educational Partner</div>
-	    <a href="http://byjusclasses.com/" target="_blank"><img src="/12/images/sponsors/q6.png"></a>
+	    <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q6.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Refreshment Partner</div>
-	    <a href="http://www.appyfizz.com" target="_blank"><img src="/12/images/sponsors/q7.png"></a>
+	    <a href="http://www.appyfizz.com" target="_blank"><img src="./images/sponsors/q7.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Snacking Partner</div>
-	    <a href="http://parleagro.com/Hippo.html" target="_blank"><img src="/12/images/sponsors/q8.png"></a>
+	    <a href="http://parleagro.com/Hippo.html" target="_blank"><img src="./images/sponsors/q8.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Alumni Partner</div>
-	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="/12/images/sponsors/q9.png"></a>
+	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="./images/sponsors/q9.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Official Music Partner</div>
-	    <a href="http://www.sam.org.in/" target="_blank"><img src="/12/images/sponsors/q10.png"></a>
+	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q10.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Prize Partner</div>
-	    <a href="http://www.tritonmusicz.com/" target="_blank"><img src="/12/images/sponsors/q11.png"></a>
+	    <a href="http://www.tritonmusicz.com/" target="_blank"><img src="./images/sponsors/q11.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Logistics Partner</div>
-	    <a href="http://www.dhl.co.in" target="_blank"><img src="/12/images/sponsors/q12.png"></a>
+	    <a href="http://www.dhl.co.in" target="_blank"><img src="./images/sponsors/q12.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Workshops Partner</div>
-	    <a href="http://www.adormi.com" target="_blank"><img src="/12/images/sponsors/q13.png"></a>
+	    <a href="http://www.adormi.com" target="_blank"><img src="./images/sponsors/q13.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Dramatics Partner</div>
-	    <a href="http://www.mytindia.com" target="_blank"><img src="/12/images/sponsors/q14.png"></a>
+	    <a href="http://www.mytindia.com" target="_blank"><img src="./images/sponsors/q14.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Digital Media Partner</div>
-	    <a href="http://www.dsnglobal.com" target="_blank"><img src="/12/images/sponsors/q15.png"></a>
+	    <a href="http://www.dsnglobal.com" target="_blank"><img src="./images/sponsors/q15.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Fashion Partner</div>
-	    <a href="http://www.flyingmachine.co.in" target="_blank"><img src="/12/images/sponsors/q16.png"></a>
+	    <a href="http://www.flyingmachine.co.in" target="_blank"><img src="./images/sponsors/q16.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Amusement Park Partner</div>
-	    <a href="http://www.btpark.org/home.html" target="_blank"><img src="/12/images/sponsors/q17.png"></a>
+	    <a href="http://www.btpark.org/home.html" target="_blank"><img src="./images/sponsors/q17.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online Metal Promotion Partner</div>
-	    <a href="http://www.indianstage.in" target="_blank"><img src="/12/images/sponsors/q18.png"></a>
-	    <a href="http://www.metalbase.in" target="_blank"><img src="/12/images/sponsors/q19.png"></a>
+	    <a href="http://www.indianstage.in" target="_blank"><img src="./images/sponsors/q18.png"></a>
+	    <a href="http://www.metalbase.in" target="_blank"><img src="./images/sponsors/q19.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online MBA Partner</div>
-	    <a href="http://www.testfunda.com" target="_blank"><img src="/12/images/sponsors/q20.png"></a>
+	    <a href="http://www.testfunda.com" target="_blank"><img src="./images/sponsors/q20.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online Media Partner</div>
-	    <a href="http://www.collegekhabar.com" target="_blank"><img src="/12/images/sponsors/q21.png"></a>
-	    <a href="http://www.freshersworld.com" target="_blank"><img src="/12/images/sponsors/q22.png"></a>
-	    <a href="http://www.knowafest.com" target="_blank"><img src="/12/images/sponsors/q23.png"></a>
-	    <a href="http://www.twenty19.com" target="_blank"><img src="/12/images/sponsors/q24.png"></a>
-	    <a href="http://www.fadooengineers.com" target="_blank"><img src="/12/images/sponsors/q25.png"></a>
-	    <a href="http://www.jammag.com" target="_blank"><img src="/12/images/sponsors/q26.png"></a>
-	    <a href="http://www.markmyfest.com" target="_blank"><img src="/12/images/sponsors/q27.png"></a>
-	    <a href="http://youthconnectmagcom" target="_blank"><img src="/12/images/sponsors/q28.png"></a>
-	    <a href="http://youthconnectmagcom" target="_blank"><img src="/12/images/sponsors/q29.png"></a>
+	    <a href="http://www.collegekhabar.com" target="_blank"><img src="./images/sponsors/q21.png"></a>
+	    <a href="http://www.freshersworld.com" target="_blank"><img src="./images/sponsors/q22.png"></a>
+	    <a href="http://www.knowafest.com" target="_blank"><img src="./images/sponsors/q23.png"></a>
+	    <a href="http://www.twenty19.com" target="_blank"><img src="./images/sponsors/q24.png"></a>
+	    <a href="http://www.fadooengineers.com" target="_blank"><img src="./images/sponsors/q25.png"></a>
+	    <a href="http://www.jammag.com" target="_blank"><img src="./images/sponsors/q26.png"></a>
+	    <a href="http://www.markmyfest.com" target="_blank"><img src="./images/sponsors/q27.png"></a>
+	    <a href="http://youthconnectmagcom" target="_blank"><img src="./images/sponsors/q28.png"></a>
+	    <a href="http://youthconnectmagcom" target="_blank"><img src="./images/sponsors/q29.png"></a>
 	  </div>
 	</div>
       </div>
