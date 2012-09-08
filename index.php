@@ -15,8 +15,8 @@
   </head>
   <body id="document-container">
     <noscript> 
-      <style type="text/css"> body{display:none;} </style> 
-      <div class="noscriptmsg" onclick="window.location.reload()"> Enable Javascript in your browser and refresh the page </div> 
+      <style type="text/css"> body{ display: none; } </style> 
+      <a href=""> Enable Javascript in your browser and refresh the page </a> 
     </noscript>  
     <div id="container_canvas"></div>
     <div id="overlay_container" class="overlay_container"></div>
@@ -28,14 +28,14 @@
 	<div id="links">
 	  <div style="float: left;">
 	    <div class="heading">Links:</div>
-	    <a  target="_blank" href="https://www.facebook.com/festember">Facebook</a>
-	    <a  target="_blank" href="https://www.twitter.com/FestemberNIT">Twitter</a>
-	    <a  target="_blank" href="http://en.wikipedia.org/wiki/Festember">Wikipedia</a>
-	    <a  target="_blank" href="http://www.nitt.edu/home/students/events/festember/">About F-12</a>
+	    <a target="_blank" href="https://www.facebook.com/festember">Facebook</a>
+	    <a target="_blank" href="https://www.twitter.com/FestemberNIT">Twitter</a>
+	    <a target="_blank" href="http://en.wikipedia.org/wiki/Festember">Wikipedia</a>
+	    <a target="_blank" href="http://www.nitt.edu/home/students/events/festember/">About F-12</a>
 	  </div>
 	  <div style="float: right;">
 	    <div class="heading">Archives:</div>
-	    <a style="width: 150px;" target="_blank"  href="http://festember.in/11/">Festember 11</a>
+	    <a style="width: 150px;" target="_blank" href="http://festember.in/11/">Festember 11</a>
 	    <a style="width: 150px;" target="_blank" href="http://festember.com/10/">Festember X</a>
 	  </div>
 	</div>
