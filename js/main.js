@@ -609,7 +609,7 @@
 	};
 	
 	sponsor_change();
-	
+/*	
 	function create_event_element(o,x,y){
 	    if(y !== 1){
 		var s = " nothing";
@@ -644,7 +644,7 @@
 		}			 	
 	    }
 	})();
-	
+*/	
 	var angle = 0;
 	setInterval(function(){
 	    angle+=0.3;

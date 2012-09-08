@@ -303,7 +303,9 @@
 	  
 	</div>
 	
-	<div id="content"></div>
+	<div id="content">
+            <?php include('parser.php'); ?>
+        </div>
       </div>
       
       <div id="workshops">
