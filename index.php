@@ -20,7 +20,7 @@
     </noscript>  
     <div id="container_canvas"></div>
     <div id="overlay_container" class="overlay_container"></div>
-	<div id="overlay_close">Close</div>
+    <div id="overlay_close">Close</div>
     <div id="initial_container"></div>	
     <div id="brochure">
       <div id="brochure_sub">
@@ -190,8 +190,7 @@
       <div id="sponsors">
 	<div id="partner">
 	  <div align="center" style="margin-bottom: 30px; ">
-	    <img style="border: none; box-shadow: none;" src="./images/wannabpartner.png" width="200px"><br />
-	    <div>Contact us at: <span class="email">marketing@festember.com</span></div>
+	    <div style="font-family: 'Times New Roman'; ">Wanna be a partner? Contact us at: <span class="email" style="font-family: Arial; ">marketing@festember.com</span></div>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Powered By</div>
@@ -207,7 +206,7 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Organising Partner</div>
-	    <a href="http://www.elcot.in" target="_blank"><img src="/12/images/sponsors/q30.png"></a>
+	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q30.png"></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Beverage Partner</div>
@@ -223,7 +222,7 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Magazine Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="/12/images/sponsors/q31.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q31.png"></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Refreshment Partner</div>
@@ -280,29 +279,27 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online Media Partner</div>
-	    <a href="http://www.collegekhabar.com" target="_blank"><img src="/12/images/sponsors/q21.png"></a>
-	    <a href="http://www.freshersworld.com" target="_blank"><img src="/12/images/sponsors/q22.png"></a>
-	    <a href="http://www.knowafest.com" target="_blank"><img src="/12/images/sponsors/q23.png"></a>
-	    <a href="http://www.twenty19.com" target="_blank"><img src="/12/images/sponsors/q24.png"></a>
-	    <a href="http://www.fadooengineers.com" target="_blank"><img src="/12/images/sponsors/q25.png"></a>
-	    <a href="http://www.jammag.com" target="_blank"><img src="/12/images/sponsors/q26.png"></a>
-	    <a href="http://www.markmyfest.com" target="_blank"><img src="/12/images/sponsors/q27.png"></a>
-	    <a href="http://youthconnectmag.com" target="_blank"><img src="/12/images/sponsors/q28.png"></a>
-	    <a href="http://www.talexindia.in" target="_blank"><img src="/12/images/sponsors/q29.png"></a>
+	    <a href="http://www.collegekhabar.com" target="_blank"><img src="./images/sponsors/q21.png"></a>
+	    <a href="http://www.freshersworld.com" target="_blank"><img src="./images/sponsors/q22.png"></a>
+	    <a href="http://www.knowafest.com" target="_blank"><img src="./images/sponsors/q23.png"></a>
+	    <a href="http://www.twenty19.com" target="_blank"><img src="./images/sponsors/q24.png"></a>
+	    <a href="http://www.fadooengineers.com" target="_blank"><img src="./images/sponsors/q25.png"></a>
+	    <a href="http://www.jammag.com" target="_blank"><img src="./images/sponsors/q26.png"></a>
+	    <a href="http://www.markmyfest.com" target="_blank"><img src="./images/sponsors/q27.png"></a>
+	    <a href="http://youthconnectmag.com" target="_blank"><img src="./images/sponsors/q28.png"></a>
+	    <a href="http://www.talexindia.in" target="_blank"><img src="./images/sponsors/q29.png"></a>
 	  </div>
 	</div>
       </div>
       
       <div id="events" style="text-align: left; ">
-	<h2 class="event-head">Events</h2>
-	<p style="color: red; text-align: center; ">Click <a href="./media/Rulebook.pdf" target="_blank" style="font-weight: bold; color: red; ">here</a> to download the <i><b>Rulebook</b></i>.</p>
+	<h2>Events</h2>
+	<p style="color: #446464; text-align: center; ">Click <a href="./media/Rulebook.pdf" target="_blank" style="font-weight: bold; color: #446666; ">here</a> to download the <i><b>Rulebook</b></i>.</p>
 	<div id="header"> 
-	  <ul>
-	    <li class="selected"><a href="#">Lits</a></li>
-	    <li><a href="#">Choreo</a></li>
-	    <li><a href="#">Music</a></li>
-	    <li><a href="#">Arts</a></li>
-	  </ul>
+	  <div class="selected"><a href="#">Lits</a></div>
+	  <div><a href="#">Choreo</a></div>
+	  <div><a href="#">Music</a></div>
+	  <div><a href="#">Arts</a></div>
 	  
 	</div>
 	
@@ -310,7 +307,7 @@
       </div>
       
       <div id="workshops">
-	<h2 class="event-head">Workshops</h2>
+	<h2>Workshops</h2>
 	<div style="text-align: center; font-weight: bold;">
 	  “What we learn with pleasure we never forget”<br />
 	  -Alfred Mercier
@@ -378,13 +375,13 @@
       <div id="casette_container">
 	<canvas id="element_casette" class="element_canvas"></canvas>	
       </div>
-	  
-	<div id="theme_play" class="play-pause">
-	  <img src="images/play.png">
-	</div>
-	<div id="theme_pause" class="play-pause">
-	  <img src="images/pause.png">
-	</div>	  
+      
+      <div id="theme_play" class="play-pause">
+	<img src="images/play.png">
+      </div>
+      <div id="theme_pause" class="play-pause">
+	<img src="images/pause.png">
+      </div>	  
       
       <img src="images/casste.png" class="player" id="player"/>
       <div id="contact_container">
@@ -460,16 +457,16 @@
 	<div id="moon"></div>
       </div>
       <div id="informals_container">
-		<div id="someC">
-		<img src="./images/cabin1.png" id="image1" >
-		<img src="./images/cabin1.png" id="image2" >
-		<img src="./images/cabin1.png" id="image3" >
-		<img src="./images/cabin1.png" id="image4" >
-		<img src="./images/cabin1.png" id="image5" >
-		<p><img src="./images/giantwheel1.png" id="image"></p>
-		</div>
+	<div id="someC">
+	  <img src="./images/cabin1.png" id="image1" >
+	  <img src="./images/cabin1.png" id="image2" >
+	  <img src="./images/cabin1.png" id="image3" >
+	  <img src="./images/cabin1.png" id="image4" >
+	  <img src="./images/cabin1.png" id="image5" >
+	  <p><img src="./images/giantwheel1.png" id="image"></p>
+	</div>
       </div>
-	  <div id="informals_cover_container"></div>
+      <div id="informals_cover_container"></div>
     </div>
     <img src="images/street.png" id="container_image"/>  
     <script>
@@ -491,11 +488,6 @@
     <script src="js/debounce.js" type="text/javascript"></script>
     <script src="js/jRotate.js" type="text/javascript"></script>	
     <script src="js/event_content.js" type="text/javascript"></script>	
-	<script>
-	 var j = document.createElement('script');
-	 j.type = 'text/javascript';
-	 j.src = "js/main.js?v="+new Date();
-	 document.getElementById('document-container').appendChild(j);
-	</script>
+    <script src="js/main.js?v=1234"></script>
   </body>
 </html>

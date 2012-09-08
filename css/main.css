@@ -135,7 +135,7 @@ body {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background-color : #fff;
+    background-color : #c6d7a6;
     border-color: #000000 #000000 -moz-use-text-color;
     border-radius: 10px 10px 0 0;
     border-style: solid solid none;
@@ -152,6 +152,10 @@ body {
     opacity : 0;
     display : none;
     z-index : 600;
+}
+
+.overlay h2 {
+    text-align: center;
 }	
 
 #cloud-holder{
@@ -310,6 +314,7 @@ body {
 }
 
 #sponsors img {
+    background-color: #fff;
     border: 1px solid #333;
     border-radius: 10px;
     box-shadow: 7px 7px 20px #333;
@@ -706,17 +711,9 @@ body {
     width: auto;
 }
 
-#header ul {
-    list-style: none;
-    padding:0;
-    margin:0;
-}
-
-#header li {
-    display: inline;
-    border: solid;
-    border-width: 1px;
-    margin: 0 0.5em 0 0;
+#header > div {
+    display: inline-block;
+    border: 1px solid #888;
     border-radius : 2px;
 }
 
@@ -733,7 +730,7 @@ body {
 
 
 #content {
-    
+    padding-top: 20px;
 }
 
 #header .selected {
@@ -777,21 +774,11 @@ body {
     position: ;
 }
 
-.Arts, .Music, .Lits{
-    font-size: 15px;
-}
-
 .event_sub_title{
     font-size: 20px;
     font-weight: bold;
     font-family: Oswald, MyraidPro, Arial;
-    color: #EE002D;
-    //text-shadow: 0px 0px 2px;
-    border-radius: 5px;
-    padding: 10px;	
-}
-
-.event_sub_description{
+    color: #444466;
 }
 
 .event-head{
