@@ -289,6 +289,10 @@
 	    <a href="http://youthconnectmag.com" target="_blank"><img src="./images/sponsors/q28.png"></a>
 	    <a href="http://www.talexindia.in" target="_blank"><img src="./images/sponsors/q29.png"></a>
 	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Drinking Water Partner</div>
+	    <a href="http://www.proude.com" target="_blank"><img src="./images/sponsors/q32.png"></a>
+	  </div>
 	</div>
       </div>
       
@@ -419,6 +423,7 @@
 	<img src="images/sponsors_skewed/q27.png">
 	<img src="images/sponsors_skewed/q28.png">
 	<img src="images/sponsors_skewed/q29.png">	
+	<img src="images/sponsors_skewed/q30.png">	
       </div>
       <div id="sponsor_cover_container">
       </div>
