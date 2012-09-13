@@ -47,9 +47,19 @@
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
 	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=297426703670139";
+	  js.src = "//connect.facebook.net/en_US/all.js";
 	  fjs.parentNode.insertBefore(js, fjs);
-	  }(document, 'script', 'facebook-jssdk'));</script>
+	  }(document, 'script', 'facebook-jssdk'));
+	 </script>
+	        <div id="auth-status">
+        <div id="auth-loggedout">
+          <div id="auth-loginlink">Login</div>
+        </div>
+        <div id="auth-loggedin" style="display:none">
+          Hi  <span id="auth-displayname"> </span><div id="auth-logoutlink">logout</div>
+      </div>
+    </div>
+         <div id="register_form"></div>
       </div>
     </div>
     
@@ -304,8 +314,8 @@
 	</div>
 	
 	<div id="content">
-            <?php include('parser.php'); ?>
-        </div>
+	  
+     </div>
       </div>
       
       <div id="workshops">
@@ -418,7 +428,9 @@
 	<img src="images/sponsors_skewed/q26.png">
 	<img src="images/sponsors_skewed/q27.png">
 	<img src="images/sponsors_skewed/q28.png">
-	<img src="images/sponsors_skewed/q29.png">	
+	<img src="images/sponsors_skewed/q29.png">
+	<img src="images/sponsors_skewed/q30.png">
+	<img src="images/sponsors_skewed/q31.png">	
       </div>
       <div id="sponsor_cover_container">
       </div>
@@ -485,11 +497,14 @@
       })();
       }
       updateAnalytics();
-    </script>
+    </script>	
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/debounce.js" type="text/javascript"></script>
     <script src="js/jRotate.js" type="text/javascript"></script>	
     <script src="js/event_content.js" type="text/javascript"></script>	
-    <script src="js/main.js?v=1234"></script>
+    <script src="js/form.js" type="text/javascript"></script>   
+    <script src="js/fbquery.js" type="text/javascript"></script>
+    <script src="js/main.js?v=1" type="text/javascript"></script>
   </body>
 </html>
+<!--&appId=297426703670139-->

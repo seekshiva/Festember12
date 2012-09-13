@@ -609,7 +609,7 @@
 	};
 	
 	sponsor_change();
-/*	
+	
 	function create_event_element(o,x,y){
 	    if(y !== 1){
 		var s = " nothing";
@@ -617,7 +617,7 @@
 	    var mDiv = $('<div class="'+x+ s+'"></div>');
 	    for(var i=0,max=o.length;i<max;i++){
 		var cDiv = $('<div></div>'),
-		tDiv = $('<div class="event_sub_title">'+o[i]["title"]+'</div>'),
+		tDiv = $('<div class="event_sub_title" id='+x+i+'>'+o[i]["title"]+'</div>'),
 		dDiv = $('<p>'+o[i]["description"]+'</p>');
 		cDiv.append(tDiv);
 		cDiv.append(dDiv);
@@ -644,7 +644,7 @@
 		}			 	
 	    }
 	})();
-*/	
+	
 	var angle = 0;
 	setInterval(function(){
 	    angle+=0.3;
@@ -677,5 +677,6 @@
 		$("#overlay_close").click();
 	    }
 	}
+
     });
 })(this, this.document, jQuery);
