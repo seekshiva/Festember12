@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
     
-    <meta property="og:title" content="Facebook"/>
+    <meta property="og:title" content="Festember"/>
     <meta property="og:url" content="http://festember.com/12/"/>
     <meta property="og:image" content="http://festember.com/12/images/Festi.png"/>
     <meta property="og:site_name" content="Festember'12"/>
@@ -314,6 +314,14 @@
 	    <div class="sponsor_type">Gifts Partner</div>
 	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q42.png"></a>
 	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q46.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Radio Partner</div>
+	    <a href="http://www.radioone.in" target="_blank"><img src="./images/sponsors/q33.jpg" width="150px"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Alumni Partner</div>
+	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="./images/sponsors/q9.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Official Music Partner</div>
