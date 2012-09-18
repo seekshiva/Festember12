@@ -664,7 +664,12 @@ body {
 
 #informals_cover_container{
     z-index : 10;	
-}	
+}		    $(element["overlay"]).css({
+		width: ((50/100)*w)+'px',
+		height: ((95/100)*h)+'px',
+		left: ((25/100)*w)+'px',
+		bottom: ((0/100)*w)+'px'
+	    });
 #informals_container canvas {
     position : absolute;
     margin-top: -30px;
@@ -811,4 +816,23 @@ body {
 #someC img {
     position: absolute; 
     z-index:-130; 
+}
+
+#updates{
+	position : absolute;
+	height : 5%;
+	bottom : 80%;
+	left : 0px;
+	z-index : -900;
+}
+
+.updates{
+	color : #000;
+	font-weight : bold;
+	margin-left : 1100px;
+}
+
+.updates span{
+   background : #fff;
+   margin-left : 100px;
 }

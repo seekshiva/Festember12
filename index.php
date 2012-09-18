@@ -474,6 +474,11 @@
 	<div id="sun"></div>
 	<div id="moon"></div>
       </div>
+	  <div id="updates">
+        <div class="updates"><span>welcome to festember 2012</span></div>
+		<div class="updates"><span>Retro is everywhere</span></div>	
+        <div class="updates" id="last"><span>Starts september 25</span></div>	
+	  </div>
       <div id="informals_container">
 	<div id="someC">
 	  <img src="./images/cabin1.png" id="image1" >
@@ -486,7 +491,7 @@
       </div>
       <div id="informals_cover_container"></div>
     </div>
-    <img src="images/street.png" id="container_image"/>  
+   <img src="images/street.png" id="container_image"/>
     <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-32752974-1']);
