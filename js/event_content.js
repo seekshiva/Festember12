@@ -50,7 +50,7 @@ var Informals = function (){
 Event.fn = Event.prototype={
     "Spotlight": [
         {
-            "description": "All eyes are on you ¦This is your moment in the spotlight, strut down that ramp and strike up a pose. Floor the audience and rise to the heights of Glamour world this Festember. Fashionitas, at woround individual model Fashion Event. Be innovative and creative in the first <i>Casual</i> round and flaunt your Traditional side in the Second <i>Ethnic</i> Round. Do try grabbing those extra Green innovation points. Mail us your photograph along with your details and a write-up (no more than 100 words)about your self to fashion it as @festember.com.<br/>Click<a href=\"*.pdf\"> here</a>to download the Fashionitas Brochure",
+            "description": "All eyes are on you ¦This is your moment in the spotlight, strut down that ramp and strike up a pose. Floor the audience and rise to the heights of Glamour world this Festember. Fashionitas, at woround individual model Fashion Event. Be innovative and creative in the first <i>Casual</i> round and flaunt your Traditional side in the Second <i>Ethnic</i> Round. Do try grabbing those extra Green innovation points. Mail us your photograph along with your details and a write-up (no more than 100 words)about your self to fashion it as @festember.com.<br/>Click <a href=\"./media/FashionShow.pdf\" target=\"_blank\">here</a> to download the Fashionitas Brochure",
             "title": "FashioNitas",
             "rules": [
                 "Each entry can have only one model and maximum of two off stage crew.",
@@ -143,13 +143,13 @@ Event.fn = Event.prototype={
             ]
         },
         {
-            "description": "Let the paint and brushes do the magic on the faces! Thematic and imaginative be it!  Material will be provided to the participants.",
-            "title": "Face Painting",
+            "description": "Throughout history, masks have been used for their expressive power as a feature of performance – with diverse cultural, theatrical and ritualistic traditions all over the world. Now here is your oportunity to uveil your prowess by making a mask of general size based on any of the above Themes. Materials will be provided on the spot.",
+            "title": "Mask making",
             "rules": [
-                "Two participants- one to paint and one whose face is to be painted on",
-                "Paints and brushes will be provided",
-                "Prizes will be awarded based on theme and the painting",
-                "2 persons per team"
+                "Two people per team.",
+		"Mask can be of any shape or pattern.",
+		"Materials to used will be provided- including colour paper, fevicol, pencil, textured paper, scissors.",
+		"Prizes will be awarded based on innovation, theme and art appeal."
             ],
             "prize": [
               
@@ -973,7 +973,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "சட்டென்று கருத்துகளை கூறிட<br/>பட்டென்று பாமரனை அதுசேர்ந்திட<br/>நம்தமிழருக்கு முத்தமிழ் தந்தஊடகம்<br/>நற்கலை யாம் கூத்தம்பலம்<br/><br/>குழுவொன்று கூடியமைத்து குறையில்லா தமிழ்கலையை புதுப்பிக்க வாரீர்!!",
+                "description": "<div style=\"color: red; padding-top: 20px; padding-bottom: 20px;  \">அணிகள் பதிவு மற்றும் தலைப்புகள் வழங்குதல் தொடங்கி விட்டன..  முதலில் பதிவு செய்யும் அணிகளுக்கே முன்னுரிமை அளிக்கப்படும்.. உங்கள் அணியை பதிவு செய்ய ஒருங்கினைப்பாளரை தொடர்பு கொள்ளவும்..</div>சட்டென்று கருத்துகளை கூறிட<br/>பட்டென்று பாமரனை அதுசேர்ந்திட<br/>நம்தமிழருக்கு முத்தமிழ் தந்தஊடகம்<br/>நற்கலை யாம் கூத்தம்பலம்<br/><br/>குழுவொன்று கூடியமைத்து குறையில்லா தமிழ்கலையை புதுப்பிக்க வாரீர்!!",
                 "title": "கூத்தம்பலம்",
                 "rules": [
                     "கல்லூரிக்கு ஓர் அணிமட்டுமே பங்குபெறலாம்.",

@@ -771,8 +771,6 @@
 		}
 		else {
 		    str += getList(x[i]);
-		    console.log("Got list for ");
-		    console.log(x[i]);
 		}
 		str += "</ul>";
 	    }
