@@ -196,7 +196,54 @@
 	</div>
 	<div class="breaker"></div>
       </div>
+      
+      <div id="pronite" style="text-align: left; ">
+	<h2>Pronite</h2>
+	<h3>DAY 0</h3>
+	<h4>Punya Srinivas</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=337997882959127&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="./images/p_srinivas.jpg"></a>
+	<p>Typically a traditional Indian instrument, a veena in the hands of Punya Srinivas can act like a violin, a sitar and even a guitar. The vainika, has released her first solo album, an experimental musical voyage that traverses not just the Indian classical terrain but also western classical soundscape.</p>
+	<p>Famous for her fusion of classical and western classical, this Festember, prepare to lose yourself in the rhythm of the ragas as Punya Srinivas takes you on a journey like no other!</p>
+	<p class="break">As a part of the inaugural ceremony, this performance promises to be a  BLAST INTO THE PAST!</p>
+	
+	<h3>DAY 1</h3>
+	<h4>EVAM</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=337657239659858&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="./images/evam.jpg"></a>
+	<p>Founded in 2003, Evam was one of the first theatre groups to turn themselves into an entertainment company.</p>
+	<p>EVAM is sure to tickle your funny bone, with witty stage adaptations of Alfred Hitchcock; Chetan Bhagat’s five point someone and a host of other acts up their sleeve.</p>
+	<p class="break">This event @ Festember’12 promises to be a laughter riot that is sure to make you laugh till you cry!</p>
+	
+	
+	<h3>DAY 2</h3>
+	<h4>GROOVE #3</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=343717789053803&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="./images/b_dayal.jpg"></a>
+	<p>A Funk Jazz act From Chennai, the Band Plays the Genres ranging from Jamaican reggae to Latin American rhythms.</p>
+	<p>Initially a 3 member band, it has now become a full fledged six member band, and also Benny Dayal’s favourite band to perform with.</p>
+	<p>1500 watt speakers pumping out music to head banging fans: a truly out of the world music experience!</p>
+	<p>Heads shall gyrate in unison as hands reach out to the sky, in rhythm to the thunderous drums as the rhapsodical audience take in the music late into the night.</p>
+	<p class="break"><b>Hangover Guaranteed!</b></p>
 
+
+
+	<h3>DAY 3</h3>
+	<h4>Andrea Jeremiah</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=343716969053885&set=a.116075348484716.22722.10064739669417" target="_blank"><img src="./images/andrea.jpg"></a>
+	<p>Andrea Jeremiah, popular Tamil playback singer needs no introduction. Since she has begun her singing career in 2005 there’s been no looking back for this Chennai lass.</p>
+	<p class="break">Her popular songs include ones composed by Harris Jayaraj ( Kannum Kannum Nokia from Anniyan and Karka Karka in Vettaiyaadu Vilaiyaadu) and Yuvan Shankar Raja ( Oh Baby from Yaaradi Nee Mohini and  Adada Vaa from Sarvam along legendary composer ‘Maestro’ Ilaiyaraaja.</p>
+	<h4>AGAM</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=343719385720310&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="./images/agam.jpg"></a>
+	<p>A contemporary carnatic rock act from Bangalore, India.  AGAM, literally meaning “the inner self”, through their music have encapsulated the boundless and vibrant emotions of the human psyche.</p>
+	<p>This Festember, journey with us into a realm that combines the melody and intricate rhythm of Carnatic music with the aesthetic principles of rock.</p>
+	<p class="break"><i>This show promises to leave you psyched!</i></p>
+
+	<h4>Suraj Jagan</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=342646042494311&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="./images/s_jagan.jpg"></a>
+	<p>Hail the artist who got the whole of India singing “You and I in this beautiful world” (Hutch ad) and later with “Give me some sunshine” (3 idiots).</p>
+	<p>One of the pioneers of the Rock Music Movement in India, his popular songs include Zehreelay from Rock On!!, Rang De from My Name Is Khan and Dil Dil Hai from 7 Khoon Maaf.</p>
+	<p class="break">As the musical maestro strikes the right chord with the exuberant crowd, ProNite promises to be the defining event of Festember’12.</p>
+
+      </div>
+      
       <div id="sponsors">
 	<div id="partner">
 	  <div align="center" style="margin-bottom: 30px; ">
@@ -348,15 +395,12 @@
       </div>
       
       <div id="events" style="text-align: left; ">
+	<div id="ev_back">Back</div>
 	<h2>Events</h2>
 	<p style="color: #446464; text-align: center; ">Click <a href="./media/Rulebook.pdf" target="_blank" style="font-weight: bold; color: #446666; ">here</a> to download the <i><b>Rulebook</b></i>.</p>
-	<div id="header"> 
-	  Back
-	</div>
 	
 	<div id="content">
 	  	<div id="list"></div>
-		<hr />
 		<div id="root"></div>
         </div>
       </div>
@@ -532,7 +576,7 @@
 	  <div id="updates">
         <div class="updates"><span>welcome to festember 2012</span></div>
 		<div class="updates"><span>Retro is everywhere</span></div>	
-        <div class="updates" id="last"><span>Starts september 25</span></div>	
+        <div class="updates" id="last"><span>Starts september 27th.</span></div>	
 	  </div>
       <div id="informals_container">
 	<div id="someC">

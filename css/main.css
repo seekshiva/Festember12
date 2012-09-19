@@ -135,12 +135,13 @@ body {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background-color : #c6d7a6;
-    border-color: #000000 #000000 -moz-use-text-color;
+    background-color : #e4d2c5;
+    border-color: #e00;
+    border-color: #e00 -moz-use-text-color;
     border-radius: 10px 10px 0 0;
-    border-style: solid solid none;
-    border-width: 5px 5px 0;
-    box-shadow: 0 20px 35px #ddd;
+    border-style: dotted dashed none;
+    border-width: 5px 3px 0;
+    box-shadow: 0 0px 1000px #e4d2c5;
     color: #111;
     font-family: Oswald, MyraidPro, Arial;
     font-size : 15px;
@@ -665,19 +666,40 @@ body {
 #informals_cover_container{
     z-index : 10;	
 }		    $(element["overlay"]).css({
-		width: ((50/100)*w)+'px',
-		height: ((95/100)*h)+'px',
-		left: ((25/100)*w)+'px',
-		bottom: ((0/100)*w)+'px'
-	    });
+						  width: ((50/100)*w)+'px',
+						  height: ((95/100)*h)+'px',
+						  left: ((25/100)*w)+'px',
+						  bottom: ((0/100)*w)+'px'
+					      });
 #informals_container canvas {
     position : absolute;
     margin-top: -30px;
     margin-left: -230px;
 }	
 
-#contacts ,#workshops ,#informals ,#events, #sponsors, #nothing, .nothing{
+#contacts ,#workshops ,#informals ,#events, #pronite, #sponsors, #nothing, .nothing{
     display : none;
+}
+
+#pronite h3 {
+    color: #a00;
+    text-align: center;
+    background-color: rgba(255, 135, 135, .3);
+    margin-top: 60px;
+}
+
+#pronite h4 {
+    text-align: center;
+}
+
+#pronite img {
+    max-width: 95%; 
+    padding: 5px;
+    box-shadow: rgba(60, 60, 60, .8) 2px 2px 15px;
+}
+
+#pronite p.break {
+    margin-bottom: 30px;
 }
 
 .contact {
@@ -720,13 +742,47 @@ body {
     padding-top: 20px;
 }
 
-#header {
-    padding-bottom: 1px; 
-	color : #000;
+#content #list ul {
+    line-height: 100%;
+}
+
+#content #list ul {
+    padding-left: 10px;
+    list-style: none;
+}
+
+#content #list li a {
+    border-radius: 10px; 
+    cursor: pointer;
+    display: block;
+    padding: 8px;
+}
+
+#content #list li a:hover {
+    background-color: rgba(148,148,148,.2);
+    box-shadow: rgba(112, 112, 112, 0.6) 2px 2px 20px;
+    text-decoration: underline;
+}
+
+#ev_back {
+    background-color: rgba(68, 68, 68, 0.3);
+    border-radius: 25px 0 0 25px;
+    border: 1px solid #fff;
+    box-shadow: rgba(132, 132, 132, .4) 7px 5px 5px;
+    color : #111;
+    cursor: pointer;
+    display : none;
+    font-family: "Arial";
     font-weight : bold;
-    display: inline-block;
-    border-radius : 2px;
-    display : none;	
+    float: left;
+    padding: 5px 5px 5px 10px; 
+}
+
+#ev_back:hover {
+    background-color: rgba(48, 48, 48, 0.2);
+    border: 1px solid #ddd;
+    box-shadow: rgba(132, 132, 132, .4) 5px 5px 5px;
+    color : #000;
 }
 
 #workshop_header ul{
@@ -801,45 +857,71 @@ body {
 }
 
 #updates{
-	position : absolute;
-	height : 5%;
-	bottom : 85%;
-	left : 0px;
-	z-index : -900;
+    position : absolute;
+    height : 5%;
+    bottom : 85%;
+    left : 0px;
+    z-index : -900;
 }
 
 .updates{
-	color : #000;
-	font-weight : bold;
-	margin-left : 1100px;
+    color : #000;
+    font-weight : bold;
+    margin-left : 1100px;
 }
 
 .updates span{
-   margin-left : 130px;
-   background : #fff;		
+    margin-left : 130px;
+    background : #fff;		
 }
 
 #root h3{
-   display : none;	
+    display : none;	
 }	
 
 .eventx { 
-	margin-left: 20px; 
-	display : none;
+    margin-left: 20px; 
+    display : none;
 }
 
 .ev_title {
-	font-weight: bold; 
+    font-weight: bold; 
+}
+
+.ev_deadline { 
+    color: red;
+    font-weight: bold; 
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.ev_rules {
+    line-height: 20px;
 }
 
 .ev_prize { 
-	color: red; font-weight: bold; 
+    color: red;
+    font-weight: bold; 
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.ev_contact {
+    display: inline-block;
+    margin: 5px;
+    padding: 3px;
+}
+
+.ev_contact .ev_contact_name {
+    font-size: 1.1em;
+    font-style: italic;
 }
 
 .ev_sub_head { 
-	font-weight: bold; font-size: 80%; 
+    font-weight: bold;
+    font-size: 80%; 
 }
-      
+
 .eventx ul { 
-	margin-top: 0; 
+    margin-top: 0; 
 }
