@@ -10,7 +10,7 @@
     <meta property="og:description" content="The die rolls again this September as enters Festember, one of South India's largest cultural fete. And by large, we do mean large, what with the cornucopia of events and contest spoils to be raked. Its the time when the stages luster, speakers blare and cacophony reigns. Madness takes a new definition as moods coalesce, the ceilings drop and rules get crushed, so much so that even our moo crowds get tempted. And if you are expecting the usual rants on the fest being bigger and better....Well, you guessed it wrong. Its talk less and party more this Festember. Aaaaaand we mean it. Touchwood."/>
 
     <title>Festember</title>
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css?v=1" type="text/css" />
     <link rel="icon" type="image/ico" href="favicon.ico">
   </head>
   <body id="document-container">
@@ -207,17 +207,13 @@
 	    <a href="http://www.nimbuzz.com" target="_blank"><img src="./images/sponsors/q1.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Telecom Partner</div>
-	    <a href="http://www.aircel.com" target="_blank"><img src="./images/sponsors/q2.png"></a>
-	  </div>
-	  <div class="sponsor_c">
 	    <div class="sponsor_type">Informals Partner</div>
 	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q3.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Organising Partner</div>
-	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q30.png"></a>
-	  </div>	  
+	    <div class="sponsor_type">Telecom Partner</div>
+	    <a href="http://www.aircel.com" target="_blank"><img src="./images/sponsors/q2.png"></a>
+	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Beverage Partner</div>
 	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q4.png"></a>
@@ -227,24 +223,50 @@
 	    <a href="http://in.asus.com" target="_blank"><img src="./images/sponsors/q5.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Educational Partner</div>
-	    <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q6.png"></a>
+	    <div class="sponsor_type">Strategic Innovation Partner</div>
+	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q37.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Magazine Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q31.png"></a>
+	    <div class="sponsor_type">Educational Partner</div>
+	    <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q6.png"></a>
+            <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q48.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Organising Partner</div>
+	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q30.png"></a>
+	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q38.png"></a>
+	  </div>	  
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Ethnic Wear Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q40.png"></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Refreshment Partner</div>
 	    <a href="http://www.appyfizz.com" target="_blank"><img src="./images/sponsors/q7.png"></a>
 	  </div>
-	  <div class="sponsor_c">
+           <div class="sponsor_c">
 	    <div class="sponsor_type">Snacking Partner</div>
 	    <a href="http://parleagro.com/Hippo.html" target="_blank"><img src="./images/sponsors/q8.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Alumni Partner</div>
-	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="./images/sponsors/q9.png"></a>
+	    <div class="sponsor_type">Social Responsibility Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q33.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q34.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q35.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q36.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Stationery Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q49.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Comfort Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q45.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Gifts Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q42.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q46.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Official Music Partner</div>
@@ -255,25 +277,41 @@
 	    <a href="http://www.tritonmusicz.com/" target="_blank"><img src="./images/sponsors/q11.png"></a>
 	  </div>
 	  <div class="sponsor_c">
+	    <div class="sponsor_type">Kinds Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q39.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">WAP Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q43.png"></a>
+	  </div>
+	  <div class="sponsor_c">
 	    <div class="sponsor_type">Logistics Partner</div>
-	    <a href="http://www.dhl.co.in" target="_blank"><img src="./images/sponsors/q12.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q12.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Workshops Partner</div>
-	    <a href="http://www.adormi.com" target="_blank"><img src="./images/sponsors/q13.png"></a>
+	    <div class="sponsor_type">English Lits Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q41.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Dramatics Partner</div>
-	    <a href="http://www.mytindia.com" target="_blank"><img src="./images/sponsors/q14.png"></a>
+	    <div class="sponsor_type">Fashion Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q16.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Digital Media Partner</div>
 	    <a href="http://www.dsnglobal.com" target="_blank"><img src="./images/sponsors/q15.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Fashion Partner</div>
-	    <a href="http://www.flyingmachine.co.in" target="_blank"><img src="./images/sponsors/q16.png"></a>
+	    <div class="sponsor_type">Workshops Partner</div>
+	    <a href="http://www.adormi.com" target="_blank"><img src="./images/sponsors/q13.png"></a>
 	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Radio Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q47.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Magazine Partner</div>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q31.png"></a>
+	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Amusement Park Partner</div>
 	    <a href="http://www.btpark.org/home.html" target="_blank"><img src="./images/sponsors/q17.png"></a>
@@ -288,12 +326,15 @@
 	    <a href="http://www.testfunda.com" target="_blank"><img src="./images/sponsors/q20.png"></a>
 	  </div>
 	  <div class="sponsor_c">
+	    <div class="sponsor_type">Engineering and Tech Partner</div>
+	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="./images/sponsors/q25.png"></a>
+	  </div>
+	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online Media Partner</div>
 	    <a href="http://www.collegekhabar.com" target="_blank"><img src="./images/sponsors/q21.png"></a>
 	    <a href="http://www.freshersworld.com" target="_blank"><img src="./images/sponsors/q22.png"></a>
 	    <a href="http://www.knowafest.com" target="_blank"><img src="./images/sponsors/q23.png"></a>
 	    <a href="http://www.twenty19.com" target="_blank"><img src="./images/sponsors/q24.png"></a>
-	    <a href="http://www.fadooengineers.com" target="_blank"><img src="./images/sponsors/q25.png"></a>
 	    <a href="http://www.jammag.com" target="_blank"><img src="./images/sponsors/q26.png"></a>
 	    <a href="http://www.markmyfest.com" target="_blank"><img src="./images/sponsors/q27.png"></a>
 	    <a href="http://youthconnectmag.com" target="_blank"><img src="./images/sponsors/q28.png"></a>
@@ -310,16 +351,14 @@
 	<h2>Events</h2>
 	<p style="color: #446464; text-align: center; ">Click <a href="./media/Rulebook.pdf" target="_blank" style="font-weight: bold; color: #446666; ">here</a> to download the <i><b>Rulebook</b></i>.</p>
 	<div id="header"> 
-	  <div class="selected"><a href="#">Lits</a></div>
-	  <div><a href="#">Choreo</a></div>
-	  <div><a href="#">Music</a></div>
-	  <div><a href="#">Arts</a></div>
-	  
+	  Back
 	</div>
 	
 	<div id="content">
-	  
-     </div>
+	  	<div id="list"></div>
+		<hr />
+		<div id="root"></div>
+        </div>
       </div>
       
       <div id="workshops">
@@ -412,12 +451,10 @@
 	<img src="images/sponsors_skewed/q6.png">
 	<img src="images/sponsors_skewed/q7.png">
 	<img src="images/sponsors_skewed/q8.png">
-	<img src="images/sponsors_skewed/q9.png">
 	<img src="images/sponsors_skewed/q10.png">
 	<img src="images/sponsors_skewed/q11.png">
 	<img src="images/sponsors_skewed/q12.png">
 	<img src="images/sponsors_skewed/q13.png">
-	<img src="images/sponsors_skewed/q14.png">
 	<img src="images/sponsors_skewed/q15.png">
 	<img src="images/sponsors_skewed/q16.png">
 	<img src="images/sponsors_skewed/q17.png">
@@ -434,7 +471,25 @@
 	<img src="images/sponsors_skewed/q28.png">
 	<img src="images/sponsors_skewed/q29.png">
 	<img src="images/sponsors_skewed/q30.png">
-	<img src="images/sponsors_skewed/q31.png">     
+	<img src="images/sponsors_skewed/q31.png"> 
+	<img src="images/sponsors_skewed/q32.png"> 
+	<img src="images/sponsors_skewed/q33.png"> 
+	<img src="images/sponsors_skewed/q34.png"> 
+	<img src="images/sponsors_skewed/q35.png"> 
+	<img src="images/sponsors_skewed/q36.png"> 
+	<img src="images/sponsors_skewed/q37.png"> 
+	<img src="images/sponsors_skewed/q38.png"> 
+	<img src="images/sponsors_skewed/q39.png"> 
+	<img src="images/sponsors_skewed/q40.png"> 
+	<img src="images/sponsors_skewed/q41.png"> 
+	<img src="images/sponsors_skewed/q42.png"> 
+	<img src="images/sponsors_skewed/q43.png"> 
+	<img src="images/sponsors_skewed/q44.png"> 
+	<img src="images/sponsors_skewed/q45.png"> 
+	<img src="images/sponsors_skewed/q46.png"> 
+	<img src="images/sponsors_skewed/q47.png"> 
+	<img src="images/sponsors_skewed/q48.png">     
+	<img src="images/sponsors_skewed/q49.png">     
       </div>
       <div id="sponsor_cover_container">
       </div>
@@ -491,7 +546,7 @@
       </div>
       <div id="informals_cover_container"></div>
     </div>
-   <img src="images/street.png" id="container_image"/>
+    <img src="images/street.png" id="container_image"/>  
     <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-32752974-1']);
@@ -510,10 +565,10 @@
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/debounce.js" type="text/javascript"></script>
     <script src="js/jRotate.js" type="text/javascript"></script>	
-    <script src="js/event_content.js" type="text/javascript"></script>	
+    <script src="js/event_content.js?v=1" type="text/javascript"></script>	
     <script src="js/form.js" type="text/javascript"></script>   
     <script src="js/fbquery.js" type="text/javascript"></script>
-    <script src="js/main.js?v=1" type="text/javascript"></script>
+    <script src="js/main.js?v=3" type="text/javascript"></script>
   </body>
 </html>
 <!--&appId=297426703670139-->

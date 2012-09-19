@@ -31,7 +31,7 @@ var Informals = function (){
                 "description": "Small time tasks to be completed in a minute. Festember informals presents minute to win it couple/double team event. Lots of exciting prizes to be won. "
             },
             "Obstacle course": {
-                "description": "When a man meets an obstacle he can’t destroy it but has to conquer it. I suppose this is the reason which makes the game so well worth playing. Battle of strength and mental composure. Test your physical fitness and finish first to clinch the flag."
+                "description": "When a man meets an obstacle he canâ€™t destroy it but has to conquer it. I suppose this is the reason which makes the game so well worth playing. Battle of strength and mental composure. Test your physical fitness and finish first to clinch the flag."
             },
             "Street football /street basketball": {
                 "description": "So u think u can rule the streets of NIT-trichy? Then get your team and prove it. Held at nights, participate in our high intensity battle of supremacy on the streets."
@@ -91,11 +91,11 @@ Event.fn = Event.prototype={
             ]
         },
         {
-            "description": "Adorn the walls of NITT and pitch in your part for this Festember by painting in accordance with the ‘Retro’ theme! Paints and brushes will be provided.",
+            "description": "Adorn the walls of NITT and pitch in your part for this Festember by painting in accordance with the â€˜Retroâ€™ theme! Paints and brushes will be provided.",
             "title": "Wall Painting",
             "rules": [
                 "Paints  and brushes will be provided",
-                "Theme of the event is ‘Retro’, the theme of this festember",
+                "Theme of the event is â€˜Retroâ€™, the theme of this festember",
                 "2 persons per team"
             ],
             "prize": [
@@ -104,7 +104,7 @@ Event.fn = Event.prototype={
             ]
         },
         {
-            "description": "Add some more artistry to your model by showing us what its shadow can depict! Use the myriad of materials we’ll provide you with, (includes thermocol, paper cups, newspapers, wires, thread) and let the shadows do the talking!",
+            "description": "Add some more artistry to your model by showing us what its shadow can depict! Use the myriad of materials weâ€™ll provide you with, (includes thermocol, paper cups, newspapers, wires, thread) and let the shadows do the talking!",
             "title": "Shadow art",
             "rules": [
                 "Materials to be provided include thermocol, paper cups, newspapers, wires and thread, using which a model should be made",
@@ -184,7 +184,7 @@ Event.fn = Event.prototype={
     ],
     "Dance": [
         {
-            "description": "TANDAAV:<br/>Witness, the universe in a grain of sand, And India’s history in a dance! India is a land of many cultures- with each culture having its own unique style of dance.In a multicultural place like India, its Diversity is what unites us all. Witness history, as Festember’s Eastern themed Choreo event gets the the audience swooning for more.<br/>THIRKAN:<br/>A Flagship event of Festember, this western themed CHOREO sets the stage for the crème de la crème dancers of various colleges to showcase their talent to groove to the tunes. With spellbinding moves, the thumping beats of the dancers and popular tunes being played at full blast, CHOREONITE always has the crowd clamouring for MORE….!! As the famous American dancer Fred Astaire said, ”Do it big, do it right and do it with style”. THAT’S how it’s done here at Festember.",
+            "description": "TANDAAV:<br/>Witness, the universe in a grain of sand, And Indiaâ€™s history in a dance! India is a land of many cultures- with each culture having its own unique style of dance.In a multicultural place like India, its Diversity is what unites us all. Witness history, as Festemberâ€™s Eastern themed Choreo event gets the the audience swooning for more.<br/>THIRKAN:<br/>A Flagship event of Festember, this western themed CHOREO sets the stage for the crÃ¨me de la crÃ¨me dancers of various colleges to showcase their talent to groove to the tunes. With spellbinding moves, the thumping beats of the dancers and popular tunes being played at full blast, CHOREONITE always has the crowd clamouring for MOREâ€¦.!! As the famous American dancer Fred Astaire said, â€Do it big, do it right and do it with styleâ€. THATâ€™S how itâ€™s done here at Festember.",
             "title": "Choreo nite",
             "rules": [
                 "Shortlisting: The registering teams need to submit their Performing Dance video to the Choreo co-ordinator at least one week prior to the EVENT. Teams will be shortlisted based on this video. All decisions in this regard will be made by the organizers and it will be deemed final.",
@@ -224,7 +224,7 @@ Event.fn = Event.prototype={
             ]
         },
         {
-            "description": "Put on your dancing shoes and get set to move the music. Festember’12’s freestyle solo dance competition is calling out to all you dancers out there. Freestyle dance has been one of the easiest ways to express a dancer’s personality. Because this form of dance requires gives the freedom to express your personal interpretation of the music. So if you think you have what it takes, come and show off some moves at Festember’12. Judging will be done on technique, choreography, style, stage presence and confidence.",
+            "description": "Put on your dancing shoes and get set to move the music. Festemberâ€™12â€™s freestyle solo dance competition is calling out to all you dancers out there. Freestyle dance has been one of the easiest ways to express a dancerâ€™s personality. Because this form of dance requires gives the freedom to express your personal interpretation of the music. So if you think you have what it takes, come and show off some moves at Festemberâ€™12. Judging will be done on technique, choreography, style, stage presence and confidence.",
             "title": "Free style Solo Dance",
             "rules": [
                 "Performer should register only at the PR desk at FESTEMBER reception AT LEAST two hours before the scheduled time of the event. Late registrations will be entertained subject to the number of performers and the time available.",
@@ -271,7 +271,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "Here’s a chance to prove your mother wrong. A chance to finally make something out of a whole childhood wasted in front of the idiot box. This is a quiz that tests your knowledge of the world of sports and entertainment.",
+                "description": "Hereâ€™s a chance to prove your mother wrong. A chance to finally make something out of a whole childhood wasted in front of the idiot box. This is a quiz that tests your knowledge of the world of sports and entertainment.",
                 "title": "Spent Quiz",
                 "rules": [
                     "Teams of 3",
@@ -299,7 +299,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "Are there things that remain that you still don’t know about India? You’re bound to turn up with gold or end up realizing how little you know of where you stay.",
+                "description": "Are there things that remain that you still donâ€™t know about India? Youâ€™re bound to turn up with gold or end up realizing how little you know of where you stay.",
                 "title": "India Quiz",
                 "rules": [
                     "Will be India based",
@@ -329,7 +329,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "No, we aren’t going to give you a cryptic clue the answer to which is ‘crossword’. One of the mainstays of any English Lits fest, the crossword returns this Festember in its finest form. Try and solve the cryptic clues and have a whale of a time doing so.",
+                "description": "No, we arenâ€™t going to give you a cryptic clue the answer to which is â€˜crosswordâ€™. One of the mainstays of any English Lits fest, the crossword returns this Festember in its finest form. Try and solve the cryptic clues and have a whale of a time doing so.",
                 "title": "Crossword",
                 "rules": [
                     "Teams of Two",
@@ -342,7 +342,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "Calling all brainiacs! Here’s an event that’ll give MENSA’S IQ tests a run for their money. Puzzle Champ is an out-and-out battle of brains that makes you wrack that big brain of yours trying to solve complex puzzles before your competitors.",
+                "description": "Calling all brainiacs! Hereâ€™s an event thatâ€™ll give MENSAâ€™S IQ tests a run for their money. Puzzle Champ is an out-and-out battle of brains that makes you wrack that big brain of yours trying to solve complex puzzles before your competitors.",
                 "title": "Puzzle Champ",
                 "rules": [
                     "Teams of Three",
@@ -355,7 +355,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "If you think you’re a Jack of all trades, try your hand at potpourri, an eclectic mix of various events. It includes word games, miming, twenty questions and many other events. Come have a blast!",
+                "description": "If you think youâ€™re a Jack of all trades, try your hand at potpourri, an eclectic mix of various events. It includes word games, miming, twenty questions and many other events. Come have a blast!",
                 "title": "Potpourri",
                 "rules": [
                     "Will involve a variety of literary events, versatility is the key to win",
@@ -369,12 +369,12 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "This Festember, use your annoying habit of interrupting and correcting people to get some fame and fortune.  Speak on wacky topics, as long as you do so in Queen’s English. An individual speaking event.",
+                "description": "This Festember, use your annoying habit of interrupting and correcting people to get some fame and fortune.  Speak on wacky topics, as long as you do so in Queenâ€™s English. An individual speaking event.",
                 "title": "JAM",
                 "rules": [
                     "Individual event",
                     "6 finalists",
-                    "Jam Moderator’s decisions are final. Argue at your own risk"
+                    "Jam Moderatorâ€™s decisions are final. Argue at your own risk"
                 ],
                 "prize": [
                     
@@ -382,7 +382,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "Scrabble is the board game that needs no introduction, but here’s one anyway. Use wit and vocabulary to steadily assert your dominance in this game of tiles. Bamboozle your opponents with words whose existence even you aren’t sure of. If you play your tiles right, you might get an elusive bonus!",
+                "description": "Scrabble is the board game that needs no introduction, but hereâ€™s one anyway. Use wit and vocabulary to steadily assert your dominance in this game of tiles. Bamboozle your opponents with words whose existence even you arenâ€™t sure of. If you play your tiles right, you might get an elusive bonus!",
                 "title": "Scrabble",
                 "rules": [
                     "Teams of Two",
@@ -396,7 +396,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "Do such things as bad words exist? Perhaps, but unless you know what the good word is, it’s quite impossible a task, this event. Watch as English devolves into something you’ve never seen before, and try to make sense of it all and turn up with the word everyone’s looking for.",
+                "description": "Do such things as bad words exist? Perhaps, but unless you know what the good word is, itâ€™s quite impossible a task, this event. Watch as English devolves into something youâ€™ve never seen before, and try to make sense of it all and turn up with the word everyoneâ€™s looking for.",
                 "title": "What's The Good Word",
                 "rules": [
                     "Versatile mish mash of word games",
@@ -411,7 +411,7 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "Here’s a platform to air your views and go down dying defending them. Battle it out with other teams in a parliamentary style debate. Try to break your opponent’s argument down while defending your own.",
+                "description": "Hereâ€™s a platform to air your views and go down dying defending them. Battle it out with other teams in a parliamentary style debate. Try to break your opponentâ€™s argument down while defending your own.",
                 "title": "Debate",
                 "rules": [
                     "Teams are of 3 members each",
@@ -540,14 +540,14 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "इसप्रतियोगितामेंआपऔरआपकेसहयोगीमेंसमानताकापरीक्षणकियाजाताहैं।",
+                "description": "इस प्रतियोगिता में आप और आपके सहयोगी में समानता का परीक्षण किया जाता हैं।",
                 "title": "हम-तुम",
                 "rules": [
-                    "इसकार्यक्रममेदोचरणहैं।प्रथमचरणलिखितहैं।",
-                    "प्रत्येकटीममेदोसदस्यहोंगे।",
-                    "प्रथमचरणमेंअसिमितप्रविष्टियाँ।प्रथमचरणपरीक्षालिखितहोगी।",
-                    "अन्तिमचरणमेंछहटीमोंकोप्रवेशदियाजाएगा।",
-                    "किसीभीविवादस्पदपरिस्थितिमेंनिर्णायकसमीतिकानिर्णयअन्तिममानाजाएगा।"
+                    "इस कार्यक्रम मे दो चरण हैं। प्रथम चरण लिखित हैं।",
+                    "प्रत्येक टीम मे दो सदस्य होंगे।",
+                    "प्रथम चरण में असिमित प्रविष्टियाँ । प्रथम चरण परीक्षालिखित होगी।",
+                    "अन्तिम चरण में छह टीमों को प्रवेश दिया जाएगा।",
+                    "किसी भी विवादस्पद परिस्थिति में निर्णायकसमीतिका निर्णय अन्तिम माना जाएगा।"
                 ],
                 "prize": [
                     
@@ -555,15 +555,15 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "इसप्रतियोगितामेंमूलतःसामान्यज्ञानऔरएप्टीटुयडपरप्रश्नहोंगे।",
+                "description": "इस प्रतियोगिता में मूलतः सामान्य ज्ञान और एप्टीटुयड पर प्रश्न होंगे।",
                 "title": "साँपसीढी",
                 "rules": [
-                    "इसकार्यक्रममेदोचरणहैं।प्रथमचरणलिखितहैं।",
-                    "प्रत्येकटीममेतीनसदस्यहोंगे।",
-                    "प्रथमचरणमेंअसिमितप्रविष्टियाँ।प्रथमचरणपरीक्षालिखितहोगी।",
-                    "प्रथमचरणमेंमूलतःसामान्यज्ञानऔरएप्टीटुयडपरप्रश्नहोंगे।",
-                    "अन्तिमचरणमेंछहटीमोंकोप्रवेशदियाजाएगा।अन्तिमचरणसाँपसीढीगेमसोपरआधारितहोगा।",
-                    "किसीभीविवादस्पदपरिस्थितिमेंनिर्णायकसमीतिकानिर्णयअन्तिममानाजाएगा।"
+                    "इस कार्यक्रम मे दो चरण हैं।प्रथम चरण लिखित हैं।",
+                    "प्रत्येक टीम मे तीन सदस्य होंगे।",
+                    "प्रथम चरण में असिमित प्रविष्टियाँ। प्रथम चरण परीक्षालिखित होगी।",
+                    "प्रथमचरण में मूलतः सामान्यज्ञान और एप्टीटुयड पर प्रश्न होंगे।",
+                    "अन्तिम चरण में छह टीमों को प्रवेश दिया जाएगा।अन्तिम चरण साँप सीढी गेमसो पर आधारित होगा।",
+                    "किसी भी विवादस्पदपरिस्थिति में निर्णायकसमीतिका निर्णयअन्तिम माना जाएगा।"
                 ],
                 "prize": [
                     
@@ -571,16 +571,16 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "प्रतियोगितामूलरुपसेसामान्यजागरुकता,हि्दीसाहित्य,पौराणिककथाओंऔरहिन्दीव्याकरणकेबारेमेज्ञानपरीक्षणकरेगा।",
-                "title": "हल्काफुल्का(हिन्दीव्याकरणज्ञानप्रशनोत्तरी)",
+                "description": "प्रतियोगिता मूल रुप से सामान्य जागरुकता, हि्दीसाहित्य, पौराणिक कथाओं और हिन्दी व्याकरण के बारे मे ज्ञान परीक्षण करेगा।",
+                "title": "हल्काफुल्का (हिन्दी व्याकरण ज्ञान प्रशनोत्तरी)",
                 "rules": [
-                    "एकलचरणईवेंट।",
-                    "प्रत्येकटीममेदोसदस्यहोंगे।",
-                    "असिमितप्रविष्टियाँ।",
-                    "परीक्षालिखितहोगी।",
-                    "ईवेंटमूलरुपसेसामान्यजागरुकता,हि्दीसाहित्य,पौराणिककथाओंौरहिन्दीव्याकरणकेबारेमेज्ञानपरीक्षणकरेगा।",
-                    "किसीभीटीमकेउत्तरपत्रकोकिसीभीपरिस्थितिमेंनहीदिखायाजाएगा।",
-                    "किसीभीविवादस्पदपरिस्थितिमेंनिर्णायकसमीतिकानिर्णयअन्तिममानाजाएगा।"
+                    "एकलचरण ईवेंट।",
+                    "प्रत्येक टीम मे दो सदस्य होंगे।",
+                    "असिमित प्रविष्टियाँ।",
+                    "परीक्षा लिखित होगी।",
+                    "ईवेंट मूल रुप से सामान्य जाग रुकता ,हि्दीसाहित्य, पौराणिक कथाओंौरहिन्दीव्याकरण के बारे मे ज्ञान परीक्षण करेगा।",
+                    "किसी भी टीम के उत्तरपत्र को किसी भी परिस्थिति में नही दिखाया जाएगा।",
+                    "किसी भी विवादस्पद परिस्थिति में निर्णायक समीति का निर्णय अन्तिम माना जाएगा।"
                 ],
                 "prize": [
                    
@@ -588,16 +588,16 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "प्रतियोगितामूलतःलेखनकौशल,                रचनात्मता,                प्रस्तुतिऔरभाषाकापरीक्षणकरेगा।जैसाकिईवेंटकेनामसेहीस्पष्टहैंकियहप्रतियोगिताआपकीत्वरितरचनात्मकलेखनमेंनिखारलाएगा।",
-                "title": "त्वरितसृजनात्मकलेखन(रचनात्मकलेखन)",
+                "description": "प्रतियोगितामूलतः लेखनकौशल,                रचनात्मता,                प्रस्तुति और भाषाका परीक्षण करेगा।जैसा कि ईवेंट के नाम से हीस्पष्टहैंकियह प्रतियोगिता आपकीत्वरितरचनात्मक लेखन में निखार लाएगा।",
+                "title": "त्वरितसृजनात्मक लेखन (रचनात्मकलेखन)",
                 "rules": [
-                    "एकलचरणईवेंट।",
-                    "प्रत्येकटीममेदोसदस्यहोंगे।",
-                    "असिमितप्रविष्टियाँ।",
-                    "परीक्षालिखितहोगी।",
-                    "ईवेंटमूलतःलेखनकौशल,                रचनात्मता,                प्रस्तुतिऔरभाषाकापरीक्षणकरेगा।",
-                    "किसीभीटीमकेउत्तरपत्रकोकिसीभीपरिस्थितिमेंनहीदिखायाजाएगा।",
-                    "किसीभीविवादस्पदपरिस्थितिमेंनिर्णायकसमीतिकानिर्णयअन्तिममानाजाएगा।"
+                    "एकल चरण ईवेंट।",
+                    "प्रत्येक टीम मे दो सदस्य होंगे।",
+                    "असिमित प्रविष्टियाँ।",
+                    "परीक्षा लिखित होगी।",
+                    "ईवेंट मूलतःलेखन कौशल,                रचनात्मता,                प्रस्तुति और भाषा का परीक्षण करेगा।",
+                    "किसी भी टीम के उत्तरपत्र को किसी भी परिस्थिति में नही दिखाया जाएगा।",
+                    "किसी भी विवादस्पद परिस्थिति में निर्णायक समीति का निर्णय अन्तिम माना जाएगा।"
                 ],
                 "prize": [
                     
@@ -605,16 +605,16 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "प्रतियोगितामूलरुपसेहिन्दीशब्दावलीकापरीक्षणकरेगा।",
-                "title": "शब्दजालहिन्दीवर्गपहेली",
+                "description": "प्रतियोगिता मूल रुप से हिन्दी शब्दावली का परीक्षण करेगा।",
+                "title": "शब्दजाल हिन्दी वर्ग पहेली",
                 "rules": [
-                    "एकलचरणईवेंट।",
-                    "प्रत्येकटीममेदोसदस्यहोंगे।",
-                    "असिमितप्रविष्टियाँ।",
-                    "परीक्षालिखितहोगी।",
-                    "ईवेंटमूलरुपसेहिन्दीशब्दावलीकापरीक्षणकरेगा।",
-                    "किसीभीटीमकेउत्तरपत्रकोकिसीभीपरिस्थितिमेंनहीदिखायाजाएगा।",
-                    "किसीभीविवादस्पदपरिस्थितिमेंनिर्णायकसमीतिकानिर्णयअन्तिममानाजाएगा।"
+                    "एकल चरण ईवेंट।",
+                    "प्रत्येक टीम मे दो सदस्यहोंगे।",
+                    "असिमित प्रविष्टियाँ।",
+                    "परीक्षा लिखित होगी।",
+                    "ईवेंट मूल रुप से हिन्दी शब्दावली का परीक्षण करेगा।",
+                    "किसी भी टीम के उत्तरपत्र को किसी भी परिस्थिति में नही दिखाया जाएगा।",
+                    "किसी भी विवादस्पद परिस्थिति में निर्णायक समीति का निर्णय अन्तिम माना जाएगा।"
                 ],
                 "deadline": "",
                 "prize": [
@@ -623,14 +623,14 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "किसीभीव्यक्तित्व,                फिल्म,                जगह,                याकिसीभीअनजानवस्तुकोइशारोमेअपनेसहयोगीकोबतानाहोताहैं।",
-                "title": "कुछनाकहो(डम्बसी)",
+                "description": "किसी भी व्यक्तित्व,                फिल्म,                जगह,                या किसी भी अनजान वस्तु को इशारो मे अपने सहयोगी को बताना होता हैं।",
+                "title": "कुछ ना कहो ( डम्बसी)",
                 "rules": [
-                    "इसकार्यक्रममेदोचरणहैं।",
-                    "प्रत्येकटीममेतीनसदस्यहोंगे।",
-                    "प्रथमचरणमेंअसिमितप्रविष्टियाँ।",
-                    "अन्तिमचरणमेंछहटीमोंकोप्रवेशदियाजाएगा।",
-                    "किसीभीविवादस्पदपरिस्थितिमेंनिर्णायकसमीतिकानिर्णयअन्तिममानाजाएगा।"
+                    "इस कार्यक्रम मे दो चरण हैं।",
+                    "प्रत्येक टीम मे तीन सदस्य होंगे।",
+                    "प्रथम चरण में असिमित प्रविष्टियाँ।",
+                    "अन्तिम चरण में छह टीमों को प्रवेश दिया जाएगा।",
+                    "किसी भी विवाद स्पदप रिस्थिति में निर्णायक समीति का निर्णय अन्तिम माना जाएगा।"
                 ],
                 "prize": [
                    
@@ -638,7 +638,7 @@ Event.fn = Event.prototype={
                 ],
                 "contacts": [
                     {
-                        "name": "MayankBung",
+                        "name": "Mayank Bung",
                         "phone": "+919543697462",
                         "email": "mbung.123@gmail.com"
                     }
@@ -974,95 +974,74 @@ Event.fn = Event.prototype={
     },
     "Music": [
         {
-            "description": "1500wattspeakerspumpingoutrockmusictoheadbangingmetalfans: atrulyoutoftheworldmusicexperience!Headsgyrateinunisonashandsreachouttothesky,inrhythmtothethunderousdrumsandtheelectrifyingvocalsastherhapsodicalaudiencetakeinthemusiclateintothenight.ThefollowingisofferedfromTritonMusicandSwarnabhoomiAcademyofMusic<br/>1)The“WINNINGBAND”willbeawardedwithfreerecordingandmixingofanalbumthatincludes4songsworth1,                00,                000INRandfullscholarshiponSwarnabhoomiAcademyofMusic’s5dayintensiveworkshopforeverybandmemberofthewinningteam.<br/>2)The“FIRSTRUNNERUP”willbeawardedwitha50%offinrecordingandmixingonemusicalbumwhichisworth50,                000INRanda10,                000INRdiscount(foreverybandmemberofthewinningteam)onSwarnabhoomiAcademyofMusic’s5dayintensiveworkshop.<br/>3)The“SECONDRUNNERUP”willbegiftedwitha25%offinrecordingandmixingonemusicalbumworth25,                000INRanda10,                000INRdiscount(foreverybandmemberofthewinningteam)onSwarnabhoomiAcademyofMusic’s5dayintensiveworkshop.",
+            "description": "1500 watt speakers pumping out rock music to head banging metalfans: a truly out of the world music experience!Heads gyrate in unison as hands reachout to the sky, in rhythm to the thunderous drums and the electrifying vocals as the rhapsodical audience take in the music late into the night.The following is offered from Triton Music and Swarnabhoomi Academy of Music<br/>1)The â€œWINNINGBANDâ€ will be awarded with free recording and mixing of an album that includes 4 songs worth 1,00,000 INR and full scholarship on Swarnabhoomi Academy of Musicâ€™s 5 day intensive workshop for every band member of the winning team.<br/>2)The â€œFIRSTRUNNERUPâ€ will be awarded with a 50% off in recording and mixing one music album which is worth 50,000 INR and a 10,000 INR discount (for every band member of the winning team) on Swarnabhoomi Academy of Musicâ€™s 5 day intensive workshop.<br/>3)The â€œSECONDRUNNERUPâ€ will be gifted witha 25% off in recording and mixing one music album worth 25,000 INR and a 10,000 INR discount (for every band member of the winning team) on Swarnabhoomi Academy of Musicâ€™s 5 day intensive workshop.",
             "title": "GIG-A-HERTZ",
             "rules": [
-                "BandsarerequiredtoperforminEnglish.",
-                "Thechoiceofgenreislefttotheband.",
-                "Ashortlistwouldbemadeonthebasisofademo(audio/video/YouTubelinks,                etc.)",
-                "Twenty(20)minsonstageinclusiveofsetuptime.",
-                "Apersonmayplayforonlyoneband.",
-                "Bandmembersdonotnecessarilyhavetobecollegestudents.",
-                "Obscenityonstagewillnotbeentertained.",
-                "Instrumentsprovided: 1bassguitar,                1keyboard(KORGN364),                drumkit(MapexMSeries,                1ride/crash,                1crash,                1ride)",
-                "Judges’decisionswillbefinalandbinding,               andarenotopentoreview."
+                "Bands are required to perform in English.",
+                "The choice of genre is left to the band.",
+                "A shortlist would be made on the basis of a demo(audio/video/YouTube links,etc.)",
+                "Twenty(20) mins on stage inclusive of setup time.",
+                "A person may play for only one band.",
+                "Band members do not necessarily have to be college students.",
+                "Obscenity on stage will not be entertained.",
+                "Instruments provided: 1 bass guitar, 1 keyboard(KORGN364), drum kit(MapexMSeries,1 ride/crash,1 crash,1 ride)",
+                "Judgesâ€™ decisions will be final and binding, and are not open to review."
             ],
-            "prize": [
-               
-                "35000"
-            ],
-            "contacts": [
-                {
-                    "name": "PankaajPadmanabhan",
-                    "phone": "",
-                    "email": "pankaaj@festember.com"
-                },
-                {
-                    "name": "AshwinKumar",
-                    "phone": "",
-                    "email": "psyches@festember.com"
-                }
+            "prize": ["35000"],
+            "contacts": [{"name": "PankaajPadmanabhan","phone": "","email": "pankaaj@festember.com"},
+                {"name": "AshwinKumar","phone": "","email": "psyches@festember.com"}
             ]
         },
         {
-            "description": "Apeppy  feet-tappingarrayofpopularcinematicsongsinTamilandHindisungbybuddingartistsfromvariouscollegeswhichgetstheaudienceupandofftheirseats.Beitthelayasandabhilayasofthecarnaticorthefastpaced\"harkats\"oftheHindustani-Taranginipromisestodelivertoallmusic–fantastic,  pure,                beautifulandenticing!HarmoniesfromtheEasternThemeofthevastuniverseofmusic.Preparetohaveyoursenseskindledinthismelodiousevent.<br/>ThefollowingisofferedfromSwarnabhoomiAcademyofMusic<br/>1)The“WINNINGBAND”willbeawardedwithfullscholarshiponSwarnabhoomiAcademyofMusic’s5dayintensiveworkshop.<br/>2)The“FIRSTRUNNERUP”gets10,                000INRdiscount(foreverybandmemberofthewinningteam)onSwarnabhoomiAcademyofMusic’s5dayintensiveworkshop.<br/>3)The“SECONDRUNNERUP”gets10,                000INRdiscount(foreverybandmemberofthewinningteam)onSwarnabhoomiAcademyofMusic’s5dayintensiveworkshop.",
+            "description": "Apeppy  feet-tapping array of popular cinematic songs in Tamil and Hindi sung by budding artists from various colleges which gets the audience up and off their seats. Be it the layas and abhilayas of the carnatic or the fast paced\"harkats\"of the Hindustani-Tarangini promises to deliver to all musicâ€“fantastic, pure, beautiful and enticing! Harmonies from the Eastern Theme of the vast universe of music. Prepare to have your senses kind led in this melodious event.<br/>The following is offered from Swarnabhoomi Academy of Music<br/>1)The â€œWINNINGBANDâ€ will be awarded with full scholarshipon Swarnabhoomi Academy of Musicâ€™s 5 day intensive workshop.<br/>2)The â€œFIRSTRUNNERUPâ€ gets 10,000 INR discount (for every band member of the winning team) on Swarnabhoomi Academy of Musicâ€™s 5 day intensive workshop.<br/>3)The â€œSECONDRUNNERUPâ€ gets 10,000 INR discount for every band member of the winning team) on Swarnabhoomi Academy of Musicâ€™s 5 day intensive workshop.",
             "title": "Tarangini",
-            "rules": [
-                "Maxno.ofparticipants: 14onstage+1offstage.",
-                "Twenty(20)minsonstageinclusiveofsetuptime.",
-                "BandsarerequiredtopostanaudiovisualrecordingofanyONEsongoftheirchoice;thevideowillbeusedforthepurposeofshortlisting.",
-                "Shortlistedteamswouldbeintimatedbye-mail;thenamesofthebandswouldalsobeputuponthewebsite",
-                "Morethanoneteamcanregisterfromasinglecollege,                butthemembersofthebandsmustnecessarilybemutuallyexclusive.",
-                "Allmembersofthebandwithoutexceptionshallbecollegestudents.",
-                "Prerecordedsoundisnotallowed.",
-                "Instrumentsprovided: 1bassguitar,                drumkit(MapexMSeries,                1ride/crash,                1crash,                1ride)",
-                "Judges’decisionswillbefinalandbinding,                andarenotopentoreview."
+            "rules": ["Max no. of participants: 14 on stage + 1 off stage.",
+                "Twenty(20) mins on stage inclusive of setup time.",
+                "Bands are required to post an audio visual recording of any ONE song of their choice; the video will be used for the purpose of short listing.",
+                "Shortlisted teams would be intimated by e-mail; the names of the bands would also be put up on the website",
+                "More than one team can register from a single college, but the members of the bands must necessarily be mutually exclusive.",
+                "All members of the band without exception shall be college students.",
+                "Pre recorded sound is not allowed.",
+                "Instruments provided: 1bassguitar, drumkit(MapexMSeries,1ride/crash,1crash,1ride)",
+                "Judgesâ€™ decisions will be final and binding, and are not open to review."
             ],
-            "prize": [
-               
-                "30000"
-            ]
+            "prize": ["30000"]
         },
         {
-            "description": "ShruthilayaistheCarnaticmusiceventofFestember,                thenationalintercollegefestivalofNIT-Trichy.ShruthilayaisastagetoshowcaseyourartistryinCarnatic/Classicalmusic.Therearethreecategories-Vocal,                Instrumental(Percussion)andInstrumental(Non-Percussion).Anelectricatmosphereaddstothemagnificenceofclassicalmusic.NottoforgettheamazingprizesworthOneLakhINR-CashPrizesworth15000INRandachancetoattendafreeworkshopattheprestigiousMARG-SwarnabhoomiAcademyofMusic.SruthilayaisthemotherofallCollegeCarnaticcompetitionsintermsofprizesandthecompetition.Sotuneup,                astraditionandtalenttakeCentrestageatShruthilaya,                Festember’12.",
-            "title": "Shruthilaya-TheClassicalShowdownofFestember12.",
+            "description": "Shruthilaya is the Carnatic music event of Festember, the national inter college festival of NIT-Trichy. Shruthilaya is a stage to show case your artistry in Carnatic/Classical music. There are three categories-Vocal, Instrumental(Percussion) and Instrumental(Non-Percussion). An electric atmosphere adds to the magnificence of classical music. Not to forget the amazing prizes worth One Lakh INR- Cash Prizes worth 15000 INR and a chance to attend a free workshop at the prestigious MARG-Swarnabhoomi Academy of Music. Sruthilaya is the mother of all College Carnatic competitions in terms of prizes and the competition. So tune up,as tradition and talent take Cent rest age at Shruthilaya,Festemberâ€™12.",
+            "title": "Shruthilaya-The Classical Showdown of Festember12.",
             "children": [
                 {
                     "rules": [
-                        "Timelimit-5mins",
-                        "Manodharmawillbegivenweightage(Ragam,NeravalandSwaram)",
-                        "Lightsongs/thukkadas/Varnamsshouldbeavoided."
+                        "Time limit- 5 mins",
+                        "Manodharma will be given weightage(Ragam,NeravalandSwaram)",
+                        "Light songs/thukkadas/Varnams should be avoided."
                     ],
                     "title": "Vocals(Classical)"
                 },
                 {
                     "rules": [
-                        "Timelimit–4mins",
-                        "Oneinstrumentforaccompaniment."
+                        "Time limitâ€“ 4 mins",
+                        "One instrument for accompaniment."
                     ],
                     "title": "Vocals(LiteMusic)",
-                    "prize": [
-                        
-                        "4500"
-                    ]
+                    "prize": ["4500"]
                 },
                 {
                     "rules": [
-                        "TimeLimit–5mins",
-                        "Manodharmawillgetextrapoints(Ragam,Swaram)",
-                        "Lightsongs/Thukkadas/Varanmsshouldbeavoided."
+                        "Time Limitâ€“ 5 mins",
+                        "Manodharma will get extra points(Ragam,Swaram)",
+                        "Lightsongs/Thukkadas/Varanms should be avoided."
                     ],
                     "title": "NonPercussion",
-                    "prize": [
-                        
-                        "4500"
+                    "prize": ["4500"
                     ]
                 },
                 {
                     "rules": [
                         "Solo-Taniavartanam",
-                        "TimeLimit–5mins",
-                        "Extrapointsforartist’screativity(Changeofnadai,ComplexThalas)"
+                        "Time Limitâ€“ 5 mins",
+                        "Extra points for artistâ€™s creativity(Change of nadai,Complex Thalas)"
                     ],
                     "title": "Percussion",
                     "prize": [
@@ -1075,15 +1054,15 @@ Event.fn = Event.prototype={
     ],
     "Dramatics": [
         {
-            "description": "Theatrix'12,abattlegroundfordramatictroupesfromcollegesalloverthecountry.Encompassingandencouragingallgenresfrommysteryanddramatosatire,farceandcomedy,Theatrix'12,providesdramaenthusiaststheultimatestagetoentertain,captivateandthrillaudienceswiththeirtheatricaltalentswhilstfightingitoutagainsttheirworthycounterpartsfromothercolleges.",
+            "description": "Theatrix'12, a battle ground for dramatic troupes from colleges all over the country. Encompassing and encouraging all genres from mystery and dramatosatire, farceandcomedy, Theatrix'12, provides drama enthusiasts the ultimate stage to entertain, captivate and thrill audiences with their theatrical talents whilst fighting it out against their worthy counter parts from other colleges.",
             "title": "THEATRIX",
             "rules": [
-                "Timeprovidedisamaximumof45minutes–stageentrytostageclear.",
-                "Thereisnorestrictiononthenumberofparticipantspercollegeornumberofonstagepeoplepercollege.However,onlyoneteampercollegeisallowed.",
-                "Thereisnorestrictionwithregardtoscripts.Originalscripts,pre-writtenscriptsandadaptations(eg: Othello->Omkara)arewelcome.HowevertheplayshouldnothavebeenstagedatanyearliereditionofFestember.",
-                "Nofireorwaterallowedonstage.Participantswillbeheldresponsibleforanydamagetotheauditorium.",
-                "Nosuggestiveactionsorobscenitieswillbepermittedon-stage.",
-                "Thejudges’decisionswillbefinalandbindingandarenotopentoreview."
+                "Time provided is a maximum of 45minutes â€“stage entry to stage clear.",
+                "There is no restriction on the number of participants per college or number of onstage people per college.However,only one team per college is allowed.",
+                "There is no restriction with regard to scripts. Original scripts, pre-written scripts and adaptations (eg: Othello->Omkara) are welcome. However the play  should not have been staged at any earlier edition of Festember.",
+                "No fire or water allowed on stage.Participants will beheld responsible for any damage to the auditorium.",
+                "No suggestive actions or obscenities will be permitted on-stage.",
+                "The judges â€™ decisions will be final and binding and are not open to review."
             ],
             "prize": [
                
@@ -1091,7 +1070,7 @@ Event.fn = Event.prototype={
             ],
             "contacts": [
                 {
-                    "name": "SaranSakthivel",
+                    "name": "Saran  Sakthivel",
                     "phone": "+919976651051",
                     "email": "saran91@gmail.com"
                 }
@@ -1100,17 +1079,17 @@ Event.fn = Event.prototype={
     ],
     "Spotlight": [
         {
-            "description": "Alleyesareonyou…Thisisyourmomentinthespotlight,                strutdownthatrampandstrikeupapose.FloortheaudienceandrisetotheheightsofGlamourworldthisFestember.Fashionitas,                atworoundindividualmodelFashionEvent.Beinnovativeandcreativeinthefirst“Casual”roundandflauntyourTraditionalsideintheSecond“Ethnic”Round.DotrygrabbingthoseextraGreeninnovationpoints.Mailusyourphotographalongwithyourdetailsandawrite-up(nomorethan100words)aboutyourselftofashionitas@festember.com.<br/>Click<ahref=\"*.pdf\">here</a>todownloadtheFashionitasBrochure",
+            "description": "All eyes are on you â€¦This is your moment in the spotlight,                strut down that ramp and strike up a pose.Floor the audience and rise to the height so fGl amour world this Festember.Fashionitas,                at woround individual model Fashion Event. Be innovative and creative in the first â€œ Casualâ€round and flaunt your Traditional side in the Second â€œEthnicâ€Round. Do try grabbing those extra Green innovation points.Mail us your photograph along with your details and a write-up(no more than 100 words)about your self to fashion it as @festember.com.<br/>Click<ahref=\"*.pdf\"> here</a>to download the Fashionitas Brochure",
             "title": "FashioNitas",
             "rules": [
-                "Eachentrycanhaveonlyonemodelandmaximumoftwooffstagecrew.",
-                "Thereisnolimitonthenumberofentriespercollege.",
-                "Incaseofexcessiveregistrations,                aneliminationroundwillbeconductedadaybeforeevent.Eliminationwillbebaseduponmodelingskillsandattitude;nocostumesarerequiredforelimination.",
-                "Thecontestantswillbescrutinizedbeforetherampwalk.",
-                "Anysortofvulgarityandunnecessarydisplayofcleavage,                midriff,                lowerbackandthighswillleadtodisqualification.",
-                "Participantsareresponsibleforalltheclothingandmakeup.",
-                "Useofanimals,                fire,                wateroranyotherhazardousmaterialswillleadtodisqualification.",
-                "Judgesdecisionwillbefinal."
+                "Each entry can have only one model and maximum of two off stage crew.",
+                "There is no limit on the number of entries per college.",
+                "In case of excessive registrations,                an elimination round will be conducted a day before event. Elimination will be based upon modeling skills and attitude; no costumes are required for elimination.",
+                "The contestants will be scrutinized before the ramp walk.",
+                "Any sort of vulgarity and unnecessary display of cleavage,                midriff,                lower back and thighs will lead to disqualification.",
+                "Participants are responsible for all the clothing and makeup.",
+                "Use of animals,                fire,                water or any other hazardous materials will lead to disqualification.",
+                "Judges decision will be final."
             ],
             "prize": [
                
@@ -1118,56 +1097,56 @@ Event.fn = Event.prototype={
             ],
             "contacts": [
                 {
-                    "name": "PankaajPadmanabhan",
+                    "name": "Pankaaj Padmanabhan",
                     "phone": "+919042526559",
                     "email": "pankaaj@festember.com"
                 },
                 {
-                    "name": "AshwinKumar",
+                    "name": "Ashwin Kumar",
                     "phone": "+919500265760",
                     "email": "psyches@festember.com"
                 }
             ]
         },
         {
-            "description": "FestemberisNITTrichy’sbrandnamethatneverfailstodisappoint.AndtoshowthecrowdsofChennaithatFestember’12promisestobethefun-filledextravaganzaitalwaysis,                wepresenttheCurtainRaiserofFestember’12.Thecurtainraisereventwilltakeplaceon15thSeptemberat11: 30amatCitiCentermallaftertherallyorganisedbytheFSR.Itgivesachanceforstudentsofanycollegetotakepartinsolodanceandsolovocalscompetitions.Lucrativepricesworth50,                000INRcanbewon.<br/>ThisjustgivesatasteofthelevelofcompetitionandfunthatFetember’12willinvolve.Getsetfortherealthingon27thSeptember",
-            "title": "CurtainRaiser",
+            "description": "Festember is NIT Trichyâ€™s brand name that never fails to disappoint. And to show the crowds of Chennai that Festemberâ€™12 promises to be thefun-filled extravaganza it always is,                we present the Curtain Raiser of Festemberâ€™12. The curtain raiser event will take place on 15th September at 11: 30 amat CitiCenter mall after the rally organised by the FSR. It gives a chance for students of any college to take part in solo dance and solo vocals competitions.Lucrative prices worth 50,000 INR can be won.<br/>This just gives a taste of the level of competition and fun that Fetemberâ€™12 will involve.Get set for the real thing on 27th September",
+            "title": "Curtain Raiser",
             "contacts": [
                 {
-                    "name": "PankaajPadmanabhan",
+                    "name": "Pankaj Padmanabhan",
                     "phone": "+919042526559",
                     "email": "pankaaj@festember.com"
                 },
                 {
-                    "name": "AshwinKumar",
+                    "name": "Ashwin Kumar",
                     "phone": "+919500265760",
                     "email": "psyches@festember.com"
                 },
                 {
-                    "name": "DineshKumar",
+                    "name": "Dinesh Kumar",
                     "phone": "+919566763918",
                     "email": "prody@festember.com"
                 }
             ]
         },
         {
-            "description": "RaisingcurtainsonTheFSR–FestemberSocialResponsibilitywhichisoneofitskindandauniqueinitiativeinacollegeculturalfestivalaimedataddressingvarioussocialandenvironmentalissues,                steeringtheyouthtowardsworkingforagreatercause,                forabetterenvironmentwhichistheneedofthehour.Itonlytakesminutesofintrospectionandaniotaofconcernforourenvironment,notonlydothebell-bottomsandfunkysunglassesdeserveahugecome-backbutalsothe'used-to-be-then'greentownsandcities.8thofthisSeptemberwilladaythatnoculturalfestivalhaswitnessedanywhereinSouthIndia.Forthefirsttimeonamissiontotakeitsreachandcausebeyondcampusgatesandthecollegejunta,FestemberSocialResponsibilityTeamthisyearroundorganizesaRallytotakeplaceinthedemographicallydense‘MarinaBeach’,Thisgreenrallyaimsatspreadingawarenessaboutenvironmentalhazardscausedbythecarbonfootprintwhichisthetotalsetofgreenhousegasemissionscausedbyanyorganisation,event,                productorpersonintheworld.Anothermainobjectiveoftherallyistohighlighttheneedfora'green'worldandtonailthemessageintothemindsofpeople,                therebypushingthemtocontributeforapollution-freeworld,                inwhateverwaytheycan,                howeversmallastepitmaybe.<br/>",
+            "description": "Raising curtains on The FSRâ€“Festember Social Responsibility which is one of its kind and a unique initiative in a college cultural festival aimed at addressing various social and environmental issues, steering the youth towards working for a greater cause, for a better environment which is the need of the hour. It only takes minutes of introspection and an iota of concern for ourenvironment, not only do the bell-bottoms and funky sunglasses deserve a huge come-back but also the used-to-be then'green towns and cities.8th of this September will a day that no cultural festival has witnessed anywhere in South India. For the first time on a mission to take its reach and cause beyond campus gates and the college junta, Festember Social Responsibility Team this year round organizes a Rally to take place in the demo graphically denseâ€ ˜Marina Beachâ€™,This green rally aims at spreading awareness about environmental hazards caused by the carbon footprint which is the total set of greenhouse gas emissions caused by any organisation,event,                product or person in the world.Another main objective of the rally is to highlight the need for a 'green' world and to nail the message into the minds of people,                there by pushing them to contribute for a pollution-freeworld,                in whatever way they can,                however small a step it maybe.<br/>",
             "title": "GreEndeavour",
             "contacts": [
                 {
-                    "name": "SagarArora",
+                    "name": "Sagar Arora",
                     "phone": "+919543896104",
                     "email": "sagararora80@gmail.com"
                 },
                 {
-                    "name": "V.Kartik",
+                    "name": "V. Kartik",
                     "phone": "+918056515050",
                     "email": "karthik@festember.com"
                 }
             ]
         },
         {
-            "description":"Online Photography contest has been one of the biggest hits of Festember’12 so far. With over one lakh people participating and viewing the pictures, it is one of the most publicised events of Festember’12.There are six rounds, each round with a different theme. The theme is varied  so as to allow each photographer to exhibit their area of expertise. The themes involve using different types of photography. May it be street photography, dusk & dawn or patterns and colours, each round had around ninety enthusiastic photographers sending in their entries. From each round, four finalists were selected. So that the final round consists of 24 finalists. The final round will have a common theme.",
+            "description":"Online Photography contest has been one of the biggest hits of Festemberâ€™12 so far. With over one lakh people participating and viewing the pictures, it is one of the most publicised events of Festemberâ€™12.There are six rounds, each round with a different theme. The theme is varied  so as to allow each photographer to exhibit their area of expertise. The themes involve using different types of photography. May it be street photography, dusk & dawn or patterns and colours, each round had around ninety enthusiastic photographers sending in their entries. From each round, four finalists were selected. So that the final round consists of 24 finalists. The final round will have a common theme.",
             "title": "OnlinePhotographyContest",
             "rules": [
                 "Click<a href=\"#\">here</a>for rules."
@@ -1179,5 +1158,5 @@ Event.fn = Event.prototype={
         }
     ]
 }
-window.Event = Event;
+window.fEvent = Event;
 })();	
