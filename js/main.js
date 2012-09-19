@@ -766,7 +766,7 @@
 		    var etitle;
 		    for(j = 0; j < x[i].length; j++) {
 			etitle = (x[i][j].title).replace(/[\(\)]/g, "").replace(/\s/g, "_");
-			str += '<li><a class="ajaxify" href="' + etitle + '">' + x[i][j].title + '</a></li>';
+			str += '<li><a>' + x[i][j].title + '</a></li>';
 		    }
 		}
 		else {
@@ -788,12 +788,6 @@
             str = "";
             str += getList(x);
             document.getElementById("list").innerHTML = str;
-	    $(".ajaxify").click(function(e) {
-		e.stopPropagation();
-		e.cancelBubble = true;
-
-		alert("here..");
-	    });
 	})();
 	
 
