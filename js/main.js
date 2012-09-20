@@ -17,9 +17,12 @@
 	    games : document.getElementById("games_container"),
 	    player : document.getElementById("player"),
 	    informals : document.getElementById("informals_container"),
+		updates : document.getElementById("updates"),
 	    overlay_container : document.getElementById("overlay_container"),
+		event_title : "",
+		currupdate : "",
+		prevupdate :  $(".updates:first") ,
 	    close : document.getElementById("overlay_close"),
-	    prev : document.getElementById("header").querySelector("div"),
 	    events_child : [],
 	    event_content : document.getElementById("content"),
 	    color : ["#e3e530","#d4d627","#e5cd2f","#d7bd12","#dbde18",,"#d4d627","#e5cd2f","#e3e530","#d7bd12","#dbde18","#d7bd12","#dbde18"],
@@ -56,6 +59,8 @@
         'display' : 'block'			
 	});	
 	
+	$(".updates:not(:first)").css({"display":"none"});
+	
 	
 	var position_elements = function(){
 	    var w = window.innerWidth,
@@ -69,7 +74,14 @@
 		left: ((25/100)*w)+'px',
 		bottom: ((0/100)*w)+'px'
 	    });
-
+		
+	    $(element["updates"]).css({
+		width: (w)+'px',
+		height: ((2/100)*w)+'px',
+		left: (0)+'px',
+		bottom: ((41/100)*w)+'px'
+	    });		
+        
 	    $(element["pronite"]).css({
 		width: ((8/100)*w)+'px',
 		height: ((22.6/100)*w)+'px',
@@ -229,7 +241,15 @@
 				});	
 				var currentLeft = parseInt(cDiv.css("left"));
 				cDiv.css({left: (currentLeft + cloud.speedX)+'px'});
-				if (cDiv.offset().left < 0 ) {
+		        $(".updates").css({marginLeft: (currentLeft + cloud.speedX)+'px'});
+				if (cDiv.offset().left < 0 && (currentLeft+$(element["prevupdate"]).children("span").width()) < 200){
+					element["currupdate"] = $(element["prevupdate"]).next();
+					$(element["prevupdate"]).css({"display" :"none"});
+					if($(element["prevupdate"]).attr("id") === "last"){
+						element["currupdate"] = $(".updates:first");
+					}				
+					$(element["currupdate"]).css({"display" : "block"});
+					element["prevupdate"] = element["currupdate"];
 				    var s = $("#cloud-holder").width();
 				    cDiv.css({left: s+"px"});
 				}
@@ -486,6 +506,11 @@
 	});
 	
 	$("#header").click(function(ev){
+		$("#list").css({"display" : "block"});
+		$("."+element["ev_title"]).parent().prev("h3").css({"display" : "none"});
+		$("."+element["ev_title"]).parent().css({"display" : "none"});
+		$(this).css({"display" : "none"});
+		/*
 	    var curr = ev.target;	
 	    ev.preventDefault();	
 	    element["event_content"].querySelector("."+element["prev"].childNodes[0].innerHTML).classList.add("nothing");        
@@ -493,6 +518,7 @@
 	    curr.parentNode.classList.add("selected");
 	    element["event_content"].querySelector("." + curr.innerHTML).classList.remove("nothing");
 	    element["prev"] = curr.parentNode;		
+		*/
 	});
 	
 	
@@ -588,6 +614,7 @@
 		{src:'cloud_1.png',x:120,y:600,speedX:-1},
 		{src:'cloud_2.png',x:650,y:500,speedX:-2},
 		{src:'flight1.gif',x:1050,y:553,speedX:-2.5,nature: "flight"},
+		{x:1050,y:553,speedX:-2.5,nature: "flight"},
 		{src:'cloud_4.png',x:230,y:626,speedX:-1},
 		{src:'cloud_5.png',x:840,y:650,speedX:-2.5},
 		{src:'cloud_6.png',x:520,y:634,speedX:-1.5},
@@ -609,7 +636,7 @@
 	};
 	
 	sponsor_change();
-	
+/*	
 	function create_event_element(o,x,y){
 	    if(y !== 1){
 		var s = " nothing";
@@ -644,7 +671,97 @@
 		}			 	
 	    }
 	})();
+*/
+////////////////////////////////////////////////////////////////////////////////////
+
+function displayEvents(x) {
+    var j, str = "";
+    for(j = 0; j < x.length; ++j) {
+	var k;
+	//console.log (x[j].title);
+	str += '<div class="eventx">';
+	str += '<div class="ev_title '+ (x[j].title).replace(/\s/g, "_") +'">' + x[j].title + "</div>";
+	if(x[j].description !== undefined) 
+	    str += '<div class="ev_description">' + x[j].description + "</div>";
 	
+	if(x[j].prize !== undefined && x[j].prize[0] !== "") 
+	    str += '<div class="ev_prize">Prize Money: ' + x[j].prize + " INR.</div>";
+	
+	if (x[j]["children"] !== undefined) 
+	    str += displayEvents(x[j]["children"]);
+	
+	if(x[j]["rules"] !== undefined) {
+	    str += '<div class="ev_sub_head">Rules: </div>';
+	    str += '<div class="ev_rules"><ul>';
+	    for (k = 0; k < x[j]["rules"].length; ++k)
+		str += '<li>' + x[j].rules[k] + '</li>';
+	    str += "</ul></div>";
+	}
+	str += "</div>";
+    }
+    return str;
+}
+
+
+function displayEventList(x) { 
+    var str = "";
+    for(i in x) {
+	var j;
+	str += "<h3>" + i + "</h3>";
+	if(x[i].constructor == Array) {
+	    str += displayEvents(x[i]);
+	}
+	else {
+	    str += displayEventList(x[i]);
+	}
+    }
+    return str;
+}
+
+function getList(x) {
+    var str = "", i, j;
+    for(i in x) {
+	str += "<h3>" + i + "</h3><ul>";
+	if(x[i].constructor == Array) {
+	    for(j = 0; j < x[i].length; j++) {
+		str += '<li>' + x[i][j].title + '</li>';
+	    }
+	}
+	else {
+	    str += getList(x[i]);
+	    console.log("Got list for ");
+	    console.log(x[i]);
+	}
+	str += "</ul>";
+    }
+
+    return str;
+}
+
+
+	var create_event_content = (function(){
+		var i, str = "", x = Event();
+		str = displayEventList(x);
+        document.getElementById("root").innerHTML = str;
+        str = "";
+        str += getList(x);
+        document.getElementById("list").innerHTML = str;
+	})();
+	
+	$("#list").click(function(e){
+		element["ev_title"] = (e.target.innerHTML).replace(/\s/g, "_");
+		console.log(element["ev_title"]);
+		console.log($("." + element["ev_title"]));
+		console.log($("." + element["ev_title"]).parent());
+		console.log(e.target);
+        $("#list").css({"display" : "none"});
+//		$("."+element["ev_title"]).parent().prev("h3").css({"display" : "block"});
+		console.log($("."+element["ev_title"]).parent());
+		$("."+element["ev_title"]).parent().css({"display" : "block"});
+		$("#header").css({"display" : "block"});
+	});
+
+//////////////////////////////////////////////////////////////////////////	
 	var angle = 0;
 	setInterval(function(){
 	    angle+=0.3;

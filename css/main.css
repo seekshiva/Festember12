@@ -716,35 +716,17 @@ body {
     width: auto;
 }
 
-#header > div {
-    display: inline-block;
-    border: 1px solid #888;
-    border-radius : 2px;
-}
-
-#header li:hover a{
-    color : #000;
-    font-weight : bold;
-}	
-
-#header li a {
-    padding: 0 1em;
-    text-decoration : none;
-    color : #555555;
-}
-
-
 #content {
     padding-top: 20px;
 }
 
-#header .selected {
+#header {
     padding-bottom: 1px; 
-}
-
-#header .selected a{
-    color : #000;
+	color : #000;
     font-weight : bold;
+    display: inline-block;
+    border-radius : 2px;
+    display : none;	
 }
 
 #workshop_header ul{
@@ -821,7 +803,7 @@ body {
 #updates{
 	position : absolute;
 	height : 5%;
-	bottom : 80%;
+	bottom : 85%;
 	left : 0px;
 	z-index : -900;
 }
@@ -833,6 +815,31 @@ body {
 }
 
 .updates span{
-   background : #fff;
-   margin-left : 100px;
+   margin-left : 130px;
+   background : #fff;		
+}
+
+#root h3{
+   display : none;	
+}	
+
+.eventx { 
+	margin-left: 20px; 
+	display : none;
+}
+
+.ev_title {
+	font-weight: bold; 
+}
+
+.ev_prize { 
+	color: red; font-weight: bold; 
+}
+
+.ev_sub_head { 
+	font-weight: bold; font-size: 80%; 
+}
+      
+.eventx ul { 
+	margin-top: 0; 
 }

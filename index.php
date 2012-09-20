@@ -309,16 +309,16 @@
       <div id="events" style="text-align: left; ">
 	<h2>Events</h2>
 	<p style="color: #446464; text-align: center; ">Click <a href="./media/Rulebook.pdf" target="_blank" style="font-weight: bold; color: #446666; ">here</a> to download the <i><b>Rulebook</b></i>.</p>
-	<div id="header"> 
-	  <div class="selected"><a href="#">Lits</a></div>
-	  <div><a href="#">Choreo</a></div>
-	  <div><a href="#">Music</a></div>
-	  <div><a href="#">Arts</a></div>
+	
+	  <div id="header">
+	      Back
+	  </div>
 	  
-	</div>
 	
 	<div id="content">
-	  
+	    <div id="list"></div>
+		<hr />
+		<div id="root"></div>
      </div>
       </div>
       
