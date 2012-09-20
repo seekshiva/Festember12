@@ -318,10 +318,6 @@
 	    <a href="#" target="_blank"><img src="./images/sponsors/q46.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Alumni Partner</div>
-	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="./images/sponsors/q9.png"></a>
-	  </div>
-	  <div class="sponsor_c">
 	    <div class="sponsor_type">Official Music Partner</div>
 	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q10.png"></a>
 	  </div>
