@@ -356,6 +356,7 @@
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Magazine Partner</div>
 	    <a href="http://www.youthincmag.com/" target="_blank"><img src="./images/sponsors/q31.png"></a>
+	    <a href="http://youthconnectmag.com" target="_blank"><img src="./images/sponsors/q28.png"></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Amusement Park Partner</div>
@@ -382,7 +383,6 @@
 	    <a href="http://www.twenty19.com" target="_blank"><img src="./images/sponsors/q24.png"></a>
 	    <a href="http://www.jammag.com" target="_blank"><img src="./images/sponsors/q26.png"></a>
 	    <a href="http://www.markmyfest.com" target="_blank"><img src="./images/sponsors/q27.png"></a>
-	    <a href="http://youthconnectmag.com" target="_blank"><img src="./images/sponsors/q28.png"></a>
 	    <a href="http://www.talexindia.in" target="_blank"><img src="./images/sponsors/q29.png"></a>
 	  </div>
 	  <div class="sponsor_c">
@@ -573,7 +573,7 @@
       </div>
       <div id="updates">
         <div class="updates"><span>Welcome to Festember 2012!</span></div>
-	<div class="updates"><span>Retro is everywhere.</span></div>	
+	<div class="updates"><span>Registrations Open!</span></div>	
         <div class="updates" id="last"><span>Starts on September 27th.</span></div>	
       </div>
       <div id="informals_container">
