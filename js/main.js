@@ -700,7 +700,7 @@
 		var k;
 		//console.log (x[j].title);
 		str += '<div class="eventx">';
-		str += '<div class="ev_title '+ (x[j].title).replace(/[\(\)]/g, "").replace(/\s/g, "_") +'">' + x[j].title + "</div>";
+		str += '<div class="ev_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</div>";
 		if(x[j].deadline !== undefined && x[j].deadline !== "") 
 		    str += '<div class="ev_deadline">Dead Line: ' + x[j].deadline + "</div>";
 		
@@ -761,7 +761,7 @@
 		if(x[i].constructor == Array) {
 		    var etitle;
 		    for(j = 0; j < x[i].length; j++) {
-			etitle = (x[i][j].title).replace(/[\(\)]/g, "").replace(/\s/g, "_");
+			etitle = (x[i][j].title).replace(/[\(\)?'\s]/g, "");
 			str += '<li><a>' + x[i][j].title + '</a></li>';
 		    }
 		}
@@ -788,7 +788,7 @@
 	$("#list").click(function(e){
 	    console.log(e.target);
 
-	    element["ev_title"] = (e.target.innerText).replace(/[\(\)]/g, "").replace(/\s/g, "_");
+	    element["ev_title"] = (e.target.innerText).replace(/[\(\)?'\s]/g, "");
 	    if($("." + element["ev_title"]).length === 0)
 		return;
 

@@ -910,6 +910,7 @@ body {
 
 .ev_title {
     font-weight: bold; 
+    padding-bottom: 10px;
 }
 
 .ev_deadline { 
@@ -944,6 +945,8 @@ body {
 .ev_sub_head { 
     font-weight: bold;
     font-size: 80%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .eventx ul { 

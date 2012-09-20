@@ -50,7 +50,7 @@ var Informals = function (){
 Event.fn = Event.prototype={
     "Spotlight": [
         {
-            "description": "All eyes are on you ¦This is your moment in the spotlight, strut down that ramp and strike up a pose. Floor the audience and rise to the heights of Glamour world this Festember. Fashionitas, at woround individual model Fashion Event. Be innovative and creative in the first <i>Casual</i> round and flaunt your Traditional side in the Second <i>Ethnic</i> Round. Do try grabbing those extra Green innovation points. Mail us your photograph along with your details and a write-up (no more than 100 words)about your self to fashion it as @festember.com.<br/>Click <a href=\"./media/FashionShow.pdf\" target=\"_blank\">here</a> to download the Fashionitas Brochure",
+            "description": "<p>All eyes are on you ¦This is your moment in the spotlight, strut down that ramp and strike up a pose. Floor the audience and rise to the heights of Glamour world this Festember. Fashionitas, at woround individual model Fashion Event. Be innovative and creative in the first <i>Casual</i> round and flaunt your Traditional side in the Second <i>Ethnic</i> Round. Do try grabbing those extra Green innovation points. Mail us your photograph along with your details and a write-up (no more than 100 words)about your self to <b>fashion@festember.com</b>.<p><p>Click <a href=\"./media/FashionShow.pdf\" target=\"_blank\">here</a> to download the Fashionitas Brochure</p>",
             "title": "FashioNitas",
             "rules": [
                 "Each entry can have only one model and maximum of two off stage crew.",
@@ -118,9 +118,9 @@ Event.fn = Event.prototype={
         },
         {
             "description":"Online Photography contest has been one of the biggest hits of Festember'12 so far. With over one lakh people participating and viewing the pictures, it is one of the most publicised events of Festember'12.There are six rounds, each round with a different theme. The theme is varied  so as to allow each photographer to exhibit their area of expertise. The themes involve using different types of photography. May it be street photography, dusk & dawn or patterns and colours, each round had around ninety enthusiastic photographers sending in their entries. From each round, four finalists were selected. So that the final round consists of 24 finalists. The final round will have a common theme.",
-            "title": "OnlinePhotographyContest",
+            "title": "Online Photography Contest",
             "rules": [
-                "Click<a href=\"#\">here</a>for rules."
+                "<a href=\"https://www.facebook.com/notes/festember/photography-general-rules/324004857691763\" target=\"_blank\">Click here to view the rules.</a>"
             ],
             "prize": [
                 ""
@@ -129,17 +129,16 @@ Event.fn = Event.prototype={
     ],
     "Arts": [
         {
-            "description": "Individual event. Establish your command over your memory power through this event! Observe an image for a couple of minutes and unveil your flair to replicate it after the image is taken away.",
-            "title": "Blindfold",
+            "description": "Adorn the walls of NITT and pitch in your part for this Festember by painting in accordance with the â€˜Retro' theme! Paints and brushes will be provided.",
+            "title": "Wall Painting",
             "rules": [
-                "Individual event. Observe a picture for two minutes",
-                "Once the picture is removed, draw the picture  ",
-                "Prizes will be awarded to the ones which resemble the original as closely as possible",
-                "2 person per  team"
+                "Paints  and brushes will be provided",
+                "Theme of the event is <b>Retro</b>, the theme of this festember",
+                "2 persons per team"
             ],
             "prize": [
                
-                ""
+                "6000"
             ]
         },
         {
@@ -166,19 +165,6 @@ Event.fn = Event.prototype={
             ],
             "prize": [
                 
-                "6000"
-            ]
-        },
-        {
-            "description": "Adorn the walls of NITT and pitch in your part for this Festember by painting in accordance with the â€˜Retro' theme! Paints and brushes will be provided.",
-            "title": "Wall Painting",
-            "rules": [
-                "Paints  and brushes will be provided",
-                "Theme of the event is <b>Retro</b>, the theme of this festember",
-                "2 persons per team"
-            ],
-            "prize": [
-               
                 "6000"
             ]
         },
