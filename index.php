@@ -257,7 +257,7 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Informals Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q3.png"></a>
+	    <a href="https://www.facebook.com/cadbury5star" target="_blank"><img src="./images/sponsors/q3.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Telecom Partner</div>
@@ -273,21 +273,21 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Strategic Innovation Partner</div>
-	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q37.png"></a>
+	    <a href="http://www.canarabank.com/" target="_blank"><img src="./images/sponsors/q37.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Educational Partner</div>
 	    <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q6.png"></a>
-            <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q48.png"></a>
+            <a href="http://www.princetonreview.com/" target="_blank"><img src="./images/sponsors/q48.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Organising Partner</div>
 	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q30.png"></a>
-	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q38.png"></a>
+	    <a href="http://www.cityunionbank.com" target="_blank"><img src="./images/sponsors/q38.png"></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Ethnic Wear Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q40.png"></a>
+	    <a href="http://www.fabindia.com/" target="_blank"><img src="./images/sponsors/q40.png"></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Refreshment Partner</div>
@@ -299,27 +299,23 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Social Responsibility Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q33.png"></a>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q34.png"></a>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q35.png"></a>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q36.png"></a>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q33.png"></a>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q34.png"></a>
+	    <a href="http://www.royalshelter.co.in/" target="_blank"><img src="./images/sponsors/q35.png"></a>
+	    <a href="http://hexaware.com/" target="_blank"><img src="./images/sponsors/q36.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Stationery Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q49.png"></a>
+	    <a href="http://www.tnpl.com/" target="_blank"><img src="./images/sponsors/q49.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Comfort Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q45.png"></a>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q45.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Gifts Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q42.png"></a>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q46.png"></a>
-	  </div>
-	  <div class="sponsor_c">
-	    <div class="sponsor_type">Radio Partner</div>
-	    <a href="http://www.radioone.in" target="_blank"><img src="./images/sponsors/q33.jpg" width="150px"></a>
+	    <a href="http://www.naturals.in/" target="_blank"><img src="./images/sponsors/q42.png"></a>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q46.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Alumni Partner</div>
@@ -335,23 +331,23 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Kinds Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q39.png"></a>
+	    <a href="http://www.zoomin.com/" target="_blank"><img src="./images/sponsors/q39.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">WAP Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q43.png"></a>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q43.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Logistics Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q12.png"></a>
+	    <a href="http://www.dhl.com/" target="_blank"><img src="./images/sponsors/q12.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">English Lits Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q41.png"></a>
+	    <a href="http://www.britishcouncil.org/" target="_blank"><img src="./images/sponsors/q41.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Fashion Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q16.png"></a>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q16.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Digital Media Partner</div>
@@ -363,11 +359,11 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Radio Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q47.png"></a>
+	    <a href="http://www.radioone.in" target="_blank"><img src="./images/sponsors/q47.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Magazine Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q31.png"></a>
+	    <a href="http://www.youthincmag.com/" target="_blank"><img src="./images/sponsors/q31.png"></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Amusement Park Partner</div>
