@@ -79,7 +79,7 @@
 		width: (w)+'px',
 		height: ((2/100)*w)+'px',
 		left: (0)+'px',
-		bottom: ((41/100)*w)+'px'
+		bottom: ((71/100)*h)+'px'
 	    });		
             
 	    $(element["pronite"]).css({

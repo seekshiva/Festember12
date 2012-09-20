@@ -857,10 +857,12 @@ body {
 }
 
 #updates{
-    position : absolute;
-    height : 5%;
     bottom : 85%;
+    height : 5%;
     left : 0px;
+    padding: 3px; 
+    position : absolute;
+    white-space: nowrap;
     z-index : -900;
 }
 

@@ -50,16 +50,16 @@
 	  js.src = "//connect.facebook.net/en_US/all.js";
 	  fjs.parentNode.insertBefore(js, fjs);
 	  }(document, 'script', 'facebook-jssdk'));
-	 </script>
-	        <div id="auth-status">
-        <div id="auth-loggedout">
-          <div id="auth-loginlink">Login</div>
-        </div>
-        <div id="auth-loggedin" style="display:none">
-          Hi  <span id="auth-displayname"> </span><div id="auth-logoutlink">logout</div>
-      </div>
-    </div>
-         <div id="register_form"></div>
+	</script>
+	<div id="auth-status">
+          <div id="auth-loggedout">
+            <div id="auth-loginlink">Login</div>
+          </div>
+          <div id="auth-loggedin" style="display:none">
+            Hi  <span id="auth-displayname"> </span><div id="auth-logoutlink">logout</div>
+	  </div>
+	</div>
+        <div id="register_form"></div>
       </div>
     </div>
     
@@ -291,7 +291,7 @@
 	    <div class="sponsor_type">Refreshment Partner</div>
 	    <a href="http://www.appyfizz.com" target="_blank"><img src="./images/sponsors/q7.png"></a>
 	  </div>
-           <div class="sponsor_c">
+          <div class="sponsor_c">
 	    <div class="sponsor_type">Snacking Partner</div>
 	    <a href="http://parleagro.com/Hippo.html" target="_blank"><img src="./images/sponsors/q8.png"></a>
 	  </div>
@@ -408,8 +408,8 @@
 	<p style="color: #446464; text-align: center; ">Click <a href="./media/Rulebook.pdf" target="_blank" style="font-weight: bold; color: #446666; ">here</a> to download the <i><b>Rulebook</b></i>.</p>
 	
 	<div id="content">
-	  	<div id="list"></div>
-		<div id="root"></div>
+	  <div id="list"></div>
+	  <div id="root"></div>
         </div>
       </div>
       
@@ -581,11 +581,11 @@
 	<div id="sun"></div>
 	<div id="moon"></div>
       </div>
-	  <div id="updates">
-        <div class="updates"><span>welcome to festember 2012</span></div>
-		<div class="updates"><span>Retro is everywhere</span></div>	
-        <div class="updates" id="last"><span>Starts september 27th.</span></div>	
-	  </div>
+      <div id="updates">
+        <div class="updates"><span>Welcome to Festember 2012!</span></div>
+	<div class="updates"><span>Retro is everywhere.</span></div>	
+        <div class="updates" id="last"><span>Starts on September 27th.</span></div>	
+      </div>
       <div id="informals_container">
 	<div id="someC">
 	  <img src="./images/cabin1.png" id="image1" >
@@ -623,4 +623,3 @@
     <script src="js/main.js?v=3" type="text/javascript"></script>
   </body>
 </html>
-<!--&appId=297426703670139-->
