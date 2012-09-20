@@ -25,6 +25,16 @@
     <div id="brochure">
       <div id="brochure_sub">
 	<img src="images/Festi.png" />
+
+	<div id="auth-status">
+          <div id="auth-loggedout">
+            <div id="auth-loginlink" title="Login using Facebook">Login</div>
+          </div>
+          <div id="auth-loggedin" style="display:none">
+            Hi <span id="auth-displayname"></span> | <div id="auth-logoutlink">Logout</div>
+	  </div>
+	</div>
+
 	<div id="links">
 	  <div style="float: left;">
 	    <div class="heading">Links:</div>
@@ -51,14 +61,6 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	  }(document, 'script', 'facebook-jssdk'));
 	</script>
-	<div id="auth-status">
-          <div id="auth-loggedout">
-            <div id="auth-loginlink">Login</div>
-          </div>
-          <div id="auth-loggedin" style="display:none">
-            Hi  <span id="auth-displayname"> </span><div id="auth-logoutlink">logout</div>
-	  </div>
-	</div>
         <div id="register_form"></div>
       </div>
     </div>

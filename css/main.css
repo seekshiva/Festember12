@@ -44,6 +44,28 @@ body {
     margin-top : -10%;	
 }	
 
+#auth-status {
+    margin-top: 60px; 
+}
+
+#auth-loginlink, #auth-logoutlink {
+    background-color: rgba(35, 35, 96, 0.8);
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-shadow: #333 3px 3px 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#auth-loginlink:hover, #auth-logoutlink:hover {
+    background-color: rgba(35, 35, 96, 1);
+    color: #ddd;
+}
+
+
 #links {
     margin-top: 50px;
 }
