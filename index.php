@@ -305,10 +305,6 @@
 	    <a href="http://hexaware.com/" target="_blank"><img src="./images/sponsors/q36.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Stationery Partner</div>
-	    <a href="http://www.tnpl.com/" target="_blank"><img src="./images/sponsors/q49.png"></a>
-	  </div>
-	  <div class="sponsor_c">
 	    <div class="sponsor_type">Comfort Partner</div>
 	    <a href="#" target="_blank"><img src="./images/sponsors/q45.png"></a>
 	  </div>

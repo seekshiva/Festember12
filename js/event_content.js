@@ -22,7 +22,7 @@ var Informals = function (){
     "children": [
         {
             "Paintball": {
-                "description": "Bring real life wartime experience into reality. Display your skill with stealth and knock out your opponents. Participants are provided with guns with paint pellets to eliminate enemies. Festember paintball conducted by famous Axe Adventure."
+                "description": "Bring real life wartime experience into reality. Display your skill with stealth and knock out your opponents. Participants are provided with guns with paint pellets to eliminate enemies. Festember paintball conducted by famous Adroitt Paintball, Chennai	."
             },
             "Water Zorbing": {
                 "description": "Festember informals gives u a chance to experience a totally bizarre and fun contraption that shows you how life in a bubble is like."
@@ -33,7 +33,7 @@ var Informals = function (){
             "Obstacle course": {
                 "description": "When a man meets an obstacle he can't destroy it but has to conquer it. I suppose this is the reason which makes the game so well worth playing. Battle of strength and mental composure. Test your physical fitness and finish first to clinch the flag."
             },
-            "Street football /street basketball": {
+            "Street football": {
                 "description": "So u think u can rule the streets of NIT-trichy? Then get your team and prove it. Held at nights, participate in our high intensity battle of supremacy on the streets."
             },
             "Network Gaming": {
