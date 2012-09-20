@@ -425,11 +425,7 @@
 	    element["content"].style.display = "block";		
 	});
 	$("#games_container").click(function(e){
-	    var that = this;
-	    element["popupSrc"] = this;		   
-	    popup(that);
-	    element["content"] = document.getElementById("nothing");		
-	    element["content"].style.display = "block";		
+	    window.location = "http://games.festember.com/";
 	});
 	$("#events_container").click(function(e){
 	    var that = this;
