@@ -15,36 +15,40 @@ var Informals = function (){
         }; 
  Informals.fn = Informals.prototype={
     "Informals": [
-        {
-            "description": "Highness beckons you to informals. The only difference between rationality and insanity is that insanity has no limits. Festember Informals is back again for another breathtaking and thrilling edition .  So beat the heat in our lounge or play your favorite fun time sports...showcase your talent....... ...experience craziness off limits at informals ...live your dreams and plunge into the pool of happiness...... lot of exciting games and cash prizes to be won...FESTEMBER INFORMALS 12 \"INSANITY in SANITY\" "
-        }
-    ],
-    "children": [
-        {
-            "Paintball": {
+            {
+				"title" : "",
+                "description": "Highness beckons you to informals. The only difference between rationality and insanity is that insanity has no limits. Festember Informals is back again for another breathtaking and thrilling edition .  So beat the heat in our lounge or play your favorite fun time sports...showcase your talent....... ...experience craziness off limits at informals ...live your dreams and plunge into the pool of happiness...... lot of exciting games and cash prizes to be won...FESTEMBER INFORMALS 12 \"INSANITY in SANITY\" "
+            },
+            {
+				 "title" : "Paintball",
                 "description": "Bring real life wartime experience into reality. Display your skill with stealth and knock out your opponents. Participants are provided with guns with paint pellets to eliminate enemies. Festember paintball conducted by famous Adroitt Paintball, Chennai	."
             },
-            "Water Zorbing": {
+            {
+				"title" : "Water Zorbing",
                 "description": "Festember informals gives u a chance to experience a totally bizarre and fun contraption that shows you how life in a bubble is like."
             },
-            "Minute to win it": {
+            {
+				"title" : "Minute to win it",
                 "description": "Small time tasks to be completed in a minute. Festember informals presents minute to win it couple/double team event. Lots of exciting prizes to be won. "
             },
-            "Obstacle course": {
+            {
+				"title" : "Obstacle course",
                 "description": "When a man meets an obstacle he can't destroy it but has to conquer it. I suppose this is the reason which makes the game so well worth playing. Battle of strength and mental composure. Test your physical fitness and finish first to clinch the flag."
             },
-            "Street football": {
+            {
+				"title" : "Street football",
                 "description": "So u think u can rule the streets of NIT-trichy? Then get your team and prove it. Held at nights, participate in our high intensity battle of supremacy on the streets."
             },
-            "Network Gaming": {
+            {
+				"title" : "Network Gaming",
                 "description": "Ever popular network games CS DOTA FIFA NFS tournaments to be held. Cash prizes to be won."
             },
-            "Retro Sports": {
+            {
+				"title" : "Retro Sports",
                 "description": "Ever feel like re-living your childhood. Be yourself, bring out the child in you and take part in our enjoyable nostalgic games of the past."
             }
-        }
     ]
-} 		
+} ;		
  
  
 Event.fn = Event.prototype={
@@ -1120,4 +1124,5 @@ Event.fn = Event.prototype={
     ]
 }
 window.fEvent = Event;
+window.fInformals = Informals;
 })();	

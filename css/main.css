@@ -895,35 +895,6 @@ body {
 }
 
 .updates span{
-<<<<<<< HEAD
-   margin-left : 130px;
-   background : #fff;		
-}
-
-#root h3{
-   display : none;	
-}	
-
-.eventx { 
-	margin-left: 20px; 
-	display : none;
-}
-
-.ev_title {
-	font-weight: bold; 
-}
-
-.ev_prize { 
-	color: red; font-weight: bold; 
-}
-
-.ev_sub_head { 
-	font-weight: bold; font-size: 80%; 
-}
-      
-.eventx ul { 
-	margin-top: 0; 
-=======
     margin-left : 130px;
     background : #fff;		
 }
@@ -937,7 +908,7 @@ body {
     display : none;
 }
 
-.ev_title {
+.ev_title{
     font-weight: bold; 
     padding-bottom: 10px;
 }
@@ -980,4 +951,10 @@ body {
 
 .eventx ul { 
     margin-top: 0; 
+}
+
+.inf_title{
+    font-weight: bold; 
+    padding-bottom: 10px;
+    padding-top : 10px;	
 }

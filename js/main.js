@@ -689,14 +689,45 @@
 		})();
 	*/
 	////////////////////////////////////////////////////////////////////////////////////
+	function displayInformals(x){
+	    var j, str = "";
+	    for(j = 0; j < x.length; ++j) {		
+			var  k;
+			console.log(x[j].title);
+		str += '<div class="informalsx">';
+		if(x[j].title !== undefined && x[j].title !== "") 			
+		str += '<div class="inf_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</div>";
+		
+		if(x[j].description !== undefined) 
+		    str += '<div class="inf_description">' + x[j].description + "</div>";			
+		
+	 		str += "</div>";
+	    }
+	    return str;
+	}	
+	
+	function displayInformalsList(x) { 
+	    var str = "";
+	    for(i in x) {
+		var j;
+			console.log(i);
+		str += "<h3>" + i + "</h3>";
+		if(x[i].constructor == Array) 
+		    str += displayInformals(x[i]);
+
+	}
+	    return str;
+	}	
 
 	function displayEvents(x) {
 	    var j, str = "";
 	    for(j = 0; j < x.length; ++j) {
 		var k;
-		//console.log (x[j].title);
+		console.log (x[j].title);
 		str += '<div class="eventx">';
+		if(x[j].title !== undefined && x[j].title !== "") 			
 		str += '<div class="ev_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</div>";
+		
 		if(x[j].deadline !== undefined && x[j].deadline !== "") 
 		    str += '<div class="ev_deadline">Dead Line: ' + x[j].deadline + "</div>";
 		
@@ -757,6 +788,7 @@
 		if(x[i].constructor == Array) {
 		    var etitle;
 		    for(j = 0; j < x[i].length; j++) {
+				if(x[i][j].title !== undefined && x[i][j].title !== "") 		
 			etitle = (x[i][j].title).replace(/[\(\)?'\s]/g, "");
 			str += '<li><a>' + x[i][j].title + '</a></li>';
 		    }
@@ -772,9 +804,13 @@
 
 
 	var create_event_content = (function(){
-	    var i, str = "", x = fEvent();
+	    var i, str = "", str1 = "", x = fEvent(), y = fInformals();
+
+	    str1 = displayInformalsList(y);
+            document.getElementById("informals").innerHTML = str1;	
+	
 	    str = displayEventList(x);
-            document.getElementById("root").innerHTML = str;
+            document.getElementById("root").innerHTML = str;	
             str = "";
             str += getList(x);
             document.getElementById("list").innerHTML = str;

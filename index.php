@@ -455,8 +455,8 @@
 	
       </div>
       <div id="informals" style="text-align: left; ">
-	<h2 style="text-align: center; ">Informals</h2>
-	<p>Paintballing (where you and a bunch of your friends can team up, strategize and play against another team), Shooting and Archery (target events), Zorbing (Two people are put into a giant rubber inflated ball,and rolled around), Talent hunts, etc... need any more be said!! And at a much lower rate than they normally come! The Informals are quite literally at the heart of what makes Festember such a success, besides the loads of competitions. They form a platform for you to meet and make friends with people you don't know, and take back glorious memories. The RETRO informals promise to be bigger than life, and take you places you would never have dreamt of going.</p>
+	   <h2 style="text-align: center; ">Informals</h2>
+<!--	<p>Paintballing (where you and a bunch of your friends can team up, strategize and play against another team), Shooting and Archery (target events), Zorbing (Two people are put into a giant rubber inflated ball,and rolled around), Talent hunts, etc... need any more be said!! And at a much lower rate than they normally come! The Informals are quite literally at the heart of what makes Festember such a success, besides the loads of competitions. They form a platform for you to meet and make friends with people you don't know, and take back glorious memories. The RETRO informals promise to be bigger than life, and take you places you would never have dreamt of going.</p>-->
       </div>	
       
       <div id="nothing">
