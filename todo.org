@@ -24,9 +24,9 @@
 ** DONE Fix the broucher.
 * Game Related Stuff
 * Design stuff
-** square shaped festember FB OG image.
-** favicon.ico
-** Minimize the workshop images.
+** DONE square shaped festember FB OG image.
+** DONE favicon.ico
+** DONE Minimize the workshop images.
 ** DONE brochure paper bg
 ** DONE Spacing betweek powered by and Nimbuzz in the brochure
 ** DONE remove the random white marks on the street image
@@ -34,3 +34,7 @@
 ** DONE sun, sky color
 ** DONE Nimbuzz, Hippo new logo update
 ** DONE Frooti, 5 Star logo to be added to sponsor page
+   
+* Image reduction
+** cassete.png
+** skewed images

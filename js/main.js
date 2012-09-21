@@ -17,11 +17,11 @@
 	    games : document.getElementById("games_container"),
 	    player : document.getElementById("player"),
 	    informals : document.getElementById("informals_container"),
-		updates : document.getElementById("updates"),
+	    updates : document.getElementById("updates"),
 	    overlay_container : document.getElementById("overlay_container"),
-		event_title : "",
-		currupdate : "",
-		prevupdate :  $(".updates:first") ,
+	    event_title : "",
+	    currupdate : "",
+	    prevupdate :  $(".updates:first") ,
 	    close : document.getElementById("overlay_close"),
 	    events_child : [],
 	    event_content : document.getElementById("content"),
@@ -54,9 +54,9 @@
 	
 
 	$(element["overlay_container"]).css({
-        'opacity' : '0',		
-		'z-index' : '1500',
-        'display' : 'block'			
+            'opacity' : '0',		
+	    'z-index' : '1500',
+            'display' : 'block'			
 	});	
 	
 	$(".updates:not(:first)").css({"display":"none"});
@@ -79,9 +79,9 @@
 		width: (w)+'px',
 		height: ((2/100)*w)+'px',
 		left: (0)+'px',
-		bottom: ((41/100)*w)+'px'
+		bottom: ((71/100)*h)+'px'
 	    });		
-        
+            
 	    $(element["pronite"]).css({
 		width: ((8/100)*w)+'px',
 		height: ((22.6/100)*w)+'px',
@@ -180,14 +180,14 @@
 	    //var imageSrc = "images/street.png";
 	    //img.onload = 
 	    $("#container_image").load(function(){
-		$("#brochure").animate({'top' : '90%'},1000,function(){$("#links").hide();});
+		$("#brochure").animate({'top' : '90%'},1000,function(){$("#link").hide();});
 		document.getElementById("initial_container").style.display = "none";
     		setTimeout(function(){callback("sunset");},5000);		
-			$(element["overlay_container"]).css({
-			    'opacity' : '0.5',		
-				'z-index' : '300',
-				'display' : 'none'			
-			});	
+		$(element["overlay_container"]).css({
+		    'opacity' : '0.5',		
+		    'z-index' : '300',
+		    'display' : 'none'			
+		});	
 	    });	    
 	    //img.src = imageSrc;			
 	};			
@@ -241,15 +241,15 @@
 				});	
 				var currentLeft = parseInt(cDiv.css("left"));
 				cDiv.css({left: (currentLeft + cloud.speedX)+'px'});
-		        $(".updates").css({marginLeft: (currentLeft + cloud.speedX)+'px'});
+				$(".updates").css({marginLeft: (currentLeft + cloud.speedX)+'px'});
 				if (cDiv.offset().left < 0 && (currentLeft+$(element["prevupdate"]).children("span").width()) < 200){
-					element["currupdate"] = $(element["prevupdate"]).next();
-					$(element["prevupdate"]).css({"display" :"none"});
-					if($(element["prevupdate"]).attr("id") === "last"){
-						element["currupdate"] = $(".updates:first");
-					}				
-					$(element["currupdate"]).css({"display" : "block"});
-					element["prevupdate"] = element["currupdate"];
+				    element["currupdate"] = $(element["prevupdate"]).next();
+				    $(element["prevupdate"]).css({"display" :"none"});
+				    if($(element["prevupdate"]).attr("id") === "last"){
+					element["currupdate"] = $(".updates:first");
+				    }				
+				    $(element["currupdate"]).css({"display" : "block"});
+				    element["prevupdate"] = element["currupdate"];
 				    var s = $("#cloud-holder").width();
 				    cDiv.css({left: s+"px"});
 				}
@@ -421,15 +421,11 @@
 	    var that = this;
 	    element["popupSrc"] = this;		   
 	    popup(that);
-	    element["content"] = document.getElementById("nothing");		
+	    element["content"] = document.getElementById("pronite");		
 	    element["content"].style.display = "block";		
 	});
 	$("#games_container").click(function(e){
-	    var that = this;
-	    element["popupSrc"] = this;		   
-	    popup(that);
-	    element["content"] = document.getElementById("nothing");		
-	    element["content"].style.display = "block";		
+	    window.location = "http://games.festember.com/";
 	});
 	$("#events_container").click(function(e){
 	    var that = this;
@@ -505,20 +501,35 @@
 	    
 	});
 	
-	$("#header").click(function(ev){
-		$("#list").css({"display" : "block"});
-		$("."+element["ev_title"]).parent().prev("h3").css({"display" : "none"});
-		$("."+element["ev_title"]).parent().css({"display" : "none"});
-		$(this).css({"display" : "none"});
-		/*
-	    var curr = ev.target;	
-	    ev.preventDefault();	
-	    element["event_content"].querySelector("."+element["prev"].childNodes[0].innerHTML).classList.add("nothing");        
-	    element["prev"].classList.remove("selected");
-	    curr.parentNode.classList.add("selected");
-	    element["event_content"].querySelector("." + curr.innerHTML).classList.remove("nothing");
-	    element["prev"] = curr.parentNode;		
-		*/
+	$("#ev_back").click(function(ev){
+	    
+	    $(this).animate({
+		"margin-left": "-100px"
+	    }, 500, function() {
+		$(this).css({
+		    "display" : "none"
+		});
+		$("#list").css({
+		    "display" : "block"
+		}).animate({
+		    "margin-top": "0px",
+		    "opacity": "1"
+		}, 100);
+	    });
+	    
+	    $("."+element["ev_title"]).parent().prev("h3").css({
+		"display" : "none"
+	    });
+	    
+	    $("."+element["ev_title"]).parent().animate({
+		"margin-top": "500px",
+		"opacity": "0.2"
+	    }, 300, function() {
+		$(this).css({
+		    "display" : "none"
+		});
+	    });
+	    
 	});
 	
 	
@@ -639,129 +650,172 @@
 /*	
 	function create_event_element(o,x,y){
 	    if(y !== 1){
+=======
+	/*	
+		function create_event_element(o,x,y){
+		if(y !== 1){
+>>>>>>> 0cb3b109765d694549253c3cb4da1b11bbc16706
 		var s = " nothing";
-	    }	
-	    var mDiv = $('<div class="'+x+ s+'"></div>');
-	    for(var i=0,max=o.length;i<max;i++){
+		}	
+		var mDiv = $('<div class="'+x+ s+'"></div>');
+		for(var i=0,max=o.length;i<max;i++){
 		var cDiv = $('<div></div>'),
 		tDiv = $('<div class="event_sub_title" id='+x+i+'>'+o[i]["title"]+'</div>'),
 		dDiv = $('<p>'+o[i]["description"]+'</p>');
 		cDiv.append(tDiv);
 		cDiv.append(dDiv);
 		mDiv.append(cDiv);	
-	    }
-	    return mDiv;		 		
-	}	
-	
-	var create_event_content = (function(){
-	    var obj = Event();
-	    for(var key in obj){
+		}
+		return mDiv;		 		
+		}	
+		
+		var create_event_content = (function(){
+		var obj = Event();
+		for(var key in obj){
 		if(obj[key].constructor.name === "Array"){			
-                    var container = create_event_element(obj[key],key);
-		    $("#content").append(container);
+                var container = create_event_element(obj[key],key);
+		$("#content").append(container);
 		}
 		else if(obj[key].constructor.name === "Object"){
-		    var mDiv = $('<div class="'+key+'"></div>'),
-		    obj_sub = obj[key];  
-		    for(var sub_key in obj_sub){  
-			var container1 = create_event_element(obj_sub[sub_key],sub_key,1); 
-			mDiv.append(container1);
-		    }  
-		    $("#content").append(mDiv);
+		var mDiv = $('<div class="'+key+'"></div>'),
+		obj_sub = obj[key];  
+		for(var sub_key in obj_sub){  
+		var container1 = create_event_element(obj_sub[sub_key],sub_key,1); 
+		mDiv.append(container1);
+		}  
+		$("#content").append(mDiv);
 		}			 	
+		}
+		})();
+	*/
+	////////////////////////////////////////////////////////////////////////////////////
+
+	function displayEvents(x) {
+	    var j, str = "";
+	    for(j = 0; j < x.length; ++j) {
+		var k;
+		//console.log (x[j].title);
+		str += '<div class="eventx">';
+		str += '<div class="ev_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</div>";
+		if(x[j].deadline !== undefined && x[j].deadline !== "") 
+		    str += '<div class="ev_deadline">Dead Line: ' + x[j].deadline + "</div>";
+		
+		if(x[j].description !== undefined) 
+		    str += '<div class="ev_description">' + x[j].description + "</div>";
+		
+		if(x[j].prize !== undefined && x[j].prize[0] !== "") 
+		    str += '<div class="ev_prize">Prize Money: ' + x[j].prize + " INR.</div>";
+		
+		if (x[j]["children"] !== undefined) 
+		    str += displayEvents(x[j]["children"]);
+		
+		if(x[j]["rules"] !== undefined) {
+		    str += '<div class="ev_sub_head">Rules: </div>';
+		    str += '<div class="ev_rules"><ul>';
+		    for (k = 0; k < x[j]["rules"].length; ++k)
+			str += '<li>' + x[j].rules[k] + '</li>';
+		    str += "</ul></div>";
+		}
+
+		if(x[j]["contacts"] !== undefined) {
+		    str += '<div class="ev_sub_head">Contacts: </div>';
+		    str += '<div class="ev_contacts">';
+		    for (k = 0; k < x[j]["contacts"].length; ++k) {
+			str += '<div class="ev_contact">';
+			str += '<div class="ev_contact_name">' + x[j].contacts[k].name + '</div>';
+			str += '<div class="ev_contact_phone">' + x[j].contacts[k].phone + '</div>';
+			str += '<div class="ev_contact_email">' + x[j].contacts[k].email + '</div>';
+			str += '</div>';
+		    }
+		    str += "</div>";
+		}
+		str += "</div>";
 	    }
-	})();
-*/
-////////////////////////////////////////////////////////////////////////////////////
-
-function displayEvents(x) {
-    var j, str = "";
-    for(j = 0; j < x.length; ++j) {
-	var k;
-	//console.log (x[j].title);
-	str += '<div class="eventx">';
-	str += '<div class="ev_title '+ (x[j].title).replace(/\s/g, "_") +'">' + x[j].title + "</div>";
-	if(x[j].description !== undefined) 
-	    str += '<div class="ev_description">' + x[j].description + "</div>";
-	
-	if(x[j].prize !== undefined && x[j].prize[0] !== "") 
-	    str += '<div class="ev_prize">Prize Money: ' + x[j].prize + " INR.</div>";
-	
-	if (x[j]["children"] !== undefined) 
-	    str += displayEvents(x[j]["children"]);
-	
-	if(x[j]["rules"] !== undefined) {
-	    str += '<div class="ev_sub_head">Rules: </div>';
-	    str += '<div class="ev_rules"><ul>';
-	    for (k = 0; k < x[j]["rules"].length; ++k)
-		str += '<li>' + x[j].rules[k] + '</li>';
-	    str += "</ul></div>";
+	    return str;
 	}
-	str += "</div>";
-    }
-    return str;
-}
 
 
-function displayEventList(x) { 
-    var str = "";
-    for(i in x) {
-	var j;
-	str += "<h3>" + i + "</h3>";
-	if(x[i].constructor == Array) {
-	    str += displayEvents(x[i]);
-	}
-	else {
-	    str += displayEventList(x[i]);
-	}
-    }
-    return str;
-}
-
-function getList(x) {
-    var str = "", i, j;
-    for(i in x) {
-	str += "<h3>" + i + "</h3><ul>";
-	if(x[i].constructor == Array) {
-	    for(j = 0; j < x[i].length; j++) {
-		str += '<li>' + x[i][j].title + '</li>';
+	function displayEventList(x) { 
+	    var str = "";
+	    for(i in x) {
+		var j;
+		str += "<h3>" + i + "</h3>";
+		if(x[i].constructor == Array) {
+		    str += displayEvents(x[i]);
+		}
+		else {
+		    str += displayEventList(x[i]);
+		}
 	    }
+	    return str;
 	}
-	else {
-	    str += getList(x[i]);
-	    console.log("Got list for ");
-	    console.log(x[i]);
-	}
-	str += "</ul>";
-    }
 
-    return str;
-}
+	function getList(x) {
+	    var str = "", i, j;
+	    for(i in x) {
+		str += "<h3>" + i + "</h3><ul>";
+		if(x[i].constructor == Array) {
+		    var etitle;
+		    for(j = 0; j < x[i].length; j++) {
+			etitle = (x[i][j].title).replace(/[\(\)?'\s]/g, "");
+			str += '<li><a>' + x[i][j].title + '</a></li>';
+		    }
+		}
+		else {
+		    str += getList(x[i]);
+		}
+		str += "</ul>";
+	    }
+
+	    return str;
+	}
 
 
 	var create_event_content = (function(){
-		var i, str = "", x = Event();
-		str = displayEventList(x);
-        document.getElementById("root").innerHTML = str;
-        str = "";
-        str += getList(x);
-        document.getElementById("list").innerHTML = str;
+	    var i, str = "", x = fEvent();
+	    str = displayEventList(x);
+            document.getElementById("root").innerHTML = str;
+            str = "";
+            str += getList(x);
+            document.getElementById("list").innerHTML = str;
 	})();
-	
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
 	$("#list").click(function(e){
-		element["ev_title"] = (e.target.innerHTML).replace(/\s/g, "_");
-		console.log(element["ev_title"]);
-		console.log($("." + element["ev_title"]));
-		console.log($("." + element["ev_title"]).parent());
-		console.log(e.target);
-        $("#list").css({"display" : "none"});
-//		$("."+element["ev_title"]).parent().prev("h3").css({"display" : "block"});
-		console.log($("."+element["ev_title"]).parent());
-		$("."+element["ev_title"]).parent().css({"display" : "block"});
-		$("#header").css({"display" : "block"});
+	    console.log(e.target);
+
+	    element["ev_title"] = (e.target.innerText).replace(/[\(\)?'\s]/g, "");
+	    if($("." + element["ev_title"]).length === 0)
+		return;
+
+
+            $("#list").animate({
+		"margin-top": "-500px",
+		"opacity": "0.2"
+	    }, 300, function() {
+		$(this).css({
+		    "display" : "none"
+		});
+		$("#ev_back").css({
+		    "display" : "inline-block"
+		}).animate({
+		    "margin-left": "0px"
+		}, 300);
+	    });
+	    console.log($("."+element["ev_title"]).parent());
+	    $("."+element["ev_title"]).parent().css({
+		"display" : "block",
+		"margin-top": "500px",
+		"opacity": "1"
+	    }).animate({
+		"margin-top": "0px"
+	    }, 600);
 	});
 
-//////////////////////////////////////////////////////////////////////////	
+	//////////////////////////////////////////////////////////////////////////	
+
 	var angle = 0;
 	setInterval(function(){
 	    angle+=0.3;

@@ -3,14 +3,14 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
     
-    <meta property="og:title" content="Facebook"/>
+    <meta property="og:title" content="Festember"/>
     <meta property="og:url" content="http://festember.com/12/"/>
     <meta property="og:image" content="http://festember.com/12/images/Festi.png"/>
     <meta property="og:site_name" content="Festember'12"/>
     <meta property="og:description" content="The die rolls again this September as enters Festember, one of South India's largest cultural fete. And by large, we do mean large, what with the cornucopia of events and contest spoils to be raked. Its the time when the stages luster, speakers blare and cacophony reigns. Madness takes a new definition as moods coalesce, the ceilings drop and rules get crushed, so much so that even our moo crowds get tempted. And if you are expecting the usual rants on the fest being bigger and better....Well, you guessed it wrong. Its talk less and party more this Festember. Aaaaaand we mean it. Touchwood."/>
 
     <title>Festember</title>
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css?v=1" type="text/css" />
     <link rel="icon" type="image/ico" href="favicon.ico">
   </head>
   <body id="document-container">
@@ -25,6 +25,16 @@
     <div id="brochure">
       <div id="brochure_sub">
 	<img src="images/Festi.png" />
+
+	<div id="auth-status">
+          <div id="auth-loggedout">
+            <div id="auth-loginlink" title="Login using Facebook">Login</div>
+          </div>
+          <div id="auth-loggedin" style="display:none">
+            Hi <span id="auth-displayname"></span> | <div id="auth-logoutlink">Logout</div>
+	  </div>
+	</div>
+
 	<div id="links">
 	  <div style="float: left;">
 	    <div class="heading">Links:</div>
@@ -50,16 +60,8 @@
 	  js.src = "//connect.facebook.net/en_US/all.js";
 	  fjs.parentNode.insertBefore(js, fjs);
 	  }(document, 'script', 'facebook-jssdk'));
-	 </script>
-	        <div id="auth-status">
-        <div id="auth-loggedout">
-          <div id="auth-loginlink">Login</div>
-        </div>
-        <div id="auth-loggedin" style="display:none">
-          Hi  <span id="auth-displayname"> </span><div id="auth-logoutlink">logout</div>
-      </div>
-    </div>
-         <div id="register_form"></div>
+	</script>
+        <div id="register_form"></div>
       </div>
     </div>
     
@@ -196,7 +198,54 @@
 	</div>
 	<div class="breaker"></div>
       </div>
+      
+      <div id="pronite" style="text-align: left; ">
+	<h2>Pronite</h2>
+	<h3>DAY 0</h3>
+	<h4>Punya Srinivas</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=337997882959127&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/564542_337997882959127_792664217_n.jpg"></a>
+	<p>Typically a traditional Indian instrument, a veena in the hands of Punya Srinivas can act like a violin, a sitar and even a guitar. The vainika, has released her first solo album, an experimental musical voyage that traverses not just the Indian classical terrain but also western classical soundscape.</p>
+	<p>Famous for her fusion of classical and western classical, this Festember, prepare to lose yourself in the rhythm of the ragas as Punya Srinivas takes you on a journey like no other!</p>
+	<p class="break">As a part of the inaugural ceremony, this performance promises to be a  BLAST INTO THE PAST!</p>
+	
+	<h3>DAY 1</h3>
+	<h4>EVAM</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=337657239659858&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/3680_337657239659858_475351961_n.jpg"></a>
+	<p>Founded in 2003, Evam was one of the first theatre groups to turn themselves into an entertainment company.</p>
+	<p>EVAM is sure to tickle your funny bone, with witty stage adaptations of Alfred Hitchcock; Chetan Bhagat’s five point someone and a host of other acts up their sleeve.</p>
+	<p class="break">This event @ Festember’12 promises to be a laughter riot that is sure to make you laugh till you cry!</p>
+	
+	
+	<h3>DAY 2</h3>
+	<h4>GROOVE #3</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=343717789053803&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/598846_343717789053803_2066936496_n.jpg"></a>
+	<p>A Funk Jazz act From Chennai, the Band Plays the Genres ranging from Jamaican reggae to Latin American rhythms.</p>
+	<p>Initially a 3 member band, it has now become a full fledged six member band, and also Benny Dayal’s favourite band to perform with.</p>
+	<p>1500 watt speakers pumping out music to head banging fans: a truly out of the world music experience!</p>
+	<p>Heads shall gyrate in unison as hands reach out to the sky, in rhythm to the thunderous drums as the rhapsodical audience take in the music late into the night.</p>
+	<p class="break"><b>Hangover Guaranteed!</b></p>
 
+
+
+	<h3>DAY 3</h3>
+	<h4>Andrea Jeremiah</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=343716969053885&set=a.116075348484716.22722.10064739669417" target="_blank"><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/299396_343716969053885_1357659729_n.jpg"></a>
+	<p>Andrea Jeremiah, popular Tamil playback singer needs no introduction. Since she has begun her singing career in 2005 there’s been no looking back for this Chennai lass.</p>
+	<p class="break">Her popular songs include ones composed by Harris Jayaraj ( Kannum Kannum Nokia from Anniyan and Karka Karka in Vettaiyaadu Vilaiyaadu) and Yuvan Shankar Raja ( Oh Baby from Yaaradi Nee Mohini and  Adada Vaa from Sarvam along legendary composer ‘Maestro’ Ilaiyaraaja.</p>
+	<h4>AGAM</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=343719385720310&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/418489_343719385720310_178837377_n.jpg"></a>
+	<p>A contemporary carnatic rock act from Bangalore, India.  AGAM, literally meaning “the inner self”, through their music have encapsulated the boundless and vibrant emotions of the human psyche.</p>
+	<p>This Festember, journey with us into a realm that combines the melody and intricate rhythm of Carnatic music with the aesthetic principles of rock.</p>
+	<p class="break"><i>This show promises to leave you psyched!</i></p>
+
+	<h4>Suraj Jagan</h4>
+	<a href="https://www.facebook.com/photo.php?fbid=342646042494311&set=a.116075348484716.22722.100647396694178" target="_blank"><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-snc6/183335_342646042494311_1267615669_n.jpg"></a>
+	<p>Hail the artist who got the whole of India singing “You and I in this beautiful world” (Hutch ad) and later with “Give me some sunshine” (3 idiots).</p>
+	<p>One of the pioneers of the Rock Music Movement in India, his popular songs include Zehreelay from Rock On!!, Rang De from My Name Is Khan and Dil Dil Hai from 7 Khoon Maaf.</p>
+	<p class="break">As the musical maestro strikes the right chord with the exuberant crowd, ProNite promises to be the defining event of Festember’12.</p>
+
+      </div>
+      
       <div id="sponsors">
 	<div id="partner">
 	  <div align="center" style="margin-bottom: 30px; ">
@@ -207,17 +256,13 @@
 	    <a href="http://www.nimbuzz.com" target="_blank"><img src="./images/sponsors/q1.png"></a>
 	  </div>
 	  <div class="sponsor_c">
+	    <div class="sponsor_type">Informals Partner</div>
+	    <a href="https://www.facebook.com/cadbury5star" target="_blank"><img src="./images/sponsors/q3.png"></a>
+	  </div>
+	  <div class="sponsor_c">
 	    <div class="sponsor_type">Telecom Partner</div>
 	    <a href="http://www.aircel.com" target="_blank"><img src="./images/sponsors/q2.png"></a>
 	  </div>
-	  <div class="sponsor_c">
-	    <div class="sponsor_type">Informals Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q3.png"></a>
-	  </div>
-	  <div class="sponsor_c">
-	    <div class="sponsor_type">Organising Partner</div>
-	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q30.png"></a>
-	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Beverage Partner</div>
 	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q4.png"></a>
@@ -227,24 +272,46 @@
 	    <a href="http://in.asus.com" target="_blank"><img src="./images/sponsors/q5.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Educational Partner</div>
-	    <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q6.png"></a>
+	    <div class="sponsor_type">Strategic Innovation Partner</div>
+	    <a href="http://www.canarabank.com/" target="_blank"><img src="./images/sponsors/q37.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Magazine Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q31.png"></a>
+	    <div class="sponsor_type">Educational Partner</div>
+	    <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q6.png"></a>
+            <a href="http://www.princetonreview.com/" target="_blank"><img src="./images/sponsors/q48.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Organising Partner</div>
+	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q30.png"></a>
+	    <a href="http://www.cityunionbank.com" target="_blank"><img src="./images/sponsors/q38.png"></a>
+	  </div>	  
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Ethnic Wear Partner</div>
+	    <a href="http://www.fabindia.com/" target="_blank"><img src="./images/sponsors/q40.png"></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Refreshment Partner</div>
 	    <a href="http://www.appyfizz.com" target="_blank"><img src="./images/sponsors/q7.png"></a>
 	  </div>
-	  <div class="sponsor_c">
+          <div class="sponsor_c">
 	    <div class="sponsor_type">Snacking Partner</div>
 	    <a href="http://parleagro.com/Hippo.html" target="_blank"><img src="./images/sponsors/q8.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Alumni Partner</div>
-	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="./images/sponsors/q9.png"></a>
+	    <div class="sponsor_type">Social Responsibility Partner</div>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q33.png"></a>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q34.png"></a>
+	    <a href="http://www.royalshelter.co.in/" target="_blank"><img src="./images/sponsors/q35.png"></a>
+	    <a href="http://hexaware.com/" target="_blank"><img src="./images/sponsors/q36.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Comfort Partner</div>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q45.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Gifts Partner</div>
+	    <a href="http://www.naturals.in/" target="_blank"><img src="./images/sponsors/q42.png"></a>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q46.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Official Music Partner</div>
@@ -255,25 +322,42 @@
 	    <a href="http://www.tritonmusicz.com/" target="_blank"><img src="./images/sponsors/q11.png"></a>
 	  </div>
 	  <div class="sponsor_c">
+	    <div class="sponsor_type">Kinds Partner</div>
+	    <a href="http://www.zoomin.com/" target="_blank"><img src="./images/sponsors/q39.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">WAP Partner</div>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q43.png"></a>
+	  </div>
+	  <div class="sponsor_c">
 	    <div class="sponsor_type">Logistics Partner</div>
-	    <a href="http://www.dhl.co.in" target="_blank"><img src="./images/sponsors/q12.png"></a>
+	    <a href="http://www.dhl.com/" target="_blank"><img src="./images/sponsors/q12.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Workshops Partner</div>
-	    <a href="http://www.adormi.com" target="_blank"><img src="./images/sponsors/q13.png"></a>
+	    <div class="sponsor_type">English Lits Partner</div>
+	    <a href="http://www.britishcouncil.org/" target="_blank"><img src="./images/sponsors/q41.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Dramatics Partner</div>
-	    <a href="http://www.mytindia.com" target="_blank"><img src="./images/sponsors/q14.png"></a>
+	    <div class="sponsor_type">Fashion Partner</div>
+	    <a href="#" target="_blank"><img src="./images/sponsors/q16.png"></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Digital Media Partner</div>
 	    <a href="http://www.dsnglobal.com" target="_blank"><img src="./images/sponsors/q15.png"></a>
 	  </div>
 	  <div class="sponsor_c">
-	    <div class="sponsor_type">Fashion Partner</div>
-	    <a href="http://www.flyingmachine.co.in" target="_blank"><img src="./images/sponsors/q16.png"></a>
+	    <div class="sponsor_type">Workshops Partner</div>
+	    <a href="http://www.adormi.com" target="_blank"><img src="./images/sponsors/q13.png"></a>
 	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Radio Partner</div>
+	    <a href="http://www.radioone.in" target="_blank"><img src="./images/sponsors/q47.png"></a>
+	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Magazine Partner</div>
+	    <a href="http://www.youthincmag.com/" target="_blank"><img src="./images/sponsors/q31.png"></a>
+	    <a href="http://youthconnectmag.com" target="_blank"><img src="./images/sponsors/q28.png"></a>
+	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Amusement Park Partner</div>
 	    <a href="http://www.btpark.org/home.html" target="_blank"><img src="./images/sponsors/q17.png"></a>
@@ -288,15 +372,17 @@
 	    <a href="http://www.testfunda.com" target="_blank"><img src="./images/sponsors/q20.png"></a>
 	  </div>
 	  <div class="sponsor_c">
+	    <div class="sponsor_type">Engineering and Tech Partner</div>
+	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="./images/sponsors/q25.png"></a>
+	  </div>
+	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online Media Partner</div>
 	    <a href="http://www.collegekhabar.com" target="_blank"><img src="./images/sponsors/q21.png"></a>
 	    <a href="http://www.freshersworld.com" target="_blank"><img src="./images/sponsors/q22.png"></a>
 	    <a href="http://www.knowafest.com" target="_blank"><img src="./images/sponsors/q23.png"></a>
 	    <a href="http://www.twenty19.com" target="_blank"><img src="./images/sponsors/q24.png"></a>
-	    <a href="http://www.fadooengineers.com" target="_blank"><img src="./images/sponsors/q25.png"></a>
 	    <a href="http://www.jammag.com" target="_blank"><img src="./images/sponsors/q26.png"></a>
 	    <a href="http://www.markmyfest.com" target="_blank"><img src="./images/sponsors/q27.png"></a>
-	    <a href="http://youthconnectmag.com" target="_blank"><img src="./images/sponsors/q28.png"></a>
 	    <a href="http://www.talexindia.in" target="_blank"><img src="./images/sponsors/q29.png"></a>
 	  </div>
 	  <div class="sponsor_c">
@@ -307,19 +393,14 @@
       </div>
       
       <div id="events" style="text-align: left; ">
+	<div id="ev_back">Back</div>
 	<h2>Events</h2>
 	<p style="color: #446464; text-align: center; ">Click <a href="./media/Rulebook.pdf" target="_blank" style="font-weight: bold; color: #446666; ">here</a> to download the <i><b>Rulebook</b></i>.</p>
 	
-	  <div id="header">
-	      Back
-	  </div>
-	  
-	
 	<div id="content">
-	    <div id="list"></div>
-		<hr />
-		<div id="root"></div>
-     </div>
+	  <div id="list"></div>
+	  <div id="root"></div>
+        </div>
       </div>
       
       <div id="workshops">
@@ -412,12 +493,10 @@
 	<img src="images/sponsors_skewed/q6.png">
 	<img src="images/sponsors_skewed/q7.png">
 	<img src="images/sponsors_skewed/q8.png">
-	<img src="images/sponsors_skewed/q9.png">
 	<img src="images/sponsors_skewed/q10.png">
 	<img src="images/sponsors_skewed/q11.png">
 	<img src="images/sponsors_skewed/q12.png">
 	<img src="images/sponsors_skewed/q13.png">
-	<img src="images/sponsors_skewed/q14.png">
 	<img src="images/sponsors_skewed/q15.png">
 	<img src="images/sponsors_skewed/q16.png">
 	<img src="images/sponsors_skewed/q17.png">
@@ -434,7 +513,25 @@
 	<img src="images/sponsors_skewed/q28.png">
 	<img src="images/sponsors_skewed/q29.png">
 	<img src="images/sponsors_skewed/q30.png">
-	<img src="images/sponsors_skewed/q31.png">     
+	<img src="images/sponsors_skewed/q31.png"> 
+	<img src="images/sponsors_skewed/q32.png"> 
+	<img src="images/sponsors_skewed/q33.png"> 
+	<img src="images/sponsors_skewed/q34.png"> 
+	<img src="images/sponsors_skewed/q35.png"> 
+	<img src="images/sponsors_skewed/q36.png"> 
+	<img src="images/sponsors_skewed/q37.png"> 
+	<img src="images/sponsors_skewed/q38.png"> 
+	<img src="images/sponsors_skewed/q39.png"> 
+	<img src="images/sponsors_skewed/q40.png"> 
+	<img src="images/sponsors_skewed/q41.png"> 
+	<img src="images/sponsors_skewed/q42.png"> 
+	<img src="images/sponsors_skewed/q43.png"> 
+	<img src="images/sponsors_skewed/q44.png"> 
+	<img src="images/sponsors_skewed/q45.png"> 
+	<img src="images/sponsors_skewed/q46.png"> 
+	<img src="images/sponsors_skewed/q47.png"> 
+	<img src="images/sponsors_skewed/q48.png">     
+	<img src="images/sponsors_skewed/q49.png">     
       </div>
       <div id="sponsor_cover_container">
       </div>
@@ -474,11 +571,11 @@
 	<div id="sun"></div>
 	<div id="moon"></div>
       </div>
-	  <div id="updates">
-        <div class="updates"><span>welcome to festember 2012</span></div>
-		<div class="updates"><span>Retro is everywhere</span></div>	
-        <div class="updates" id="last"><span>Starts september 25</span></div>	
-	  </div>
+      <div id="updates">
+        <div class="updates"><span>Welcome to Festember 2012!</span></div>
+	<div class="updates"><span>Registrations Open!</span></div>	
+        <div class="updates" id="last"><span>Starts on September 27th.</span></div>	
+      </div>
       <div id="informals_container">
 	<div id="someC">
 	  <img src="./images/cabin1.png" id="image1" >
@@ -491,7 +588,7 @@
       </div>
       <div id="informals_cover_container"></div>
     </div>
-   <img src="images/street.png" id="container_image"/>
+    <img src="images/street.png" id="container_image"/>  
     <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-32752974-1']);
@@ -510,10 +607,9 @@
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/debounce.js" type="text/javascript"></script>
     <script src="js/jRotate.js" type="text/javascript"></script>	
-    <script src="js/event_content.js" type="text/javascript"></script>	
+    <script src="js/event_content.js?v=1" type="text/javascript"></script>	
     <script src="js/form.js" type="text/javascript"></script>   
     <script src="js/fbquery.js" type="text/javascript"></script>
-    <script src="js/main.js?v=1" type="text/javascript"></script>
+    <script src="js/main.js?v=3" type="text/javascript"></script>
   </body>
 </html>
-<!--&appId=297426703670139-->
