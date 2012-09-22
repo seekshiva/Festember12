@@ -79,7 +79,7 @@
 		width: (w)+'px',
 		height: ((2/100)*w)+'px',
 		left: (0)+'px',
-		bottom: ((71/100)*h)+'px'
+		bottom: ((41/100)*w)+'px'
 	    });		
             
 	    $(element["pronite"]).css({
@@ -528,6 +528,10 @@
 		$(this).css({
 		    "display" : "none"
 		});
+		setTimeout(function(){
+		var t = document.getElementById(element["ev_title"]).offsetTop;
+		document.getElementById("overlayed").scrollTop = t;
+		},1000);	
 	    });
 	    
 	});
@@ -693,7 +697,6 @@
 	    var j, str = "";
 	    for(j = 0; j < x.length; ++j) {		
 			var  k;
-			console.log(x[j].title);
 		str += '<div class="informalsx">';
 		if(x[j].title !== undefined && x[j].title !== "") 			
 		str += '<div class="inf_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</div>";
@@ -710,7 +713,7 @@
 	    var str = "";
 	    for(i in x) {
 		var j;
-			console.log(i);
+
 		str += "<h3>" + i + "</h3>";
 		if(x[i].constructor == Array) 
 		    str += displayInformals(x[i]);
@@ -723,7 +726,7 @@
 	    var j, str = "";
 	    for(j = 0; j < x.length; ++j) {
 		var k;
-		console.log (x[j].title);
+
 		str += '<div class="eventx">';
 		if(x[j].title !== undefined && x[j].title !== "") 			
 		str += '<div class="ev_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</div>";
@@ -790,7 +793,7 @@
 		    for(j = 0; j < x[i].length; j++) {
 				if(x[i][j].title !== undefined && x[i][j].title !== "") 		
 			etitle = (x[i][j].title).replace(/[\(\)?'\s]/g, "");
-			str += '<li><a>' + x[i][j].title + '</a></li>';
+			str += '<li id="'+(x[i][j].title).replace(/[\(\)?'\s]/g, "")+'"><a>' + x[i][j].title + '</a></li>';
 		    }
 		}
 		else {
@@ -840,7 +843,7 @@
 		    "margin-left": "0px"
 		}, 300);
 	    });
-	    console.log($("."+element["ev_title"]).parent());
+	
 	    $("."+element["ev_title"]).parent().css({
 		"display" : "block",
 		"margin-top": "500px",
