@@ -25,7 +25,7 @@
     <div id="brochure">
       <div id="brochure_sub">
 	<img src="images/Festi.png" />
-
+<!--
 	<div id="auth-status">
           <div id="auth-loggedout">
             <div id="auth-loginlink" title="Login using Facebook">Login</div>
@@ -34,7 +34,7 @@
             Hi <span id="auth-displayname"></span> | <div id="auth-logoutlink">Logout</div>
 	  </div>
 	</div>
-
+-->
 	<div id="links">
 	  <div style="float: left;">
 	    <div class="heading">Links:</div>
@@ -61,7 +61,7 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	  }(document, 'script', 'facebook-jssdk'));
 	</script>
-        <div id="register_form"></div>
+  <!--      <div id="register_form"></div>-->
       </div>
     </div>
     
@@ -608,8 +608,8 @@
     <script src="js/debounce.js" type="text/javascript"></script>
     <script src="js/jRotate.js" type="text/javascript"></script>	
     <script src="js/event_content.js?v=1" type="text/javascript"></script>	
-    <script src="js/form.js" type="text/javascript"></script>   
-    <script src="js/fbquery.js" type="text/javascript"></script>
+<!--    <script src="js/form.js" type="text/javascript"></script>   
+    <script src="js/fbquery.js" type="text/javascript"></script>-->
     <script src="js/main.js?v=3" type="text/javascript"></script>
   </body>
 </html>
