@@ -197,13 +197,13 @@ Event.fn = Event.prototype={
     ],
     "Cinematics": [
         {
-            "description": "Entries by post should be sent to :<br/>P.S.Gautham,<br/>Room no. 81,<br/>Garnet A, NIT Campus,<br/>Trichy - 15.<br/>Youtube link should be sent to : sokka@festember.com",
+            "description": "<br/><b>Filmmaking is a chance to live many lifetimes.</b> <br/><b>Robert Altman</b><br/> Entries by post should be sent to :<br/>P.S.Gautham,<br/>Room no. 81,<br/>Garnet A, NIT Campus,<br/>Trichy - 15.<br/>Youtube link should be sent to : sokka@festember.com <br/>Showtime (Short film making)<br/>Festember \’12 gives you this once-in-a-lifetime-opportunity to showcase your prowess as a film-maker.<br/>Lights<br/>Camera<br/>Action<br/>Win cash prizes worth Rs20,000!<br/>AAAaand CUT!<br/>Sponsored by Trition Music, here’s your chance to don the director’s hat and make it BIG!<br/>Trition Music will also be sponsoring production costs worth one Lakh!<br/>LET THE CAMERAS ROLL !",
             "title": "Show time",
             "rules": [
                 "The entries must be original. Plagiarized content will be disqualified.",
                 "No restriction on the number of entries per college.",
                 "Entries can be any language but english subtitles are required.",
-                "Maximum time: 12 mins including the time for titles and credits.",
+                "Maximum time: 15 mins including the time for titles and credits.",
                 "The number of entries screened at the event is solely decided by the organizers and is subject to time availability.",
                 "The short film has to be submitted in a DVD or a video sharing site link can be provided.",
                 "Presence of participants is not a must. The DVD can be sent by postal mail. Enclose contact details.",
@@ -213,21 +213,18 @@ Event.fn = Event.prototype={
                 "No registrations are necessary for the event, however the entries must reach the organisers on or before 11:59 PM on 26th of september 2012.",
                 "The shortlisted contestants 'll be informed by phone on 27th of september 2012."
             ],
-            "deadline": "25/09/2012",
-            "prize": [
-                "20000"
-            ],
+            "deadline": "26/09/2012",
             "contacts": [
                 {
-                    "name": "Gautham Puduvoth  ",
+                    "name": "Gautham S Puduvoth  ",
                     "phone": "+91 98406 57914 ",
                     "email": "sokka@festember.com"
                 }
             ]
         },
         {
-            "description": "Movie Quiz",
-            "title": "Movie Quiz",
+            "description": "Movie Quiz<br/>I’m going to make you an offer you can’t refuse! For all you movie buffs out there, this one’s for you!Here’s the chance to put yourself to the test, and win!",
+            "title": "Frappe Quiz",
             "rules": [
                 "Will be based on movies-regional and international.",
                 "Teams of three.",
@@ -237,7 +234,7 @@ Event.fn = Event.prototype={
             ],
             "prize": [
                 
-                "7000"
+                "9000"
             ]
         }
     ],

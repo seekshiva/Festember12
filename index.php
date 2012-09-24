@@ -318,9 +318,17 @@
 	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q10.png"></a>
 	  </div>
 	  <div class="sponsor_c">
+	    <div class="sponsor_type">Choreo Nite Partner</div>
+	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q50.png"></a>
+	  </div>	  
+	  <div class="sponsor_c">
 	    <div class="sponsor_type">Prize Partner</div>
 	    <a href="http://www.tritonmusicz.com/" target="_blank"><img src="./images/sponsors/q11.png"></a>
 	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Shruthilaya Partner</div>
+	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q51.png"></a>
+	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Kinds Partner</div>
 	    <a href="http://www.zoomin.com/" target="_blank"><img src="./images/sponsors/q39.png"></a>
@@ -341,6 +349,10 @@
 	    <div class="sponsor_type">Fashion Partner</div>
 	    <a href="#" target="_blank"><img src="./images/sponsors/q16.png"></a>
 	  </div>
+	  <div class="sponsor_c">
+	    <div class="sponsor_type">Body Art Partner</div>
+	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q52.png"></a>
+	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Digital Media Partner</div>
 	    <a href="http://www.dsnglobal.com" target="_blank"><img src="./images/sponsors/q15.png"></a>
@@ -531,7 +543,10 @@
 	<img src="images/sponsors_skewed/q46.png"> 
 	<img src="images/sponsors_skewed/q47.png"> 
 	<img src="images/sponsors_skewed/q48.png">     
-	<img src="images/sponsors_skewed/q49.png">     
+	<img src="images/sponsors_skewed/q49.png">  
+	<img src="images/sponsors_skewed/q50.png">  
+	<img src="images/sponsors_skewed/q51.png">  
+	<img src="images/sponsors_skewed/q52.png">  	
       </div>
       <div id="sponsor_cover_container">
       </div>
