@@ -30,7 +30,9 @@
 	    time : "day",
 	    content : "",
 	    randnums : [0,1,2,3,4,5,6,7,8,9,10],
-	    workshop_child : [document.getElementById("element_workshop"),document.getElementById("element_workshop_1"),document.getElementById("element_workshop_2"),document.getElementById("element_workshop_3"),document.getElementById("element_workshop_4")],
+		sponsor_skew_img : [1,2,3,4,5,6,7,8,10,11,12,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52],
+        sponsor_img : [1,3,2,4,5,37,6,48,30,38,40,7,8,33,34,35,36,45,42,10,50,11,51,39,43,12,41,16,52,15,13,47,31,28,17,18,19,20,25,21,22,23,24,26,27,28,29,32],
+        workshop_child : [document.getElementById("element_workshop"),document.getElementById("element_workshop_1"),document.getElementById("element_workshop_2"),document.getElementById("element_workshop_3"),document.getElementById("element_workshop_4")],
 	    house_child : [],
             events_prop : {
                 width : [2,5,10,13,12,9,5],
@@ -188,6 +190,12 @@
 		    'z-index' : '300',
 		    'display' : 'none'			
 		});	
+		  var spsk = $("#sponsor_container img"),
+		      sp = $(".sponsor_c img");
+		   for(var i=0;i<spsk.length;i++){
+			   $(sp[i]).attr("src" ,"images/sponsors/q"+element["sponsor_img"][i]+".png");
+			   $(spsk[i]).attr("src" ,"images/sponsors_skewed/q"+element["sponsor_skew_img"][i]+".png");
+			}
 	    });	    
 	    //img.src = imageSrc;			
 	};			
@@ -531,7 +539,7 @@
 		setTimeout(function(){
 		var t = document.getElementById(element["ev_title"]).offsetTop;
 		document.getElementById("overlayed").scrollTop = t;
-		},1000);	
+		},500);	
 	    });
 	    
 	});
@@ -700,6 +708,9 @@
 		str += '<div class="informalsx">';
 		if(x[j].title !== undefined && x[j].title !== "") 			
 		str += '<div class="inf_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</div>";
+		
+		if(x[j].link !== undefined) 
+		str += '<a href="'+x[j].link+'" target="_blank"><img src="'+x[j].source+'" /></a>';
 		
 		if(x[j].description !== undefined) 
 		    str += '<div class="inf_description">' + x[j].description + "</div>";			

@@ -21,30 +21,46 @@ var Informals = function (){
             },
             {
 				 "title" : "Paintball",
+/*				
+				 "link" : "http://www.facebook.com/photo.php?fbid=345841092174806&set=a.345812925510956.80426.100647396694178&type=1",
+				 "source" : "http://sphotos-h.ak.fbcdn.net/hphotos-ak-snc7/s720x720/402622_345841092174806_621072969_n.jpg",
+*/				
                 "description": "Bring real life wartime experience into reality. Display your skill with stealth and knock out your opponents. Participants are provided with guns with paint pellets to eliminate enemies. Festember paintball conducted by famous Adroitt Paintball, Chennai	."
             },
             {
 				"title" : "Water Zorbing",
+				"link" : "http://www.facebook.com/photo.php?fbid=345841092174806&set=a.345812925510956.80426.100647396694178&type=1",
+				 "source" : "http://sphotos-h.ak.fbcdn.net/hphotos-ak-snc7/s720x720/402622_345841092174806_621072969_n.jpg",				
                 "description": "Festember informals gives u a chance to experience a totally bizarre and fun contraption that shows you how life in a bubble is like."
             },
             {
 				"title" : "Minute to win it",
+				"link" : "http://www.facebook.com/photo.php?fbid=345813228844259&set=a.345812925510956.80426.100647396694178&type=1",
+				 "source" : "http://sphotos-e.ak.fbcdn.net/hphotos-ak-ash3/581362_345813228844259_1271666949_n.jpg",				
                 "description": "Small time tasks to be completed in a minute. Festember informals presents minute to win it couple/double team event. Lots of exciting prizes to be won. "
             },
             {
 				"title" : "Obstacle course",
+				"link" : "http://www.facebook.com/photo.php?fbid=345813232177592&set=a.345812925510956.80426.100647396694178&type=1",
+				 "source" : "http://sphotos-c.ak.fbcdn.net/hphotos-ak-ash3/581362_345813232177592_987471819_n.jpg",				
                 "description": "When a man meets an obstacle he can't destroy it but has to conquer it. I suppose this is the reason which makes the game so well worth playing. Battle of strength and mental composure. Test your physical fitness and finish first to clinch the flag."
             },
             {
 				"title" : "Street football",
+				"link" : "http://www.facebook.com/photo.php?fbid=345813222177593&set=a.345812925510956.80426.100647396694178&type=1",
+				 "source" : "http://sphotos-d.ak.fbcdn.net/hphotos-ak-ash3/581362_345813222177593_751695024_n.jpg",				
                 "description": "So u think u can rule the streets of NIT-trichy? Then get your team and prove it. Held at nights, participate in our high intensity battle of supremacy on the streets."
             },
             {
 				"title" : "Network Gaming",
+				"link" : "http://www.facebook.com/photo.php?fbid=345813225510926&set=a.345812925510956.80426.100647396694178&type=1",
+				 "source" : "http://sphotos-f.ak.fbcdn.net/hphotos-ak-ash3/581362_345813225510926_50091453_n.jpg",				
                 "description": "Ever popular network games CS DOTA FIFA NFS tournaments to be held. Cash prizes to be won."
             },
             {
 				"title" : "Retro Sports",
+				"link" : "http://www.facebook.com/photo.php?fbid=345813512177564&set=a.345812925510956.80426.100647396694178&type=1",
+				 "source" : "http://sphotos-b.ak.fbcdn.net/hphotos-ak-ash3/35478_345813512177564_1753590418_n.jpg",				
                 "description": "Ever feel like re-living your childhood. Be yourself, bring out the child in you and take part in our enjoyable nostalgic games of the past."
             }
     ]
@@ -337,6 +353,20 @@ Event.fn = Event.prototype={
                 "prize": [
                     
                     "9600"
+                ]
+            },
+            {
+                "description": "submit your stories here : <a href=\'http://www.dreamsndots.com\'><b>http://www.dreamsndots.com</b></a>",
+                "title": "Funny Story Writing Competition",
+                "rules": [
+                    "Story should be funny and no sad parts",
+                ],
+                "deadline" : "29/10/12 5\:00PM",
+                "prize": [
+                   
+                    "5000",
+                    "3000",
+                    "2000"
                 ]
             },
             {

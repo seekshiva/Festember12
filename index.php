@@ -253,153 +253,153 @@
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Powered By</div>
-	    <a href="http://www.nimbuzz.com" target="_blank"><img src="./images/sponsors/q1.png"></a>
+	    <a href="http://www.nimbuzz.com" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Informals Partner</div>
-	    <a href="https://www.facebook.com/cadbury5star" target="_blank"><img src="./images/sponsors/q3.png"></a>
+	    <a href="https://www.facebook.com/cadbury5star" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Telecom Partner</div>
-	    <a href="http://www.aircel.com" target="_blank"><img src="./images/sponsors/q2.png"></a>
+	    <a href="http://www.aircel.com" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Beverage Partner</div>
-	    <a href="http://www.coca-cola.com" target="_blank"><img src="./images/sponsors/q4.png"></a>
+	    <a href="http://www.coca-cola.com" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Curtain Raise Title Partner</div>
-	    <a href="http://in.asus.com" target="_blank"><img src="./images/sponsors/q5.png"></a>
+	    <a href="http://in.asus.com" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Strategic Innovation Partner</div>
-	    <a href="http://www.canarabank.com/" target="_blank"><img src="./images/sponsors/q37.png"></a>
+	    <a href="http://www.canarabank.com/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Educational Partner</div>
-	    <a href="http://byjusclasses.com/" target="_blank"><img src="./images/sponsors/q6.png"></a>
-            <a href="http://www.princetonreview.com/" target="_blank"><img src="./images/sponsors/q48.png"></a>
+	    <a href="http://byjusclasses.com/" target="_blank"><img src=""></a>
+            <a href="http://www.princetonreview.com/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Organising Partner</div>
-	    <a href="http://www.elcot.in" target="_blank"><img src="./images/sponsors/q30.png"></a>
-	    <a href="http://www.cityunionbank.com" target="_blank"><img src="./images/sponsors/q38.png"></a>
+	    <a href="http://www.elcot.in" target="_blank"><img src=""></a>
+	    <a href="http://www.cityunionbank.com" target="_blank"><img src=""></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Ethnic Wear Partner</div>
-	    <a href="http://www.fabindia.com/" target="_blank"><img src="./images/sponsors/q40.png"></a>
+	    <a href="http://www.fabindia.com/" target="_blank"><img src=""></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Refreshment Partner</div>
-	    <a href="http://www.appyfizz.com" target="_blank"><img src="./images/sponsors/q7.png"></a>
+	    <a href="http://www.appyfizz.com" target="_blank"><img src=""></a>
 	  </div>
           <div class="sponsor_c">
 	    <div class="sponsor_type">Snacking Partner</div>
-	    <a href="http://parleagro.com/Hippo.html" target="_blank"><img src="./images/sponsors/q8.png"></a>
+	    <a href="http://parleagro.com/Hippo.html" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Social Responsibility Partner</div>
-	    <a href="#" target="_blank"><img src="./images/sponsors/q33.png"></a>
-	    <a href="#" target="_blank"><img src="./images/sponsors/q34.png"></a>
-	    <a href="http://www.royalshelter.co.in/" target="_blank"><img src="./images/sponsors/q35.png"></a>
-	    <a href="http://hexaware.com/" target="_blank"><img src="./images/sponsors/q36.png"></a>
+	    <a href="#" target="_blank"><img src=""></a>
+	    <a href="#" target="_blank"><img src=""></a>
+	    <a href="http://www.royalshelter.co.in/" target="_blank"><img src=""></a>
+	    <a href="http://hexaware.com/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Comfort Partner</div>
-	    <a href="#" target="_blank"><img src="./images/sponsors/q45.png"></a>
+	    <a href="#" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Gifts Partner</div>
-	    <a href="http://www.naturals.in/" target="_blank"><img src="./images/sponsors/q42.png"></a>
-	    <a href="#" target="_blank"><img src="./images/sponsors/q46.png"></a>
+	    <a href="http://www.naturals.in/" target="_blank"><img src=""></a>
+	    <a href="#" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Official Music Partner</div>
-	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q10.png"></a>
+	    <a href="http://www.sam.org.in/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Choreo Nite Partner</div>
-	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q50.png"></a>
+	    <a href="http://www.sam.org.in/" target="_blank"><img src=""></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Prize Partner</div>
-	    <a href="http://www.tritonmusicz.com/" target="_blank"><img src="./images/sponsors/q11.png"></a>
+	    <a href="http://www.tritonmusicz.com/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Shruthilaya Partner</div>
-	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q51.png"></a>
+	    <a href="http://www.sam.org.in/" target="_blank"><img src=""></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Kinds Partner</div>
-	    <a href="http://www.zoomin.com/" target="_blank"><img src="./images/sponsors/q39.png"></a>
+	    <a href="http://www.zoomin.com/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">WAP Partner</div>
-	    <a href="#" target="_blank"><img src="./images/sponsors/q43.png"></a>
+	    <a href="#" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Logistics Partner</div>
-	    <a href="http://www.dhl.com/" target="_blank"><img src="./images/sponsors/q12.png"></a>
+	    <a href="http://www.dhl.com/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">English Lits Partner</div>
-	    <a href="http://www.britishcouncil.org/" target="_blank"><img src="./images/sponsors/q41.png"></a>
+	    <a href="http://www.britishcouncil.org/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Fashion Partner</div>
-	    <a href="#" target="_blank"><img src="./images/sponsors/q16.png"></a>
+	    <a href="#" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Body Art Partner</div>
-	    <a href="http://www.sam.org.in/" target="_blank"><img src="./images/sponsors/q52.png"></a>
+	    <a href="http://www.sam.org.in/" target="_blank"><img src=""></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Digital Media Partner</div>
-	    <a href="http://www.dsnglobal.com" target="_blank"><img src="./images/sponsors/q15.png"></a>
+	    <a href="http://www.dsnglobal.com" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Workshops Partner</div>
-	    <a href="http://www.adormi.com" target="_blank"><img src="./images/sponsors/q13.png"></a>
+	    <a href="http://www.adormi.com" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Radio Partner</div>
-	    <a href="http://www.radioone.in" target="_blank"><img src="./images/sponsors/q47.png"></a>
+	    <a href="http://www.radioone.in" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Magazine Partner</div>
-	    <a href="http://www.youthincmag.com/" target="_blank"><img src="./images/sponsors/q31.png"></a>
-	    <a href="http://youthconnectmag.com" target="_blank"><img src="./images/sponsors/q28.png"></a>
+	    <a href="http://www.youthincmag.com/" target="_blank"><img src=""></a>
+	    <a href="http://youthconnectmag.com" target="_blank"><img src=""></a>
 	  </div>	  
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Amusement Park Partner</div>
-	    <a href="http://www.btpark.org/home.html" target="_blank"><img src="./images/sponsors/q17.png"></a>
+	    <a href="http://www.btpark.org/home.html" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online Metal Promotion Partner</div>
-	    <a href="http://www.indianstage.in" target="_blank"><img src="./images/sponsors/q18.png"></a>
-	    <a href="http://www.metalbase.in" target="_blank"><img src="./images/sponsors/q19.png"></a>
+	    <a href="http://www.indianstage.in" target="_blank"><img src=""></a>
+	    <a href="http://www.metalbase.in" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online MBA Partner</div>
-	    <a href="http://www.testfunda.com" target="_blank"><img src="./images/sponsors/q20.png"></a>
+	    <a href="http://www.testfunda.com" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Engineering and Tech Partner</div>
-	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src="./images/sponsors/q25.png"></a>
+	    <a href="http://www.innovativeadhesive.com/" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Online Media Partner</div>
-	    <a href="http://www.collegekhabar.com" target="_blank"><img src="./images/sponsors/q21.png"></a>
-	    <a href="http://www.freshersworld.com" target="_blank"><img src="./images/sponsors/q22.png"></a>
-	    <a href="http://www.knowafest.com" target="_blank"><img src="./images/sponsors/q23.png"></a>
-	    <a href="http://www.twenty19.com" target="_blank"><img src="./images/sponsors/q24.png"></a>
-	    <a href="http://www.jammag.com" target="_blank"><img src="./images/sponsors/q26.png"></a>
-	    <a href="http://www.markmyfest.com" target="_blank"><img src="./images/sponsors/q27.png"></a>
-	    <a href="http://www.talexindia.in" target="_blank"><img src="./images/sponsors/q29.png"></a>
+	    <a href="http://www.collegekhabar.com" target="_blank"><img src=""></a>
+	    <a href="http://www.freshersworld.com" target="_blank"><img src=""></a>
+	    <a href="http://www.knowafest.com" target="_blank"><img src=""></a>
+	    <a href="http://www.twenty19.com" target="_blank"><img src=""></a>
+	    <a href="http://www.jammag.com" target="_blank"><img src=""></a>
+	    <a href="http://www.markmyfest.com" target="_blank"><img src=""></a>
+	    <a href="http://www.talexindia.in" target="_blank"><img src=""></a>
 	  </div>
 	  <div class="sponsor_c">
 	    <div class="sponsor_type">Drinking Water Partner</div>
-	    <a href="http://www.proude.com" target="_blank"><img src="./images/sponsors/q32.png"></a>
+	    <a href="http://www.proude.com" target="_blank"><img src=""></a>
 	  </div>
 	</div>
       </div>
@@ -497,56 +497,56 @@
 	<canvas id="element_contact" class="element_canvas"></canvas>	
       </div>
       <div id="sponsor_container">
-	<img src="images/sponsors_skewed/q1.png">
-	<img src="images/sponsors_skewed/q2.png">
-	<img src="images/sponsors_skewed/q3.png">
-	<img src="images/sponsors_skewed/q4.png">
-	<img src="images/sponsors_skewed/q5.png">
-	<img src="images/sponsors_skewed/q6.png">
-	<img src="images/sponsors_skewed/q7.png">
-	<img src="images/sponsors_skewed/q8.png">
-	<img src="images/sponsors_skewed/q10.png">
-	<img src="images/sponsors_skewed/q11.png">
-	<img src="images/sponsors_skewed/q12.png">
-	<img src="images/sponsors_skewed/q13.png">
-	<img src="images/sponsors_skewed/q15.png">
-	<img src="images/sponsors_skewed/q16.png">
-	<img src="images/sponsors_skewed/q17.png">
-	<img src="images/sponsors_skewed/q18.png">
-	<img src="images/sponsors_skewed/q19.png">
-	<img src="images/sponsors_skewed/q20.png">
-	<img src="images/sponsors_skewed/q21.png">
-	<img src="images/sponsors_skewed/q22.png">
-	<img src="images/sponsors_skewed/q23.png">
-	<img src="images/sponsors_skewed/q24.png">
-	<img src="images/sponsors_skewed/q25.png">
-	<img src="images/sponsors_skewed/q26.png">
-	<img src="images/sponsors_skewed/q27.png">
-	<img src="images/sponsors_skewed/q28.png">
-	<img src="images/sponsors_skewed/q29.png">
-	<img src="images/sponsors_skewed/q30.png">
-	<img src="images/sponsors_skewed/q31.png"> 
-	<img src="images/sponsors_skewed/q32.png"> 
-	<img src="images/sponsors_skewed/q33.png"> 
-	<img src="images/sponsors_skewed/q34.png"> 
-	<img src="images/sponsors_skewed/q35.png"> 
-	<img src="images/sponsors_skewed/q36.png"> 
-	<img src="images/sponsors_skewed/q37.png"> 
-	<img src="images/sponsors_skewed/q38.png"> 
-	<img src="images/sponsors_skewed/q39.png"> 
-	<img src="images/sponsors_skewed/q40.png"> 
-	<img src="images/sponsors_skewed/q41.png"> 
-	<img src="images/sponsors_skewed/q42.png"> 
-	<img src="images/sponsors_skewed/q43.png"> 
-	<img src="images/sponsors_skewed/q44.png"> 
-	<img src="images/sponsors_skewed/q45.png"> 
-	<img src="images/sponsors_skewed/q46.png"> 
-	<img src="images/sponsors_skewed/q47.png"> 
-	<img src="images/sponsors_skewed/q48.png">     
-	<img src="images/sponsors_skewed/q49.png">  
-	<img src="images/sponsors_skewed/q50.png">  
-	<img src="images/sponsors_skewed/q51.png">  
-	<img src="images/sponsors_skewed/q52.png">  	
+	    <img src=""/>
+		<img  src=""/>
+        <img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
+		<img  src=""/>
       </div>
       <div id="sponsor_cover_container">
       </div>

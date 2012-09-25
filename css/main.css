@@ -697,6 +697,12 @@ body {
     position : absolute;
     margin-top: -30px;
     margin-left: -230px;
+}
+
+#informals img{
+    max-width: 95%; 
+    padding: 5px;
+    box-shadow: rgba(60, 60, 60, .8) 2px 2px 15px;	
 }	
 
 #contacts ,#workshops ,#informals ,#events, #pronite, #sponsors, #nothing, .nothing{
