@@ -676,6 +676,10 @@ body {
     
 }
 
+#contacts ,#workshops ,#informals ,#events, #pronite, #sponsors, #nothing, .nothing{
+    display : none;
+}
+
 #informals_container ,#informals_cover_container{
     position : absolute;
     left : 40%;
@@ -687,16 +691,25 @@ body {
 
 #informals_cover_container{
     z-index : 10;	
-}		    $(element["overlay"]).css({
-						  width: ((50/100)*w)+'px',
-						  height: ((95/100)*h)+'px',
-						  left: ((25/100)*w)+'px',
-						  bottom: ((0/100)*w)+'px'
-					      });
+}
+
 #informals_container canvas {
     position : absolute;
     margin-top: -30px;
     margin-left: -230px;
+}
+
+
+.inf_title{
+    font-weight: bold; 
+    padding-bottom: 10px;
+    padding-top : 10px;	
+    text-align: center;
+}
+
+.inf_description {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #informals img{
@@ -704,10 +717,6 @@ body {
     padding: 5px;
     box-shadow: rgba(60, 60, 60, .8) 2px 2px 15px;	
 }	
-
-#contacts ,#workshops ,#informals ,#events, #pronite, #sponsors, #nothing, .nothing{
-    display : none;
-}
 
 #pronite h3 {
     color: #a00;
@@ -959,8 +968,3 @@ body {
     margin-top: 0; 
 }
 
-.inf_title{
-    font-weight: bold; 
-    padding-bottom: 10px;
-    padding-top : 10px;	
-}
