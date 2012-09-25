@@ -487,8 +487,12 @@
 	  
       <div id="fsr_container">
 	<canvas id="element_fsr" class="element_canvas"></canvas>	
-      </div>	  
-      
+      </div>	
+<!--	
+      <div id="gallery_container">
+	<canvas id="element_gallery" class="element_canvas"></canvas>	
+      </div>		
+-->      
       <div id="theme_play" class="play-pause">
 	<img src="images/play.png">
       </div>

@@ -239,7 +239,26 @@ body {
 
 #pronite_container:hover{
     background-color : #b20404;  	
-}	
+}
+
+#fsr_container{
+    position: absolute;
+    width:  8%;
+    height:	7%;
+    left : 58%;
+    bottom : 48%;
+    cursor : pointer;
+	border-top-left-radius : 120px;
+    background-color : #fff;
+}
+
+#element_fsr{
+    
+}
+
+#fsr_container:hover{
+    background-color : Green;  	
+}
 
 #casette_container{
     position : absolute;

@@ -9,6 +9,8 @@
 	    canvas : document.getElementById("container_canvas"),
 	    overlay : document.getElementById("overlayed"),
 	    pronite : document.getElementById("pronite_container"),
+	    fsr : document.getElementById("fsr_container"),		
+	    gallery : document.getElementById("gallery_container"),				
 	    contacts : document.getElementById("contact_container"),
 	    events : document.getElementById("events_container"),
 	    casette : document.getElementById("casette_container"),
@@ -90,7 +92,21 @@
 		left: ((28/100)*w)+'px',
 		bottom: ((23/100)*w)+'px'
 	    });
-	    
+		
+	    $(element["fsr"]).css({
+		width: ((12/100)*w)+'px',
+		height: ((9.5/100)*w)+'px',
+		left: ((53/100)*w)+'px',
+		bottom: ((25/100)*w)+'px'
+	    });	
+/*	
+	    $(element["gallery"]).css({
+		width: ((4/100)*w)+'px',
+		height: ((14.5/100)*w)+'px',
+		left: ((65/100)*w)+'px',
+		bottom: ((30/100)*w)+'px'
+	    });			
+*/	    
 	    //if(e.type === "resize"){
 	    $(element["player"]).css({
 		width: ((77/100)*w)+'px',
@@ -432,6 +448,13 @@
 	    element["content"] = document.getElementById("pronite");		
 	    element["content"].style.display = "block";		
 	});
+	$("#fsr_container").click(function(e){
+	    var that = this;
+	    element["popupSrc"] = this;		   
+	    popup(that);
+	    element["content"] = document.getElementById("nothing");		
+	    element["content"].style.display = "block";		
+	});	
 	$("#games_container").click(function(e){
 	    window.location = "http://games.festember.com/";
 	});
