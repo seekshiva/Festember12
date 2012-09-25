@@ -707,7 +707,7 @@
 			var  k;
 		str += '<div class="informalsx">';
 		if(x[j].title !== undefined && x[j].title !== "") 			
-		str += '<div class="inf_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</div>";
+		str += '<h4 class="inf_title '+ (x[j].title).replace(/[\(\)?'\s]/g, "") +'">' + x[j].title + "</h4>";
 		
 		if(x[j].link !== undefined) 
 		str += '<a href="'+x[j].link+'" target="_blank"><img src="'+x[j].source+'" /></a>';
@@ -725,7 +725,7 @@
 	    for(i in x) {
 		var j;
 
-		str += "<h3>" + i + "</h3>";
+		str += "<h2>" + i + "</h2>";
 		if(x[i].constructor == Array) 
 		    str += displayInformals(x[i]);
 

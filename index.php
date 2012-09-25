@@ -484,6 +484,10 @@
       <div id="casette_container">
 	<canvas id="element_casette" class="element_canvas"></canvas>	
       </div>
+	  
+      <div id="fsr_container">
+	<canvas id="element_fsr" class="element_canvas"></canvas>	
+      </div>	  
       
       <div id="theme_play" class="play-pause">
 	<img src="images/play.png">
