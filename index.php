@@ -595,9 +595,10 @@
 	<div id="moon"></div>
       </div>
       <div id="updates">
-        <div class="updates"><span>Welcome to Festember 2012!</span></div>
 	<div class="updates"><span>Registrations will be On-Spot!</span></div>	
-	<div class="updates"><span>Advance of Rs300/- need to be payed for accommodation</span></div>		
+	<div class="updates"><span><b style="color : green;">NEW</b> Funny Story Writing Competition</span></div>		
+	<div class="updates"><span>Topics for Debate are up</span></div>		
+	<div class="updates"><span>Advance of Rs300/- need to be payed for accommodation</span></div>			
         <div class="updates" id="last"><span>Starts on September 27th.</span></div>	
       </div>
       <div id="informals_container">

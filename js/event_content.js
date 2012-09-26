@@ -497,18 +497,26 @@ Event.fn = Event.prototype={
                 ]
             },
             {
-                "description": "Here's a platform to air your views and go down dying defending them. Battle it out with other teams in a parliamentary style debate. Try to break your opponent's argument down while defending your own.",
+                "description": "Here's a platform to air your views and go down dying defending them. Battle it out with other teams in a parliamentary style debate. Try to break your opponent's argument down while defending your own.<br/><br/><b>Topics for English debate</b><br/><br/>1) Expression of hatred should be considered criminal.<br/>2) Sports administration in India should be privatized<br/>3) Patents are given more importance than required<br/>4) Invasion of privacy (phonetapping, Google street, Wikileaks) should be considered illegal.",
                 "title": "Debate",
                 "rules": [
                     "Teams are of 3 members each",
                     "Debate will follow parliamentary format",
                     "In the prelims two members of every team have to speak for the motion and the other one will speak against the motion.",
+				    "Time duration<br/>For speakers - 60 seconds each<br/>Against speaker - 90 seconds",
                     "Details of the final will be given at the venue"
                 ],
                 "prize": [
                    
                     "7800"
-                ]
+                ],
+				"contacts" : [
+				    {
+				     "name" : "Mukunth Raghavan",
+			         "phone" : "+91-9942913131",
+				     "email" : ""
+					}	
+				]
             },
             {
                 "description": "NIT Trichy brings to you its own version of Whose Line Is It Anyway, where the rules are not made up and the points do matter. Bring your creative best and make sure you have the audience in splits. Three is a crowd? Not for this event.",
